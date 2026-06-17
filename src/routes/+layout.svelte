@@ -4,9 +4,10 @@
   import ECGHeader from '$lib/components/ECGHeader.svelte';
   import BottomNav from '$lib/components/BottomNav.svelte';
   import { isIndexedDBAvailable } from '$lib/db/availability';
+  import { browser } from '$app/environment';
 
   let { children } = $props();
-  const idbOK = isIndexedDBAvailable();
+  const idbOK = !browser || isIndexedDBAvailable();
 </script>
 
 <ECGHeader />
