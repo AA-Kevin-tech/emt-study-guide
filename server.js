@@ -2,10 +2,9 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = process.env.PORT || 3000;
+const PORT = parseInt(process.env.PORT) || 8080;
 
 const server = http.createServer((req, res) => {
-  // Serve index.html for all routes
   const filePath = path.join(__dirname, 'index.html');
   fs.readFile(filePath, (err, data) => {
     if (err) {
@@ -19,5 +18,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`EMT Study Guide running on port ${PORT}`);
+  console.log(`Server listening on 0.0.0.0:${PORT}`);
 });
