@@ -1,0 +1,11 @@
+{
+  "name": "emt-study-guide",
+  "version": "1.0.0",
+  "description": "EMT Study Guide — Brady Prehospital Emergency Care 11th Edition",
+  "scripts": {
+    "start": "serve . -p ${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
