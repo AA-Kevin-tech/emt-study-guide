@@ -113,9 +113,97 @@
     align-items: start;
   }
 
+  /* ─── MOBILE CHAPTER PICKER BUTTON ─── */
+  .mob-picker-btn {
+    display: none;
+    width: 100%;
+    padding: 13px 16px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    color: var(--text);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 16px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mob-picker-btn svg { flex-shrink: 0; }
+
+  /* ─── BOTTOM SHEET OVERLAY ─── */
+  .sheet-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 200;
+    backdrop-filter: blur(2px);
+  }
+  .sheet-overlay.open { display: block; }
+
+  .sheet {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    border-radius: 20px 20px 0 0;
+    z-index: 201;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+  }
+  .sheet.open { transform: translateY(0); }
+
+  .sheet-handle {
+    width: 36px; height: 4px;
+    background: var(--border2);
+    border-radius: 2px;
+    margin: 12px auto 4px;
+    flex-shrink: 0;
+  }
+  .sheet-title {
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text3);
+    text-align: center;
+    padding: 0 0 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    flex-shrink: 0;
+  }
+  .sheet-scroll {
+    overflow-y: auto;
+    padding: 0 12px 32px;
+    flex: 1;
+    -webkit-overflow-scrolling: touch;
+  }
+
   @media (max-width: 768px) {
-    .app { grid-template-columns: 1fr; padding: 16px; }
-    .sidebar { position: static !important; }
+    .app {
+      grid-template-columns: 1fr;
+      padding: 12px;
+      gap: 0;
+    }
+    .sidebar { display: none; }
+    .mob-picker-btn { display: flex; }
+
+    /* Bigger touch targets on mobile */
+    .mode-tab { padding: 11px 8px; font-size: 12px; gap: 4px; }
+    .mode-tab svg { width: 14px; height: 14px; }
+    .fc-q { font-size: 15px; }
+    .fc-a { font-size: 14px; }
+    .fc-face { padding: 24px 20px; min-height: 180px; }
+    .q-opt { padding: 12px 14px; font-size: 13.5px; }
+    .q-text { font-size: 13.5px; }
+    .note-body { font-size: 13px; }
+    .chapter-header { padding: 14px 16px; gap: 10px; }
+    .chapter-title { font-size: 15px; }
   }
 
   /* ─── SIDEBAR ─── */
@@ -489,8 +577,22 @@
   <!-- SIDEBAR -->
   <aside class="sidebar" id="sidebar"></aside>
 
+  <!-- BOTTOM SHEET (mobile) -->
+  <div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
+  <div class="sheet" id="sheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-title">Select Chapter</div>
+    <div class="sheet-scroll" id="sheet-scroll"></div>
+  </div>
+
   <!-- MAIN -->
   <main class="main" id="main">
+    <!-- Mobile chapter picker button -->
+    <button class="mob-picker-btn" id="mob-picker-btn" onclick="openSheet()">
+      <span id="mob-picker-label">Select a chapter</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+
     <div class="welcome" id="welcome">
       <div class="welcome-icon">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1792,29 +1894,54 @@ let fcFlipped = false;
 let qScore = 0;
 let qAnswered = {};
 
+function openSheet() {
+  document.getElementById('sheet-overlay').classList.add('open');
+  document.getElementById('sheet').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSheet() {
+  document.getElementById('sheet-overlay').classList.remove('open');
+  document.getElementById('sheet').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 // Build sidebar
 function buildSidebar() {
   const sb = document.getElementById('sidebar');
+  const ss = document.getElementById('sheet-scroll');
   PARTS.forEach(part => {
-    const lbl = document.createElement('div');
-    lbl.className = 'part-label';
-    lbl.textContent = part.label;
-    sb.appendChild(lbl);
+    [sb, ss].forEach(container => {
+      const lbl = document.createElement('div');
+      lbl.className = 'part-label';
+      lbl.textContent = part.label;
+      container.appendChild(lbl);
+    });
     part.topics.forEach(t => {
-      const btn = document.createElement('button');
-      btn.className = 'topic-btn';
-      btn.id = 'btn-' + t.ch.replace(' ','');
-      btn.innerHTML = `<span class="ch-num">${t.ch}</span>${t.title}`;
-      btn.onclick = () => selectTopic(t.ch, t.title, btn);
-      sb.appendChild(btn);
+      [sb, ss].forEach(container => {
+        const btn = document.createElement('button');
+        btn.className = 'topic-btn';
+        btn.innerHTML = `<span class="ch-num">${t.ch}</span>${t.title}`;
+        btn.onclick = () => {
+          selectTopic(t.ch, t.title, btn);
+          closeSheet();
+        };
+        container.appendChild(btn);
+      });
     });
   });
 }
 
 function selectTopic(ch, title, btn) {
   document.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  // Mark both sidebar and sheet buttons active
+  document.querySelectorAll('.topic-btn').forEach(b => {
+    if (b.querySelector('.ch-num')?.textContent === ch) b.classList.add('active');
+  });
   selKey = ch;
+  // Update mobile picker label
+  const lbl = document.getElementById('mob-picker-label');
+  if (lbl) lbl.textContent = `${ch} — ${title}`;
   document.getElementById('welcome').style.display = 'none';
   document.getElementById('content-area').style.display = 'block';
   document.getElementById('ch-badge').textContent = ch;
