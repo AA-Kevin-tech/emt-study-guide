@@ -219,6 +219,44 @@
   .sidebar::-webkit-scrollbar-track { background: transparent; }
   .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
+  /* ─── SELECTION CONTROLS ─── */
+  .select-controls {
+    display: flex;
+    gap: 6px;
+    padding: 0 2px 10px;
+    flex-wrap: wrap;
+  }
+  .sel-btn {
+    font-size: 11px;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--bg3);
+    color: var(--text2);
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  .sel-btn:hover { border-color: var(--cyan-dim); color: var(--cyan); }
+
+  .study-btn {
+    display: none;
+    width: calc(100% - 4px);
+    margin: 0 2px 10px;
+    padding: 10px;
+    background: var(--cyan);
+    color: #0d1117;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .study-btn:hover { opacity: 0.88; }
+  .study-btn.visible { display: block; }
+
   .part-label {
     font-size: 10px;
     font-family: 'JetBrains Mono', monospace;
@@ -227,13 +265,29 @@
     color: var(--text3);
     padding: 12px 8px 5px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .part-label:first-child { padding-top: 4px; }
+  .part-sel-all {
+    font-size: 10px;
+    color: var(--cyan-dim);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 0;
+    letter-spacing: 0;
+  }
+  .part-sel-all:hover { color: var(--cyan); }
 
   .topic-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     width: 100%;
-    padding: 8px 10px;
+    padding: 7px 10px;
     background: transparent;
     border: none;
     border-radius: var(--radius);
@@ -246,19 +300,36 @@
     transition: background 0.1s, color 0.1s;
   }
   .topic-btn:hover { background: var(--bg3); color: var(--text); }
-  .topic-btn.active {
-    background: var(--cyan-bg);
-    color: var(--cyan);
-    font-weight: 500;
-  }
+  .topic-btn.selected { background: var(--cyan-bg); color: var(--cyan); }
   .topic-btn .ch-num {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px;
     color: var(--text3);
-    display: block;
-    margin-bottom: 1px;
+    flex-shrink: 0;
   }
-  .topic-btn.active .ch-num { color: var(--cyan-dim); }
+  .topic-btn.selected .ch-num { color: var(--cyan-dim); }
+  .ch-label { flex: 1; }
+  .ch-check {
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    border: 1.5px solid var(--border2);
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    margin-left: auto;
+    transition: all 0.12s;
+  }
+  .topic-btn.selected .ch-check {
+    background: var(--cyan);
+    border-color: var(--cyan);
+  }
+  .topic-btn.selected .ch-check::after {
+    content: '';
+    display: block;
+    width: 5px; height: 3px;
+    border-left: 1.5px solid #0d1117;
+    border-bottom: 1.5px solid #0d1117;
+    transform: rotate(-45deg) translate(1px, -1px);
+  }
 
   /* ─── MAIN CONTENT ─── */
   .main { min-width: 0; }
@@ -575,21 +646,35 @@
 <div class="app">
 
   <!-- SIDEBAR -->
-  <aside class="sidebar" id="sidebar"></aside>
+  <aside class="sidebar" id="sidebar">
+    <div class="select-controls">
+      <button class="sel-btn" onclick="selectAll()">All</button>
+      <button class="sel-btn" onclick="selectNone()">None</button>
+    </div>
+    <button class="study-btn" id="study-btn" onclick="studySelected()">Study Selected ▶</button>
+    <div id="sidebar-list"></div>
+  </aside>
 
   <!-- BOTTOM SHEET (mobile) -->
   <div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
   <div class="sheet" id="sheet">
     <div class="sheet-handle"></div>
-    <div class="sheet-title">Select Chapter</div>
-    <div class="sheet-scroll" id="sheet-scroll"></div>
+    <div class="sheet-title">Select Chapters</div>
+    <div class="sheet-scroll">
+      <div class="select-controls" style="padding-top:8px;">
+        <button class="sel-btn" onclick="selectAll()">All</button>
+        <button class="sel-btn" onclick="selectNone()">None</button>
+      </div>
+      <button class="study-btn visible" id="study-btn-sheet" onclick="studySelected();closeSheet()">Study Selected ▶</button>
+      <div id="sheet-scroll"></div>
+    </div>
   </div>
 
   <!-- MAIN -->
   <main class="main" id="main">
     <!-- Mobile chapter picker button -->
     <button class="mob-picker-btn" id="mob-picker-btn" onclick="openSheet()">
-      <span id="mob-picker-label">Select a chapter</span>
+      <span id="mob-picker-label">Select chapters to study</span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
     </button>
 
@@ -599,8 +684,8 @@
           <path d="M4 16h6l4-12 6 24 4-12h4" stroke="#39d0d8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
-      <h2>Select a chapter to begin</h2>
-      <p>46 chapters across all 12 parts of the Brady EMT textbook — flashcards, notes, and NREMT-style quiz questions for every topic.</p>
+      <h2>Select chapters to study</h2>
+      <p>Pick one chapter or mix several — flashcards, notes, and quiz questions will pull from everything you select.</p>
     </div>
 
     <div id="content-area" style="display:none;">
@@ -1887,12 +1972,98 @@ const DATA = {
   },
 };
 
-let selKey = null;
+let selectedKeys = new Set();
 let curMode = 'fc';
 let fcIdx = 0;
 let fcFlipped = false;
 let qScore = 0;
 let qAnswered = {};
+let activeDeck = [];
+let activeNotes = [];
+
+function updateStudyBtn() {
+  const n = selectedKeys.size;
+  const btn = document.getElementById('study-btn');
+  const btnS = document.getElementById('study-btn-sheet');
+  const label = n === 0 ? 'Study Selected ▶' : `Study ${n} Chapter${n>1?'s':''} ▶`;
+  if (btn) { btn.textContent = label; btn.classList.toggle('visible', n > 0); }
+  if (btnS) { btnS.textContent = label; }
+  const lbl = document.getElementById('mob-picker-label');
+  if (lbl) lbl.textContent = n === 0 ? 'Select chapters to study' : `${n} chapter${n>1?'s':''} selected`;
+}
+
+function toggleChapter(ch) {
+  if (selectedKeys.has(ch)) { selectedKeys.delete(ch); } else { selectedKeys.add(ch); }
+  document.querySelectorAll('.topic-btn').forEach(b => {
+    if (b.dataset.ch === ch) b.classList.toggle('selected', selectedKeys.has(ch));
+  });
+  updateStudyBtn();
+}
+
+function selectAll() {
+  PARTS.forEach(p => p.topics.forEach(t => selectedKeys.add(t.ch)));
+  document.querySelectorAll('.topic-btn').forEach(b => b.classList.add('selected'));
+  updateStudyBtn();
+}
+
+function selectNone() {
+  selectedKeys.clear();
+  document.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('selected'));
+  updateStudyBtn();
+}
+
+function selectPart(chKeys) {
+  const allOn = chKeys.every(k => selectedKeys.has(k));
+  chKeys.forEach(k => allOn ? selectedKeys.delete(k) : selectedKeys.add(k));
+  document.querySelectorAll('.topic-btn').forEach(b => {
+    if (chKeys.includes(b.dataset.ch)) b.classList.toggle('selected', selectedKeys.has(b.dataset.ch));
+  });
+  updateStudyBtn();
+}
+
+function studySelected() {
+  if (selectedKeys.size === 0) return;
+  const keys = [...selectedKeys];
+
+  activeDeck = [];
+  activeNotes = [];
+  keys.forEach(k => {
+    if (DATA[k]) {
+      DATA[k].cards.forEach(c => activeDeck.push({...c, ch: k}));
+      DATA[k].notes.forEach(n => activeNotes.push({...n, ch: k}));
+    }
+  });
+
+  // Shuffle cards
+  for (let i = activeDeck.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [activeDeck[i], activeDeck[j]] = [activeDeck[j], activeDeck[i]];
+  }
+
+  // Build + shuffle quiz pool, cap at 30
+  const quizPool = [];
+  keys.forEach(k => { if (DATA[k]) DATA[k].quiz.forEach(q => quizPool.push({...q, ch: k})); });
+  for (let i = quizPool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [quizPool[i], quizPool[j]] = [quizPool[j], quizPool[i]];
+  }
+  window._activeQuiz = quizPool.slice(0, 30);
+
+  const badge = keys.length === 1 ? keys[0] : `${keys.length} Chapters`;
+  const title = keys.length === 1
+    ? PARTS.flatMap(p => p.topics).find(t => t.ch === keys[0])?.title || ''
+    : keys.join(', ');
+  document.getElementById('ch-badge').textContent = badge;
+  document.getElementById('ch-title').textContent = title;
+  document.getElementById('welcome').style.display = 'none';
+  document.getElementById('content-area').style.display = 'block';
+
+  fcIdx = 0; fcFlipped = false; qScore = 0; qAnswered = {};
+  curMode = 'fc';
+  document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-fc').classList.add('active');
+  renderMode();
+}
 
 function openSheet() {
   document.getElementById('sheet-overlay').classList.add('open');
@@ -1906,53 +2077,42 @@ function closeSheet() {
   document.body.style.overflow = '';
 }
 
-// Build sidebar
 function buildSidebar() {
-  const sb = document.getElementById('sidebar');
-  const ss = document.getElementById('sheet-scroll');
+  const containers = [
+    document.getElementById('sidebar-list'),
+    document.getElementById('sheet-scroll')
+  ];
   PARTS.forEach(part => {
-    [sb, ss].forEach(container => {
+    containers.forEach(container => {
+      if (!container) return;
+      const chKeys = part.topics.map(t => t.ch);
       const lbl = document.createElement('div');
       lbl.className = 'part-label';
-      lbl.textContent = part.label;
+      lbl.innerHTML = `<span>${part.label}</span>`;
+      const selAll = document.createElement('button');
+      selAll.className = 'part-sel-all';
+      selAll.textContent = 'select all';
+      selAll.onclick = () => selectPart(chKeys);
+      lbl.appendChild(selAll);
       container.appendChild(lbl);
-    });
-    part.topics.forEach(t => {
-      [sb, ss].forEach(container => {
+
+      part.topics.forEach(t => {
         const btn = document.createElement('button');
         btn.className = 'topic-btn';
-        btn.innerHTML = `<span class="ch-num">${t.ch}</span>${t.title}`;
-        btn.onclick = () => {
-          selectTopic(t.ch, t.title, btn);
-          closeSheet();
-        };
+        btn.dataset.ch = t.ch;
+        btn.innerHTML = `<span class="ch-num">${t.ch}</span><span class="ch-label">${t.title}</span><span class="ch-check"></span>`;
+        btn.onclick = () => toggleChapter(t.ch);
         container.appendChild(btn);
       });
     });
   });
 }
 
-function selectTopic(ch, title, btn) {
-  document.querySelectorAll('.topic-btn').forEach(b => b.classList.remove('active'));
-  // Mark both sidebar and sheet buttons active
-  document.querySelectorAll('.topic-btn').forEach(b => {
-    if (b.querySelector('.ch-num')?.textContent === ch) b.classList.add('active');
-  });
-  selKey = ch;
-  // Update mobile picker label
-  const lbl = document.getElementById('mob-picker-label');
-  if (lbl) lbl.textContent = `${ch} — ${title}`;
-  document.getElementById('welcome').style.display = 'none';
-  document.getElementById('content-area').style.display = 'block';
-  document.getElementById('ch-badge').textContent = ch;
-  document.getElementById('ch-title').textContent = title;
-  renderMode();
-}
-
 function setMode(mode) {
   curMode = mode;
   document.querySelectorAll('.mode-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + mode).classList.add('active');
+  if (mode === 'quiz') { qScore = 0; qAnswered = {}; }
   renderMode();
 }
 
@@ -1960,35 +2120,26 @@ function renderMode() {
   document.getElementById('fc-area').classList.remove('visible');
   document.getElementById('notes-area').classList.remove('visible');
   document.getElementById('quiz-area').classList.remove('visible');
-
-  const d = DATA[selKey];
-  if (!d) {
-    document.getElementById('notes-area').innerHTML = '<div style="padding:1.5rem;color:#8b949e;font-size:13px;background:#161b22;border:1px solid #30363d;border-radius:12px;">Content for this chapter is being added. Please select an adjacent chapter to continue studying.</div>';
-    document.getElementById('notes-area').classList.add('visible');
-    return;
-  }
-
+  if (activeDeck.length === 0 && activeNotes.length === 0) return;
   if (curMode === 'fc') {
-    fcIdx = 0; fcFlipped = false;
     document.getElementById('fc-area').classList.add('visible');
     showCard();
   } else if (curMode === 'notes') {
-    renderNotes(d.notes);
+    renderNotes(activeNotes);
     document.getElementById('notes-area').classList.add('visible');
   } else {
-    qScore = 0; qAnswered = {};
-    renderQuiz(d.quiz);
+    renderQuiz(window._activeQuiz || []);
     document.getElementById('quiz-area').classList.add('visible');
   }
 }
 
 function showCard() {
-  const d = DATA[selKey];
-  const c = d.cards[fcIdx];
+  const c = activeDeck[fcIdx];
+  if (!c) return;
   document.getElementById('fc-q').textContent = c.q;
   document.getElementById('fc-a').textContent = c.a;
-  document.getElementById('fc-counter').textContent = `${fcIdx+1} / ${d.cards.length}`;
-  document.getElementById('fc-bar').style.width = ((fcIdx+1)/d.cards.length*100)+'%';
+  document.getElementById('fc-counter').textContent = `${fcIdx+1} / ${activeDeck.length}`;
+  document.getElementById('fc-bar').style.width = ((fcIdx+1)/activeDeck.length*100)+'%';
   document.getElementById('fc-inner').classList.remove('flipped');
   fcFlipped = false;
 }
@@ -1999,8 +2150,7 @@ function flipCard() {
 }
 
 function moveCard(dir) {
-  const len = DATA[selKey].cards.length;
-  fcIdx = (fcIdx + dir + len) % len;
+  fcIdx = (fcIdx + dir + activeDeck.length) % activeDeck.length;
   showCard();
 }
 
@@ -2008,6 +2158,7 @@ function renderNotes(notes) {
   const area = document.getElementById('notes-area');
   area.innerHTML = notes.map(n => `
     <div class="note-card">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--text3);margin-bottom:6px;">${n.ch}</div>
       <div class="note-card-title">${n.title}</div>
       <div class="note-body">${n.body}</div>
       <div class="terms">${n.terms.map(t => `<span class="term">${t}</span>`).join('')}</div>
@@ -2017,10 +2168,11 @@ function renderNotes(notes) {
 
 function renderQuiz(qs) {
   const area = document.getElementById('quiz-area');
+  qScore = 0; qAnswered = {};
   area.innerHTML = `<div class="quiz-score-bar"><span class="score-label">Score</span><span class="score-val" id="sv">— / ${qs.length}</span></div>` +
     qs.map((q, qi) => `
       <div class="quiz-q">
-        <div class="q-num">Question ${qi+1} of ${qs.length}</div>
+        <div class="q-num">Q${qi+1} of ${qs.length} · ${q.ch}</div>
         <div class="q-text">${q.q}</div>
         <div class="q-opts">
           ${q.opts.map((o,oi) => `<button class="q-opt" id="o${qi}_${oi}" onclick="pick(${qi},${oi},${q.ans},'${encodeURIComponent(q.exp)}')">${o}</button>`).join('')}
@@ -2044,6 +2196,7 @@ function pick(qi, oi, ans, expEnc) {
 }
 
 buildSidebar();
+updateStudyBtn();
 </script>
 </body>
 </html>
