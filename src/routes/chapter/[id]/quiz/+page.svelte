@@ -2,6 +2,7 @@
   import { page } from '$app/state';
   import { getChapter } from '$lib/content';
   import { recordQuizAttempt } from '$lib/db/quiz';
+  import QuizSummary from '$lib/components/QuizSummary.svelte';
 
   const id = $derived(page.params.id ?? '');
   const chapter = $derived(getChapter(id));
@@ -58,6 +59,7 @@
       {/if}
     </article>
   {/each}
+  <QuizSummary questions={chapter.quiz} {answers} />
 {/if}
 
 <style>

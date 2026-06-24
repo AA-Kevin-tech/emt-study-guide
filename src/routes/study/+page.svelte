@@ -16,6 +16,7 @@
     type StudyQuizQuestion
   } from '$lib/content/study';
   import { INITIAL_STATE, type Rating, type SrsState } from '$lib/srs/sm2';
+  import QuizSummary from '$lib/components/QuizSummary.svelte';
 
   type Mode = 'fc' | 'notes' | 'quiz';
 
@@ -47,6 +48,7 @@
   );
   const quizScore = $derived(quiz.reduce((acc, q) => acc + (answers[q.id] === q.ans ? 1 : 0), 0));
   const quizAnswered = $derived(Object.keys(answers).length);
+  const quizChapterNums = $derived(Object.fromEntries(quiz.map((q) => [q.id, q.chapterNum])));
 
   onMount(() => {
     chapterIds = readStudyChapterIds();
@@ -159,6 +161,7 @@
         {/if}
       </article>
     {/each}
+    <QuizSummary questions={quiz} {answers} chapterNums={quizChapterNums} />
   {/if}
 {/if}
 
