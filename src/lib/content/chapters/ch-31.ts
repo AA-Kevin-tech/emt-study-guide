@@ -28,7 +28,7 @@ export const ch31: Chapter = {
     },
     {
       id: 'ch-31.fc.05',
-      q: 'What is brain herniiation and what are its signs?',
+      q: 'What is brain herniation and what are its signs?',
       a: 'Brain tissue forced through skull openings from rising ICP — Cushing\'s triad (HTN, bradycardia, irregular respirations), blown pupil, posturing.'
     },
     {
