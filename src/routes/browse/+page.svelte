@@ -24,6 +24,12 @@
     selected = new Set();
   }
 
+  const QUIZ_5_CHAPTERS = ['ch-15', 'ch-27', 'ch-28', 'ch-31', 'ch-32', 'ch-33', 'ch-36'];
+
+  function selectQuiz5() {
+    selected = new Set(QUIZ_5_CHAPTERS);
+  }
+
   function togglePart(chapterIds: string[]) {
     const allOn = chapterIds.every((id) => selected.has(id));
     const next = new Set(selected);
@@ -46,6 +52,7 @@
 <div class="controls">
   <button class="sel-btn" onclick={selectAll}>All</button>
   <button class="sel-btn" onclick={selectNone}>None</button>
+  <button class="sel-btn quiz5" onclick={selectQuiz5}>Quiz 5</button>
 </div>
 
 {#each PARTS as part (part.id)}
@@ -97,6 +104,11 @@
     background: var(--bg3);
     color: var(--text2);
     min-height: var(--tap);
+  }
+  .sel-btn.quiz5 {
+    border-color: var(--cyan-dim);
+    color: var(--cyan);
+    background: var(--cyan-bg);
   }
   section { margin-bottom: 24px; }
   .part-head {
