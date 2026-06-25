@@ -15,6 +15,12 @@
     type StudyCard,
     type StudyQuizQuestion
   } from '$lib/content/study';
+  import {
+    readQuizDifficulty,
+    writeQuizDifficulty,
+    type QuizDifficulty
+  } from '$lib/content/quiz-difficulty';
+  import QuizDifficultyPicker from '$lib/components/QuizDifficultyPicker.svelte';
   import { INITIAL_STATE, type Rating, type SrsState } from '$lib/srs/sm2';
   import QuizSummary from '$lib/components/QuizSummary.svelte';
 
@@ -26,6 +32,7 @@
   let deck = $state<StudyCard[]>([]);
   let notes = $state<ReturnType<typeof buildStudyNotes>>([]);
   let quiz = $state<StudyQuizQuestion[]>([]);
+  let quizDifficulty = $state<QuizDifficulty>('medium');
 
   let fcIdx = $state(0);
   let srs = $state<SrsState>(INITIAL_STATE);
@@ -58,10 +65,18 @@
     }
     deck = buildStudyDeck(chapterIds);
     notes = buildStudyNotes(chapterIds);
-    quiz = buildStudyQuiz(chapterIds);
+    quizDifficulty = readQuizDifficulty();
+    quiz = buildStudyQuiz(chapterIds, quizDifficulty);
     notes.forEach((n) => markNoteRead(n.chapterId, n.id));
     ready = true;
   });
+
+  function setQuizDifficulty(d: QuizDifficulty) {
+    quizDifficulty = d;
+    writeQuizDifficulty(d);
+    quiz = buildStudyQuiz(chapterIds, d);
+    answers = {};
+  }
 
   $effect(() => {
     if (!card) return;
@@ -136,6 +151,7 @@
       </article>
     {/each}
   {:else if mode === 'quiz'}
+    <QuizDifficultyPicker difficulty={quizDifficulty} onchange={setQuizDifficulty} />
     <p class="meta">{quizScore}/{quizAnswered}/{quiz.length}</p>
     {#each quiz as q (q.id)}
       {@const picked = answers[q.id]}

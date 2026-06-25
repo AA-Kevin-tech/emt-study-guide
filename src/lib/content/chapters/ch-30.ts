@@ -97,7 +97,25 @@ export const ch30: Chapter = {
         "D. Pupils"
       ],
       "ans": 1,
-      "exp": "CSM (circulation, sensation, and motor function) must be checked before and after any splinting intervention to detect neurovascular compromise."
+      "exp": "CSM (circulation, sensation, and motor function) must be checked before and after any splinting intervention to detect neurovascular compromise.",
+      "easy": {
+        "q": "What is CSM and when is it assessed?",
+        "opts": [
+          "A. CSM — circulation, sensation, motor function",
+          "B. Pupils"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Fractures, dislocations, sprains, and strains are common trauma injuries. Based on this presentation, before and after splinting a fracture, you must assess?",
+        "opts": [
+          "A. Blood pressure",
+          "B. Blood glucose",
+          "C. CSM — circulation, sensation, motor function",
+          "D. Pupils"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-30.q.02",
@@ -109,7 +127,25 @@ export const ch30: Chapter = {
         "D. Open fractures of the thigh"
       ],
       "ans": 1,
-      "exp": "Traction splints are used for mid-shaft femur fractures to counteract muscle spasm, reduce pain, and decrease blood loss into the thigh."
+      "exp": "Traction splints are used for mid-shaft femur fractures to counteract muscle spasm, reduce pain, and decrease blood loss into the thigh.",
+      "easy": {
+        "q": "What is traction splint is specifically used for?",
+        "opts": [
+          "A. Mid-shaft femur fractures",
+          "B. Ankle fractures"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Immobilize the joint above and below the fracture site. Based on this presentation, a traction splint is specifically used for?",
+        "opts": [
+          "A. All lower extremity fractures",
+          "B. Open fractures of the thigh",
+          "C. Mid-shaft femur fractures",
+          "D. Ankle fractures"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-30.q.03",
@@ -121,7 +157,25 @@ export const ch30: Chapter = {
         "D. Less than 100 mL"
       ],
       "ans": 2,
-      "exp": "Up to 1-1.5 liters of blood can be lost into the thigh from a femur fracture — enough to cause significant hypovolemic shock."
+      "exp": "Up to 1-1.5 liters of blood can be lost into the thigh from a femur fracture — enough to cause significant hypovolemic shock.",
+      "easy": {
+        "q": "How much blood can be lost into a femur fracture?",
+        "opts": [
+          "A. 1-1.5 liters",
+          "B. 100-200 mL"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Blood loss into a femur fracture can be?",
+        "opts": [
+          "A. Less than 100 mL",
+          "B. 100-200 mL",
+          "C. 1-1.5 liters",
+          "D. 200-500 mL"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-30.q.04",
@@ -133,7 +187,25 @@ export const ch30: Chapter = {
         "D. Reduced (popped back in) by EMT"
       ],
       "ans": 1,
-      "exp": "If distal circulation is compromised, gently attempt to realign the fracture to restore perfusion. If you cannot, splint in position and rapid transport."
+      "exp": "If distal circulation is compromised, gently attempt to realign the fracture to restore perfusion. If you cannot, splint in position and rapid transport.",
+      "easy": {
+        "q": "How should an angulated fracture be splinted?",
+        "opts": [
+          "A. Gently realigned to restore circulation",
+          "B. Splinted in position found"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Immobilize the joint above and below the fracture site. Based on this presentation, an angulated fracture with an absent distal pulse should be?",
+        "opts": [
+          "A. Immediately transported without splinting",
+          "B. Reduced (popped back in) by EMT",
+          "C. Gently realigned to restore circulation",
+          "D. Splinted in position found"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-30.q.05",
@@ -145,7 +217,25 @@ export const ch30: Chapter = {
         "D. Palpation, Pressure, Pain, Position, Pulse, Paresthesia"
       ],
       "ans": 1,
-      "exp": "6 Ps: Pain, Pallor, Paralysis, Paresthesia, Pressure, Pulselessness — signs of neurovascular compromise requiring immediate action."
+      "exp": "6 Ps: Pain, Pallor, Paralysis, Paresthesia, Pressure, Pulselessness — signs of neurovascular compromise requiring immediate action.",
+      "easy": {
+        "q": "What are the 6 Ps of musculoskeletal injury?",
+        "opts": [
+          "A. Pain, Pallor, Paralysis, Paresthesia, Pressure, Pulselessness",
+          "B. Pain, Pulse, Position, Pallor, Pressure, Paresthesia"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Fractures, dislocations, sprains, and strains are common trauma injuries. Based on this presentation, the 6 Ps of musculoskeletal injury include?",
+        "opts": [
+          "A. Palpation, Pressure, Pain, Position, Pulse, Paresthesia",
+          "B. Pain, Pallor, Perfusion, Pulse, Paralysis, Protection",
+          "C. Pain, Pallor, Paralysis, Paresthesia, Pressure, Pulselessness",
+          "D. Pain, Pulse, Position, Pallor, Pressure, Paresthesia"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-30.q.06",
@@ -157,7 +247,25 @@ export const ch30: Chapter = {
         "D. Ignored if the patient can move the extremity"
       ],
       "ans": 1,
-      "exp": "Do not reduce dislocations in the field — splint in position found. Reduction attempts can cause fractures, nerve, and vessel damage."
+      "exp": "Do not reduce dislocations in the field — splint in position found. Reduction attempts can cause fractures, nerve, and vessel damage.",
+      "easy": {
+        "q": "How should an angulated fracture be splinted?",
+        "opts": [
+          "A. Left in position found and splinted unless circulation is severely compromised",
+          "B. Always reduced by the EMT"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. A dislocation in the field should be?",
+        "opts": [
+          "A. Ignored if the patient can move the extremity",
+          "B. Manually reduced if painful",
+          "C. Left in position found and splinted unless circulation is severely compromised",
+          "D. Always reduced by the EMT"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

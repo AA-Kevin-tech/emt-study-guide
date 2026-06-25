@@ -32,6 +32,16 @@ describe('content', () => {
         expect(q.id).toMatch(/^ch-\d{2}\.q\.\d{2}$/);
         expect(q.ans).toBeGreaterThanOrEqual(0);
         expect(q.ans).toBeLessThan(q.opts.length);
+        expect(q.easy, `${q.id} easy`).toBeDefined();
+        expect(q.hard, `${q.id} hard`).toBeDefined();
+        expect(q.easy.opts.length, `${q.id} easy opts`).toBe(2);
+        expect(q.hard.opts.length, `${q.id} hard opts`).toBe(4);
+        expect(q.easy.q, `${q.id} easy q`).not.toBe(q.q);
+        expect(q.hard.q, `${q.id} hard q`).not.toBe(q.q);
+        expect(q.easy.ans, `${q.id} easy ans`).toBeGreaterThanOrEqual(0);
+        expect(q.easy.ans, `${q.id} easy ans`).toBeLessThan(q.easy.opts.length);
+        expect(q.hard.ans, `${q.id} hard ans`).toBeGreaterThanOrEqual(0);
+        expect(q.hard.ans, `${q.id} hard ans`).toBeLessThan(q.hard.opts.length);
         ids.add(q.id);
       }
     }

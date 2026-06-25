@@ -97,7 +97,25 @@ export const ch14: Chapter = {
         "D. Patient's employment status"
       ],
       "ans": 1,
-      "exp": "The six rights (patient, drug, dose, route, time, documentation) must always be verified to prevent medication errors."
+      "exp": "The six rights (patient, drug, dose, route, time, documentation) must always be verified to prevent medication errors.",
+      "easy": {
+        "q": "What is an indication for a medication?",
+        "opts": [
+          "A. The six rights of medication administration",
+          "B. Scene safety only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMTs can administer a limited set of medications. Based on this presentation, before administering any medication, the EMT must verify?",
+        "opts": [
+          "A. Patient's employment status",
+          "B. Patient's insurance",
+          "C. The six rights of medication administration",
+          "D. Scene safety only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-14.q.02",
@@ -109,7 +127,25 @@ export const ch14: Chapter = {
         "D. 650 mg sublingual"
       ],
       "ans": 1,
-      "exp": "324 mg of aspirin (4 baby aspirin) chewed provides faster absorption than swallowing whole — crucial in AMI management."
+      "exp": "324 mg of aspirin (4 baby aspirin) chewed provides faster absorption than swallowing whole — crucial in AMI management.",
+      "easy": {
+        "q": "What is the dose of aspirin given for chest pain?",
+        "opts": [
+          "A. 324 mg chewed",
+          "B. 500 mg IV"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMTs can administer a limited set of medications. Based on this presentation, aspirin for chest pain is given as?",
+        "opts": [
+          "A. 81 mg swallowed whole",
+          "B. 650 mg sublingual",
+          "C. 324 mg chewed",
+          "D. 500 mg IV"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-14.q.03",
@@ -121,7 +157,25 @@ export const ch14: Chapter = {
         "D. An alternative route"
       ],
       "ans": 1,
-      "exp": "Contraindications are specific conditions that make using a medication dangerous — e.g., nitroglycerin with hypotension."
+      "exp": "Contraindications are specific conditions that make using a medication dangerous — e.g., nitroglycerin with hypotension.",
+      "easy": {
+        "q": "What is a contraindication?",
+        "opts": [
+          "A. A condition making the medication dangerous or inappropriate",
+          "B. An alternative route"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. A contraindication means?",
+        "opts": [
+          "A. A recommended drug interaction",
+          "B. The medication is indicated",
+          "C. A condition making the medication dangerous or inappropriate",
+          "D. An alternative route"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-14.q.04",
@@ -133,7 +187,25 @@ export const ch14: Chapter = {
         "D. Fever"
       ],
       "ans": 2,
-      "exp": "Nitroglycerin causes vasodilation which can cause significant hypotension. Always check BP before each dose."
+      "exp": "Nitroglycerin causes vasodilation which can cause significant hypotension. Always check BP before each dose.",
+      "easy": {
+        "q": "What are side effects of nitroglycerin?",
+        "opts": [
+          "A. Hypotension",
+          "B. Fever"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Nitroglycerin's most concerning side effect is?",
+        "opts": [
+          "A. Hypertension",
+          "B. Bradycardia",
+          "C. Hypotension",
+          "D. Fever"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-14.q.05",
@@ -145,7 +217,25 @@ export const ch14: Chapter = {
         "D. IV antibiotics"
       ],
       "ans": 2,
-      "exp": "EMTs can assist patients in using their own prescribed medications, including nitroglycerin and metered-dose inhalers, per protocol."
+      "exp": "EMTs can assist patients in using their own prescribed medications, including nitroglycerin and metered-dose inhalers, per protocol.",
+      "easy": {
+        "q": "What medications can an EMT administer?",
+        "opts": [
+          "A. Patient's prescribed nitroglycerin",
+          "B. Morphine"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMTs can administer a limited set of medications. Based on this presentation, an EMT may ASSIST a patient with which medication??",
+        "opts": [
+          "A. Epinephrine drip",
+          "B. IV antibiotics",
+          "C. Patient's prescribed nitroglycerin",
+          "D. Morphine"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-14.q.06",
@@ -157,7 +247,25 @@ export const ch14: Chapter = {
         "D. Inhaling through the mouth"
       ],
       "ans": 2,
-      "exp": "Sublingual (SL) medications are absorbed directly into the bloodstream through the mucous membranes under the tongue — rapid onset."
+      "exp": "Sublingual (SL) medications are absorbed directly into the bloodstream through the mucous membranes under the tongue — rapid onset.",
+      "easy": {
+        "q": "What is Sublingual medication administration means?",
+        "opts": [
+          "A. Placing under the tongue for rapid absorption",
+          "B. Swallowing the medication"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Before any medication: confirm Right Patient, Right Drug (correct medication), Right Dose (correct amount), Right Route (correct method), Right Time (appropriate timing), Right Documentation (record it). Based on this presentation, sublingual medication administration means?",
+        "opts": [
+          "A. Inhaling through the mouth",
+          "B. Swallowing the medication",
+          "C. Placing under the tongue for rapid absorption",
+          "D. Injecting into the muscle"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

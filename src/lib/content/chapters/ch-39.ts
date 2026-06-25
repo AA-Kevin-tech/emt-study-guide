@@ -97,7 +97,25 @@ export const ch39: Chapter = {
         "D. Shock always presents atypically in elderly"
       ],
       "ans": 1,
-      "exp": "Many elderly patients take beta-blockers for cardiac conditions, preventing the compensatory tachycardia that normally indicates developing shock."
+      "exp": "Many elderly patients take beta-blockers for cardiac conditions, preventing the compensatory tachycardia that normally indicates developing shock.",
+      "easy": {
+        "q": "Why is medication history especially important in geriatric patients?",
+        "opts": [
+          "A. Beta-blockers blunt compensatory tachycardia",
+          "B. Their hearts pump more efficiently"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Beta-blockers prevent compensatory tachycardia. Based on this presentation, geriatric patients may not show tachycardia in shock because?",
+        "opts": [
+          "A. Shock always presents atypically in elderly",
+          "B. They have higher heart rates normally",
+          "C. Beta-blockers blunt compensatory tachycardia",
+          "D. Their hearts pump more efficiently"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-39.q.02",
@@ -109,7 +127,25 @@ export const ch39: Chapter = {
         "D. Assaults"
       ],
       "ans": 2,
-      "exp": "Falls are the #1 cause of injury-related death in older adults, leading to hip fractures, TBI, and serious complications."
+      "exp": "Falls are the #1 cause of injury-related death in older adults, leading to hip fractures, TBI, and serious complications.",
+      "easy": {
+        "q": "What is the leading cause of injury-related death in geriatric patients?",
+        "opts": [
+          "A. Falls",
+          "B. Burns"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Beta-blockers prevent compensatory tachycardia. Based on this presentation, the leading cause of injury death in geriatric patients is?",
+        "opts": [
+          "A. Motor vehicle crashes",
+          "B. Assaults",
+          "C. Falls",
+          "D. Burns"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-39.q.03",
@@ -121,7 +157,25 @@ export const ch39: Chapter = {
         "D. Never reversible"
       ],
       "ans": 1,
-      "exp": "Delirium is an acute change in mental status — often caused by infection, medication, or metabolic disturbance and is potentially reversible."
+      "exp": "Delirium is an acute change in mental status — often caused by infection, medication, or metabolic disturbance and is potentially reversible.",
+      "easy": {
+        "q": "What is delirium vs. dementia?",
+        "opts": [
+          "A. Acute and often reversible",
+          "B. Never reversible"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Delirium differs from dementia in that delirium is?",
+        "opts": [
+          "A. Chronic and progressive",
+          "B. Caused by genetics only",
+          "C. Acute and often reversible",
+          "D. Never reversible"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-39.q.04",
@@ -133,7 +187,25 @@ export const ch39: Chapter = {
         "D. Reports are optional unless injury is severe"
       ],
       "ans": 1,
-      "exp": "In most states, EMTs are mandated reporters required by law to report suspected elder abuse or neglect to appropriate authorities."
+      "exp": "In most states, EMTs are mandated reporters required by law to report suspected elder abuse or neglect to appropriate authorities.",
+      "easy": {
+        "q": "What is EMTs are mandated reporters for elder abuse, which means?",
+        "opts": [
+          "A. They are legally required to report suspected abuse",
+          "B. Only nurses must report"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Types: physical, emotional, sexual, financial exploitation, neglect, abandonment, self-neglect. Based on this presentation, EMTs are mandated reporters for elder abuse, which means?",
+        "opts": [
+          "A. Reports are optional unless injury is severe",
+          "B. They may report if they choose",
+          "C. They are legally required to report suspected abuse",
+          "D. Only nurses must report"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-39.q.05",
@@ -145,7 +217,25 @@ export const ch39: Chapter = {
         "D. History of diabetes"
       ],
       "ans": 1,
-      "exp": "Unexplained injuries inconsistent with the mechanism, poor hygiene, malnutrition, and fearful behavior are red flags for elder abuse."
+      "exp": "Unexplained injuries inconsistent with the mechanism, poor hygiene, malnutrition, and fearful behavior are red flags for elder abuse.",
+      "easy": {
+        "q": "What are signs of elder abuse or neglect?",
+        "opts": [
+          "A. Unexplained injuries, poor hygiene, and fearfulness around caregiver",
+          "B. History of diabetes"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Types: physical, emotional, sexual, financial exploitation, neglect, abandonment, self-neglect. Based on this presentation, signs that should raise suspicion for elder abuse include?",
+        "opts": [
+          "A. Patient living independently",
+          "B. Multiple medications",
+          "C. Unexplained injuries, poor hygiene, and fearfulness around caregiver",
+          "D. History of diabetes"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-39.q.06",
@@ -157,7 +247,25 @@ export const ch39: Chapter = {
         "D. They have no effect on trauma"
       ],
       "ans": 1,
-      "exp": "Anticoagulants (warfarin, aspirin, NOACs) increase bleeding risk significantly — minor trauma can cause life-threatening internal hemorrhage."
+      "exp": "Anticoagulants (warfarin, aspirin, NOACs) increase bleeding risk significantly — minor trauma can cause life-threatening internal hemorrhage.",
+      "easy": {
+        "q": "Why is trauma more dangerous in older patients?",
+        "opts": [
+          "A. They increase bleeding risk, making even minor trauma dangerous",
+          "B. They improve healing"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Beta-blockers prevent compensatory tachycardia. Based on this presentation, anticoagulant medications in elderly trauma patients are important because?",
+        "opts": [
+          "A. They prevent clotting at injury sites",
+          "B. They have no effect on trauma",
+          "C. They increase bleeding risk, making even minor trauma dangerous",
+          "D. They improve healing"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

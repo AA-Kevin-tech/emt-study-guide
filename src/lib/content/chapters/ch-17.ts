@@ -97,7 +97,25 @@ export const ch17: Chapter = {
         "D. 120-140/min"
       ],
       "ans": 2,
-      "exp": "AHA guidelines require 100-120 compressions per minute for effective CPR in adults."
+      "exp": "AHA guidelines require 100-120 compressions per minute for effective CPR in adults.",
+      "easy": {
+        "q": "Adult CPR compression rate:?",
+        "opts": [
+          "A. 100-120/min",
+          "B. 60-80/min"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Adult CPR compression rate?",
+        "opts": [
+          "A. 120-140/min",
+          "B. 80-100/min",
+          "C. 100-120/min",
+          "D. 60-80/min"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-17.q.02",
@@ -109,7 +127,25 @@ export const ch17: Chapter = {
         "D. Transport immediately"
       ],
       "ans": 1,
-      "exp": "Resume CPR immediately after a shock — do not pause to check a pulse. Continue 2 minutes then re-analyze."
+      "exp": "Resume CPR immediately after a shock — do not pause to check a pulse. Continue 2 minutes then re-analyze.",
+      "easy": {
+        "q": "After an AED shock, what do you do?",
+        "opts": [
+          "A. Resume CPR immediately",
+          "B. Transport immediately"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Power on, apply pads (right clavicle / left axilla), clear the patient, analyze, shock if advised. Based on this presentation, after an AED shock, you should?",
+        "opts": [
+          "A. Check pulse for 1 minute",
+          "B. Wait for AED re-analysis",
+          "C. Resume CPR immediately",
+          "D. Transport immediately"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-17.q.03",
@@ -121,7 +157,25 @@ export const ch17: Chapter = {
         "D. Airway management only"
       ],
       "ans": 2,
-      "exp": "VF is a shockable rhythm. Early defibrillation is the definitive treatment. CPR continues until the AED is ready."
+      "exp": "VF is a shockable rhythm. Early defibrillation is the definitive treatment. CPR continues until the AED is ready.",
+      "easy": {
+        "q": "What is Ventricular fibrillation is treated with?",
+        "opts": [
+          "A. Defibrillation",
+          "B. CPR only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Ventricular fibrillation is treated with?",
+        "opts": [
+          "A. Airway management only",
+          "B. Epinephrine",
+          "C. Defibrillation",
+          "D. CPR only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-17.q.04",
@@ -133,7 +187,25 @@ export const ch17: Chapter = {
         "D. Depth does not matter"
       ],
       "ans": 1,
-      "exp": "Adult compressions must be at least 2 inches deep (5 cm) but no more than 2.4 inches for effective blood flow."
+      "exp": "Adult compressions must be at least 2 inches deep (5 cm) but no more than 2.4 inches for effective blood flow.",
+      "easy": {
+        "q": "Adult CPR compression depth:?",
+        "opts": [
+          "A. At least 2 inches",
+          "B. 1 inch"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Adult compression depth?",
+        "opts": [
+          "A. Depth does not matter",
+          "B. 3 inches",
+          "C. At least 2 inches",
+          "D. 1 inch"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-17.q.05",
@@ -145,7 +217,25 @@ export const ch17: Chapter = {
         "D. Opening coronary arteries"
       ],
       "ans": 2,
-      "exp": "Aspirin inhibits platelet aggregation, helping prevent clot growth in an occluded coronary artery during AMI."
+      "exp": "Aspirin inhibits platelet aggregation, helping prevent clot growth in an occluded coronary artery during AMI.",
+      "easy": {
+        "q": "What is aspirin's role in chest pain management?",
+        "opts": [
+          "A. Inhibiting platelet aggregation",
+          "B. Relieving pain"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Classic chest pain: crushing, radiating to left arm/jaw, with diaphoresis and nausea. Based on this presentation, aspirin in cardiac chest pain works by?",
+        "opts": [
+          "A. Opening coronary arteries",
+          "B. Lowering blood pressure",
+          "C. Inhibiting platelet aggregation",
+          "D. Relieving pain"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-17.q.06",
@@ -157,7 +247,25 @@ export const ch17: Chapter = {
         "D. All children under 18"
       ],
       "ans": 1,
-      "exp": "Pediatric pads (attenuated dose) for ages 1-8 or under 55 lbs. For infants under 1, a manual defibrillator is preferred."
+      "exp": "Pediatric pads (attenuated dose) for ages 1-8 or under 55 lbs. For infants under 1, a manual defibrillator is preferred.",
+      "easy": {
+        "q": "What is Pediatric AED pads are used for?",
+        "opts": [
+          "A. Ages 1-8 or under 55 lbs",
+          "B. Ages 1-12"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Power on, apply pads (right clavicle / left axilla), clear the patient, analyze, shock if advised. Based on this presentation, pediatric AED pads are used for?",
+        "opts": [
+          "A. All children under 18",
+          "B. Infants only",
+          "C. Ages 1-8 or under 55 lbs",
+          "D. Ages 1-12"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

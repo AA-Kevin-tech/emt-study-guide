@@ -97,7 +97,25 @@ export const ch20: Chapter = {
         "D. Aspirin"
       ],
       "ans": 1,
-      "exp": "Hypoglycemia with intact gag reflex is treated with oral glucose gel. Never give anything by mouth if the patient cannot protect their airway."
+      "exp": "Hypoglycemia with intact gag reflex is treated with oral glucose gel. Never give anything by mouth if the patient cannot protect their airway.",
+      "easy": {
+        "q": "What is the EMT treatment for conscious hypoglycemia?",
+        "opts": [
+          "A. Oral glucose if conscious and can swallow",
+          "B. Insulin"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Type 1 (insulin-dependent) and Type 2 diabetes both produce emergencies. Based on this presentation, a diabetic patient is confused with blood glucose 45 mg/dL. Treatment is?",
+        "opts": [
+          "A. IV fluids",
+          "B. Insulin",
+          "C. Oral glucose if conscious and can swallow",
+          "D. Aspirin"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-20.q.02",
@@ -109,7 +127,25 @@ export const ch20: Chapter = {
         "D. Seizures"
       ],
       "ans": 2,
-      "exp": "Kussmaul respirations are deep, rapid breaths — the body's attempt to blow off CO2 and compensate for metabolic acidosis in DKA."
+      "exp": "Kussmaul respirations are deep, rapid breaths — the body's attempt to blow off CO2 and compensate for metabolic acidosis in DKA.",
+      "easy": {
+        "q": "What is DKA?",
+        "opts": [
+          "A. DKA (diabetic ketoacidosis)",
+          "B. Seizures"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Kussmaul respirations are associated with?",
+        "opts": [
+          "A. Normal breathing",
+          "B. Hypoglycemia",
+          "C. DKA (diabetic ketoacidosis)",
+          "D. Seizures"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-20.q.03",
@@ -121,7 +157,25 @@ export const ch20: Chapter = {
         "D. It is only for Type 1 diabetics"
       ],
       "ans": 1,
-      "exp": "Unconscious patients cannot protect their airway — oral glucose would aspirate into the lungs. These patients need ALS and IV dextrose."
+      "exp": "Unconscious patients cannot protect their airway — oral glucose would aspirate into the lungs. These patients need ALS and IV dextrose.",
+      "easy": {
+        "q": "Why can't oral glucose be given to an unconscious patient?",
+        "opts": [
+          "A. It causes aspiration risk without airway protection",
+          "B. It won't be absorbed"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Recognizable by AMS, sweating, trembling, and hunger. Based on this presentation, you cannot give oral glucose to an unconscious patient because?",
+        "opts": [
+          "A. It is only for Type 1 diabetics",
+          "B. It raises glucose too slowly",
+          "C. It causes aspiration risk without airway protection",
+          "D. It won't be absorbed"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-20.q.04",
@@ -133,7 +187,25 @@ export const ch20: Chapter = {
         "D. Obtain full SAMPLE history"
       ],
       "ans": 1,
-      "exp": "Check blood glucose first in any AMS patient — hypoglycemia is immediately treatable and can mimic stroke, overdose, and other emergencies."
+      "exp": "Check blood glucose first in any AMS patient — hypoglycemia is immediately treatable and can mimic stroke, overdose, and other emergencies.",
+      "easy": {
+        "q": "What is the first step in managing any AMS patient?",
+        "opts": [
+          "A. Check blood glucose",
+          "B. Obtain full SAMPLE history"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. First step in managing any AMS patient?",
+        "opts": [
+          "A. Administer oral glucose empirically",
+          "B. Perform detailed neurological exam",
+          "C. Check blood glucose",
+          "D. Obtain full SAMPLE history"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-20.q.05",
@@ -145,7 +217,25 @@ export const ch20: Chapter = {
         "D. Low glucose, Kussmaul respirations"
       ],
       "ans": 1,
-      "exp": "DKA: elevated glucose, ketones, Kussmaul respirations (deep/rapid), fruity/acetone breath, nausea, and gradual onset."
+      "exp": "DKA: elevated glucose, ketones, Kussmaul respirations (deep/rapid), fruity/acetone breath, nausea, and gradual onset.",
+      "easy": {
+        "q": "What are signs of DKA?",
+        "opts": [
+          "A. High glucose, Kussmaul respirations, fruity breath",
+          "B. Normal glucose, seizures"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. DKA is characterized by?",
+        "opts": [
+          "A. Low glucose, Kussmaul respirations",
+          "B. Low glucose, sweating, trembling",
+          "C. High glucose, Kussmaul respirations, fruity breath",
+          "D. Normal glucose, seizures"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-20.q.06",
@@ -157,7 +247,25 @@ export const ch20: Chapter = {
         "D. 200-300 mg/dL"
       ],
       "ans": 1,
-      "exp": "Normal blood glucose is approximately 70-120 mg/dL. Below 70 = hypoglycemia. Above 200 consistently = hyperglycemia."
+      "exp": "Normal blood glucose is approximately 70-120 mg/dL. Below 70 = hypoglycemia. Above 200 consistently = hyperglycemia.",
+      "easy": {
+        "q": "What is Normal blood glucose range is approximately?",
+        "opts": [
+          "A. 70-120 mg/dL",
+          "B. 40-60 mg/dL"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Type 1 (insulin-dependent) and Type 2 diabetes both produce emergencies. Based on this presentation, normal blood glucose range is approximately?",
+        "opts": [
+          "A. 150-200 mg/dL",
+          "B. 200-300 mg/dL",
+          "C. 70-120 mg/dL",
+          "D. 40-60 mg/dL"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

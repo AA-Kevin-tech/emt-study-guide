@@ -97,7 +97,25 @@ export const ch05: Chapter = {
         "D. Always use a base station"
       ],
       "ans": 1,
-      "exp": "Simplex systems are one-direction-at-a-time. You must release the transmit button and wait for the other party to finish."
+      "exp": "Simplex systems are one-direction-at-a-time. You must release the transmit button and wait for the other party to finish.",
+      "easy": {
+        "q": "What is On a simplex radio system, you must?",
+        "opts": [
+          "A. Wait for the other party to finish before transmitting",
+          "B. Speak continuously"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMS uses radio systems to communicate with dispatch and hospitals. Based on this presentation, on a simplex radio system, you must?",
+        "opts": [
+          "A. Always use a base station",
+          "B. Use a repeater each time",
+          "C. Wait for the other party to finish before transmitting",
+          "D. Speak continuously"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-05.q.02",
@@ -109,7 +127,25 @@ export const ch05: Chapter = {
         "D. Speed up the assessment"
       ],
       "ans": 1,
-      "exp": "Open-ended questions (How does your chest feel? What happened?) encourage patients to provide detailed information."
+      "exp": "Open-ended questions (How does your chest feel? What happened?) encourage patients to provide detailed information.",
+      "easy": {
+        "q": "What are open-ended questions?",
+        "opts": [
+          "A. Allow patients to describe symptoms in their own words",
+          "B. Speed up the assessment"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Build trust with calm, empathetic communication. Based on this presentation, open-ended questions in patient communication are used to?",
+        "opts": [
+          "A. Confirm existing information",
+          "B. Get yes/no answers quickly",
+          "C. Allow patients to describe symptoms in their own words",
+          "D. Speed up the assessment"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-05.q.03",
@@ -121,7 +157,25 @@ export const ch05: Chapter = {
         "D. Estimated time of arrival"
       ],
       "ans": 2,
-      "exp": "Patient identifiers like SSN are protected health information and must not be transmitted over radio. Use unit/age/chief complaint."
+      "exp": "Patient identifiers like SSN are protected health information and must not be transmitted over radio. Use unit/age/chief complaint.",
+      "easy": {
+        "q": "What are the components of an EMS radio report to the hospital?",
+        "opts": [
+          "A. Patient's full Social Security number",
+          "B. Estimated time of arrival"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: When transferring care, give a concise verbal report: unit ID, patient info, chief complaint, vitals, assessment, treatment, and ETA. Based on this presentation, the hospital radio report should include all EXCEPT?",
+        "opts": [
+          "A. Patient age and chief complaint",
+          "B. Vital signs and treatment given",
+          "C. Patient's full Social Security number",
+          "D. Estimated time of arrival"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-05.q.04",
@@ -133,7 +187,25 @@ export const ch05: Chapter = {
         "D. Converts analog to digital"
       ],
       "ans": 1,
-      "exp": "Repeaters receive weak signals and re-broadcast them at higher power, extending effective communication range."
+      "exp": "Repeaters receive weak signals and re-broadcast them at higher power, extending effective communication range.",
+      "easy": {
+        "q": "What is a repeater in radio communication?",
+        "opts": [
+          "A. Extends radio range by re-transmitting signals",
+          "B. Converts analog to digital"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMS uses radio systems to communicate with dispatch and hospitals. Based on this presentation, a repeater in radio communication?",
+        "opts": [
+          "A. Blocks unauthorized transmissions",
+          "B. Records all radio transmissions",
+          "C. Extends radio range by re-transmitting signals",
+          "D. Converts analog to digital"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-05.q.05",
@@ -145,7 +217,25 @@ export const ch05: Chapter = {
         "D. Avoiding eye contact"
       ],
       "ans": 1,
-      "exp": "Therapeutic communication builds patient trust and rapport, improving history gathering and cooperation with care."
+      "exp": "Therapeutic communication builds patient trust and rapport, improving history gathering and cooperation with care.",
+      "easy": {
+        "q": "What is therapeutic communication?",
+        "opts": [
+          "A. Building trust through empathy, listening, and appropriate questioning",
+          "B. Avoiding eye contact"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Build trust with calm, empathetic communication. Based on this presentation, therapeutic communication in EMS means?",
+        "opts": [
+          "A. Using medical jargon to sound professional",
+          "B. Rapid closed questioning only",
+          "C. Building trust through empathy, listening, and appropriate questioning",
+          "D. Avoiding eye contact"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-05.q.06",
@@ -157,7 +247,25 @@ export const ch05: Chapter = {
         "D. Deleted after 24 hours"
       ],
       "ans": 1,
-      "exp": "All EMS radio transmissions are recorded and may be used as legal evidence. Always speak professionally and avoid PHI."
+      "exp": "All EMS radio transmissions are recorded and may be used as legal evidence. Always speak professionally and avoid PHI.",
+      "easy": {
+        "q": "Why are radio transmissions in EMS legally significant?",
+        "opts": [
+          "A. Legal records that may be reviewed in court",
+          "B. Deleted after 24 hours"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMS uses radio systems to communicate with dispatch and hospitals. Based on this presentation, radio transmissions in EMS are?",
+        "opts": [
+          "A. Completely private and confidential",
+          "B. Not admissible as evidence",
+          "C. Legal records that may be reviewed in court",
+          "D. Deleted after 24 hours"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

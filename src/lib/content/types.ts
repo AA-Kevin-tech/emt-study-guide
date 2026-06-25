@@ -13,12 +13,20 @@ export interface Note {
   terms: string[];
 }
 
+export interface QuizQuestionVariant {
+  q: string;
+  opts: string[];      // prefixed "A. "/"B. "/...
+  ans: number;         // 0-indexed correct option
+}
+
 export interface QuizQuestion {
   id: string;          // 'ch-01.q.01'
-  q: string;
-  opts: string[];      // 4 options, prefixed "A. "/"B. "/...
-  ans: number;         // 0-indexed correct option
+  q: string;           // medium (default)
+  opts: string[];
+  ans: number;
   exp: string;
+  easy: QuizQuestionVariant;
+  hard: QuizQuestionVariant;
 }
 
 export interface Chapter {

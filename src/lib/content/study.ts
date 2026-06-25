@@ -1,4 +1,5 @@
 import { getChapter } from '$lib/content';
+import { prepareQuizQuestions, type QuizDifficulty } from './quiz-difficulty';
 import type { Flashcard, Note, QuizQuestion } from './types';
 
 export const STUDY_CHAPTERS_KEY = 'emt-study-chapters';
@@ -32,13 +33,17 @@ export function buildStudyNotes(chapterIds: string[]): StudyNote[] {
 	});
 }
 
-export function buildStudyQuiz(chapterIds: string[], cap = 30): StudyQuizQuestion[] {
+export function buildStudyQuiz(
+	chapterIds: string[],
+	difficulty: QuizDifficulty = 'medium',
+	cap = 30
+): StudyQuizQuestion[] {
 	const questions = chapterIds.flatMap((id) => {
 		const ch = getChapter(id);
 		if (!ch) return [];
 		return ch.quiz.map((q) => ({ ...q, chapterId: id, chapterNum: ch.number }));
 	});
-	return shuffleInPlace(questions).slice(0, cap);
+	return prepareQuizQuestions(questions, difficulty).slice(0, cap) as StudyQuizQuestion[];
 }
 
 export function readStudyChapterIds(): string[] {

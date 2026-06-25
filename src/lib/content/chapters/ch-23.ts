@@ -97,7 +97,25 @@ export const ch23: Chapter = {
         "D. Normal finding"
       ],
       "ans": 1,
-      "exp": "Rebound tenderness (pain worsening when abdominal pressure is suddenly released) indicates peritoneal irritation — appendicitis, peritonitis."
+      "exp": "Rebound tenderness (pain worsening when abdominal pressure is suddenly released) indicates peritoneal irritation — appendicitis, peritonitis.",
+      "easy": {
+        "q": "What is rebound tenderness?",
+        "opts": [
+          "A. Peritoneal irritation or inflammation",
+          "B. Muscle strain"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Abdominal pain can result from nearly any organ system. Based on this presentation, rebound tenderness indicates?",
+        "opts": [
+          "A. Normal finding",
+          "B. Muscle strain",
+          "C. Peritoneal irritation or inflammation",
+          "D. Kidney stones"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-23.q.02",
@@ -109,7 +127,25 @@ export const ch23: Chapter = {
         "D. Blood in urine"
       ],
       "ans": 1,
-      "exp": "Melena = dark, tarry, foul-smelling stools indicating upper GI bleeding where blood has been digested."
+      "exp": "Melena = dark, tarry, foul-smelling stools indicating upper GI bleeding where blood has been digested.",
+      "easy": {
+        "q": "What are signs of a GI bleed?",
+        "opts": [
+          "A. Dark, tarry stools from upper GI bleeding",
+          "B. Blood in urine"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Melena is described as?",
+        "opts": [
+          "A. Bright red rectal bleeding",
+          "B. Bright red blood in vomit",
+          "C. Dark, tarry stools from upper GI bleeding",
+          "D. Blood in urine"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-23.q.03",
@@ -121,7 +157,25 @@ export const ch23: Chapter = {
         "D. It only causes mild pain"
       ],
       "ans": 1,
-      "exp": "Ectopic pregnancy can rupture the fallopian tube causing massive internal hemorrhage and rapid cardiovascular collapse."
+      "exp": "Ectopic pregnancy can rupture the fallopian tube causing massive internal hemorrhage and rapid cardiovascular collapse.",
+      "easy": {
+        "q": "What is ectopic pregnancy?",
+        "opts": [
+          "A. The fallopian tube can rupture causing life-threatening hemorrhage",
+          "B. It causes diabetes"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Kidney stones: severe colicky flank-to-groin pain, hematuria. Based on this presentation, ectopic pregnancy is dangerous because?",
+        "opts": [
+          "A. It requires immediate C-section",
+          "B. It only causes mild pain",
+          "C. The fallopian tube can rupture causing life-threatening hemorrhage",
+          "D. It causes diabetes"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-23.q.04",
@@ -133,7 +187,25 @@ export const ch23: Chapter = {
         "D. Painless hematuria only"
       ],
       "ans": 1,
-      "exp": "Kidney stones: severe colicky (comes and goes) flank pain radiating to the groin, nausea, and hematuria — patient cannot find a comfortable position."
+      "exp": "Kidney stones: severe colicky (comes and goes) flank pain radiating to the groin, nausea, and hematuria — patient cannot find a comfortable position.",
+      "easy": {
+        "q": "What are signs of kidney stones (renal calculi)?",
+        "opts": [
+          "A. Severe colicky flank pain radiating to groin, hematuria",
+          "B. Steady dull flank pain"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Kidney stones: severe colicky flank-to-groin pain, hematuria. Based on this presentation, classic presentation of kidney stones includes?",
+        "opts": [
+          "A. Abdominal rigidity with fever",
+          "B. Painless hematuria only",
+          "C. Severe colicky flank pain radiating to groin, hematuria",
+          "D. Steady dull flank pain"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-23.q.05",
@@ -145,7 +217,25 @@ export const ch23: Chapter = {
         "D. Normal stools with abdominal pain"
       ],
       "ans": 1,
-      "exp": "Upper GI bleeding (esophagus, stomach, duodenum) produces hematemesis (blood vomiting) and melena (dark tarry stools)."
+      "exp": "Upper GI bleeding (esophagus, stomach, duodenum) produces hematemesis (blood vomiting) and melena (dark tarry stools).",
+      "easy": {
+        "q": "What are signs of a GI bleed?",
+        "opts": [
+          "A. Hematemesis and melena",
+          "B. Hematochezia only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Signs of upper GI bleeding include?",
+        "opts": [
+          "A. Normal stools with abdominal pain",
+          "B. Hematuria and flank pain",
+          "C. Hematemesis and melena",
+          "D. Hematochezia only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-23.q.06",
@@ -157,7 +247,25 @@ export const ch23: Chapter = {
         "D. Kidney failure"
       ],
       "ans": 1,
-      "exp": "Sickled red blood cells occlude small blood vessels, causing ischemia and severe pain in affected areas — bones, chest, abdomen."
+      "exp": "Sickled red blood cells occlude small blood vessels, causing ischemia and severe pain in affected areas — bones, chest, abdomen.",
+      "easy": {
+        "q": "What is sickle cell crisis?",
+        "opts": [
+          "A. Sickled cells occluding blood vessels",
+          "B. Kidney failure"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Sickle cell crisis: severe, diffuse pain from vessel occlusion by sickled cells. Based on this presentation, sickle cell crisis causes pain by?",
+        "opts": [
+          "A. Infection spreading to bone",
+          "B. Low blood glucose",
+          "C. Sickled cells occluding blood vessels",
+          "D. Kidney failure"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

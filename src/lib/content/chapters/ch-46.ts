@@ -97,7 +97,25 @@ export const ch46: Chapter = {
         "D. Contact hospital"
       ],
       "ans": 1,
-      "exp": "Scene safety is always first. Terrorism scenes routinely have secondary devices designed to kill first responders — never rush in."
+      "exp": "Scene safety is always first. Terrorism scenes routinely have secondary devices designed to kill first responders — never rush in.",
+      "easy": {
+        "q": "What is the primary concern at a terrorism scene?",
+        "opts": [
+          "A. Scene safety — including secondary device awareness",
+          "B. Contact hospital"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Terrorism scenes are crime scenes and active threat areas. Based on this presentation, at a suspected terrorism scene, your FIRST priority is?",
+        "opts": [
+          "A. Treat the most critical patient",
+          "B. Establish command",
+          "C. Scene safety — including secondary device awareness",
+          "D. Contact hospital"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-46.q.02",
@@ -109,7 +127,25 @@ export const ch46: Chapter = {
         "D. Biological agent"
       ],
       "ans": 2,
-      "exp": "SLUDGEM is the cholinergic toxidrome — characteristic of nerve agents (sarin, VX) and organophosphate pesticides."
+      "exp": "SLUDGEM is the cholinergic toxidrome — characteristic of nerve agents (sarin, VX) and organophosphate pesticides.",
+      "easy": {
+        "q": "What is SLUDGEM symptoms indicate exposure to?",
+        "opts": [
+          "A. Nerve agent or organophosphate",
+          "B. Explosive device"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Chemical: rapid onset, SLUDGEM or anticholinergic signs. Based on this presentation, SLUDGEM symptoms indicate exposure to?",
+        "opts": [
+          "A. Radiological agent",
+          "B. Explosive device",
+          "C. Nerve agent or organophosphate",
+          "D. Biological agent"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-46.q.03",
@@ -121,7 +157,25 @@ export const ch46: Chapter = {
         "D. A secondary triage tag"
       ],
       "ans": 1,
-      "exp": "Secondary devices are deliberately placed to detonate after first responders arrive — always assume risk until EOD clears the scene."
+      "exp": "Secondary devices are deliberately placed to detonate after first responders arrive — always assume risk until EOD clears the scene.",
+      "easy": {
+        "q": "What is a secondary device?",
+        "opts": [
+          "A. A second explosive designed to injure first responders",
+          "B. A secondary triage tag"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. A secondary device is?",
+        "opts": [
+          "A. A backup communication system",
+          "B. A backup treatment protocol",
+          "C. A second explosive designed to injure first responders",
+          "D. A secondary triage tag"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-46.q.04",
@@ -133,7 +187,25 @@ export const ch46: Chapter = {
         "D. Flash burns and blast injuries"
       ],
       "ans": 1,
-      "exp": "Biological agents have delayed onset — recognition comes through unusual disease patterns, multiple patients with similar atypical illness."
+      "exp": "Biological agents have delayed onset — recognition comes through unusual disease patterns, multiple patients with similar atypical illness.",
+      "easy": {
+        "q": "What are signs suggesting a biological agent attack?",
+        "opts": [
+          "A. Unusual disease clusters with delayed onset in multiple patients",
+          "B. SLUDGEM symptoms"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Chemical: rapid onset, SLUDGEM or anticholinergic signs. Based on this presentation, signs suggesting a biological agent attack include?",
+        "opts": [
+          "A. Immediate mass casualties with burns",
+          "B. Flash burns and blast injuries",
+          "C. Unusual disease clusters with delayed onset in multiple patients",
+          "D. SLUDGEM symptoms"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-46.q.05",
@@ -145,7 +217,25 @@ export const ch46: Chapter = {
         "D. Any zone with standard gloves"
       ],
       "ans": 2,
-      "exp": "EMTs without specialized training must remain in the cold zone — treating decontaminated patients and supporting hazmat operations."
+      "exp": "EMTs without specialized training must remain in the cold zone — treating decontaminated patients and supporting hazmat operations.",
+      "easy": {
+        "q": "What is the EMT's role in a terrorism response?",
+        "opts": [
+          "A. Cold zone only",
+          "B. Hot zone with hazmat PPE"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. EMTs at a terrorism incident should operate in the?",
+        "opts": [
+          "A. Any zone with standard gloves",
+          "B. Warm zone for rapid triage",
+          "C. Cold zone only",
+          "D. Hot zone with hazmat PPE"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-46.q.06",
@@ -157,7 +247,25 @@ export const ch46: Chapter = {
         "D. Establishing a staging area"
       ],
       "ans": 1,
-      "exp": "Shelter-in-place directs people to stay inside with windows/doors sealed to prevent exposure to airborne chemical or biological agents."
+      "exp": "Shelter-in-place directs people to stay inside with windows/doors sealed to prevent exposure to airborne chemical or biological agents.",
+      "easy": {
+        "q": "What is shelter-in-place?",
+        "opts": [
+          "A. Instructing people to remain inside sealed buildings",
+          "B. Setting up a field hospital"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Shelter-in-place means?",
+        "opts": [
+          "A. Moving all patients to a nearby shelter",
+          "B. Setting up a field hospital",
+          "C. Instructing people to remain inside sealed buildings",
+          "D. Establishing a staging area"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

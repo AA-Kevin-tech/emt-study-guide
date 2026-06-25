@@ -97,7 +97,25 @@ export const ch11: Chapter = {
         "D. 30-40/min"
       ],
       "ans": 1,
-      "exp": "Normal adult respiratory rate is 12-20 breaths per minute. Below 12 or above 20 warrants further assessment."
+      "exp": "Normal adult respiratory rate is 12-20 breaths per minute. Below 12 or above 20 warrants further assessment.",
+      "easy": {
+        "q": "What is Normal adult respiratory rate is?",
+        "opts": [
+          "A. 12-20/min",
+          "B. 6-10/min"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Vital signs are objective measurements of body function. Based on this presentation, normal adult respiratory rate is?",
+        "opts": [
+          "A. 20-30/min",
+          "B. 30-40/min",
+          "C. 12-20/min",
+          "D. 6-10/min"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-11.q.02",
@@ -109,7 +127,25 @@ export const ch11: Chapter = {
         "D. Estimated age"
       ],
       "ans": 1,
-      "exp": "E = Events leading to the illness or injury. Understanding what happened just before onset helps determine the cause."
+      "exp": "E = Events leading to the illness or injury. Understanding what happened just before onset helps determine the cause.",
+      "easy": {
+        "q": "What does SAMPLE stand for?",
+        "opts": [
+          "A. Events leading to illness",
+          "B. Examination"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. The 'E' in SAMPLE stands for?",
+        "opts": [
+          "A. Eating habits",
+          "B. Estimated age",
+          "C. Events leading to illness",
+          "D. Examination"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-11.q.03",
@@ -121,7 +157,25 @@ export const ch11: Chapter = {
         "D. Up to 6 seconds"
       ],
       "ans": 1,
-      "exp": "CRT < 2 seconds is normal. Greater than 2 seconds suggests poor peripheral perfusion (shock, hypothermia, etc.)."
+      "exp": "CRT < 2 seconds is normal. Greater than 2 seconds suggests poor peripheral perfusion (shock, hypothermia, etc.).",
+      "easy": {
+        "q": "What is a normal capillary refill time?",
+        "opts": [
+          "A. Less than 2 seconds",
+          "B. Up to 6 seconds"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Normal capillary refill time is?",
+        "opts": [
+          "A. Less than 4 seconds",
+          "B. Less than 1 second",
+          "C. Less than 2 seconds",
+          "D. Up to 6 seconds"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-11.q.04",
@@ -133,7 +187,25 @@ export const ch11: Chapter = {
         "D. Medication list"
       ],
       "ans": 2,
-      "exp": "OPQRST (Onset, Provocation, Quality, Radiation, Severity, Time) specifically evaluates the chief complaint — especially pain."
+      "exp": "OPQRST (Onset, Provocation, Quality, Radiation, Severity, Time) specifically evaluates the chief complaint — especially pain.",
+      "easy": {
+        "q": "What is OPQRST is most useful for evaluating?",
+        "opts": [
+          "A. The chief complaint, especially pain",
+          "B. Allergies"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. OPQRST is most useful for evaluating?",
+        "opts": [
+          "A. Medical history",
+          "B. Medication list",
+          "C. The chief complaint, especially pain",
+          "D. Allergies"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-11.q.05",
@@ -145,7 +217,25 @@ export const ch11: Chapter = {
         "D. Anemia only"
       ],
       "ans": 1,
-      "exp": "Standard pulse oximetry cannot distinguish oxyhemoglobin from carboxyhemoglobin — CO poisoning can show a normal SpO2."
+      "exp": "Standard pulse oximetry cannot distinguish oxyhemoglobin from carboxyhemoglobin — CO poisoning can show a normal SpO2.",
+      "easy": {
+        "q": "What is Pulse oximetry may be falsely normal in?",
+        "opts": [
+          "A. Carbon monoxide poisoning",
+          "B. Anemia only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Pulse oximetry may be falsely normal in?",
+        "opts": [
+          "A. Respiratory distress",
+          "B. Hypovolemic shock",
+          "C. Carbon monoxide poisoning",
+          "D. Anemia only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-11.q.06",
@@ -157,7 +247,25 @@ export const ch11: Chapter = {
         "D. Normal color with diaphoresis only"
       ],
       "ans": 2,
-      "exp": "Pale, cool, clammy skin results from compensatory vasoconstriction in early shock — blood is shunted to vital organs."
+      "exp": "Pale, cool, clammy skin results from compensatory vasoconstriction in early shock — blood is shunted to vital organs.",
+      "easy": {
+        "q": "What is Skin signs that suggest shock include?",
+        "opts": [
+          "A. Pale, cool, clammy skin",
+          "B. Pink, warm, dry skin"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Vital signs are objective measurements of body function. Based on this presentation, skin signs that suggest shock include?",
+        "opts": [
+          "A. Normal color with diaphoresis only",
+          "B. Flushed, hot, moist skin",
+          "C. Pale, cool, clammy skin",
+          "D. Pink, warm, dry skin"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

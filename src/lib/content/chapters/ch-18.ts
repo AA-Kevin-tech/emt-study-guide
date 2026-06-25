@@ -97,7 +97,25 @@ export const ch18: Chapter = {
         "D. Blood glucose, BP, SpO2"
       ],
       "ans": 1,
-      "exp": "Cincinnati Stroke Scale: Facial droop, Arm drift, Speech — any one abnormal = 72% probability of stroke."
+      "exp": "Cincinnati Stroke Scale: Facial droop, Arm drift, Speech — any one abnormal = 72% probability of stroke.",
+      "easy": {
+        "q": "What is the Cincinnati Stroke Scale?",
+        "opts": [
+          "A. Facial droop, arm drift, speech",
+          "B. GCS, LOC, pupils"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Recognize stroke with Cincinnati Stroke Scale or FAST. Based on this presentation, the Cincinnati Stroke Scale evaluates?",
+        "opts": [
+          "A. Pupils, pulse, pressure",
+          "B. Blood glucose, BP, SpO2",
+          "C. Facial droop, arm drift, speech",
+          "D. GCS, LOC, pupils"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-18.q.02",
@@ -109,7 +127,25 @@ export const ch18: Chapter = {
         "D. Oxygen depletes quickly"
       ],
       "ans": 1,
-      "exp": "Ischemic stroke treatment with tPA has a 3-4.5 hour window from symptom onset — exact onset time must be documented."
+      "exp": "Ischemic stroke treatment with tPA has a 3-4.5 hour window from symptom onset — exact onset time must be documented.",
+      "easy": {
+        "q": "Why is stroke time critical?",
+        "opts": [
+          "A. tPA must be given within 3-4.5 hours of symptom onset",
+          "B. Oxygen depletes quickly"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Recognize stroke with Cincinnati Stroke Scale or FAST. Based on this presentation, time is critical in stroke management because?",
+        "opts": [
+          "A. Aspirin must be given within 1 hour",
+          "B. CPR must start within 4 minutes",
+          "C. tPA must be given within 3-4.5 hours of symptom onset",
+          "D. Oxygen depletes quickly"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-18.q.03",
@@ -121,7 +157,25 @@ export const ch18: Chapter = {
         "D. Trauma priorities"
       ],
       "ans": 1,
-      "exp": "AEIOU-TIPS lists common causes of AMS: Alcohol, Epilepsy, Insulin, Overdose, Uremia, Trauma, Infection, Psychiatric, Stroke."
+      "exp": "AEIOU-TIPS lists common causes of AMS: Alcohol, Epilepsy, Insulin, Overdose, Uremia, Trauma, Infection, Psychiatric, Stroke.",
+      "easy": {
+        "q": "What is AEIOU-TIPS is used to remember causes of?",
+        "opts": [
+          "A. Altered mental status",
+          "B. Cardiac arrest"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. AEIOU-TIPS is used to remember causes of?",
+        "opts": [
+          "A. Respiratory failure",
+          "B. Trauma priorities",
+          "C. Altered mental status",
+          "D. Cardiac arrest"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-18.q.04",
@@ -133,7 +187,25 @@ export const ch18: Chapter = {
         "D. TIA requires tPA"
       ],
       "ans": 1,
-      "exp": "A TIA produces stroke-like symptoms that resolve completely, but it is a major warning sign of impending stroke."
+      "exp": "A TIA produces stroke-like symptoms that resolve completely, but it is a major warning sign of impending stroke.",
+      "easy": {
+        "q": "What is a TIA?",
+        "opts": [
+          "A. TIA symptoms resolve, usually within 24 hours",
+          "B. TIA requires tPA"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. A TIA differs from a stroke because?",
+        "opts": [
+          "A. TIA causes permanent deficits",
+          "B. TIA only affects vision",
+          "C. TIA symptoms resolve, usually within 24 hours",
+          "D. TIA requires tPA"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-18.q.05",
@@ -145,7 +217,25 @@ export const ch18: Chapter = {
         "D. Ear infection"
       ],
       "ans": 2,
-      "exp": "Subarachnoid hemorrhage classically presents as a sudden, severe 'thunderclap' — the worst headache of the patient's life. Transport urgently."
+      "exp": "Subarachnoid hemorrhage classically presents as a sudden, severe 'thunderclap' — the worst headache of the patient's life. Transport urgently.",
+      "easy": {
+        "q": "What is a thunderclap headache?",
+        "opts": [
+          "A. Subarachnoid hemorrhage",
+          "B. Migraine"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Most headaches are benign (tension, migraine). Based on this presentation, a thunderclap headache should raise suspicion for?",
+        "opts": [
+          "A. Tension headache",
+          "B. Ear infection",
+          "C. Subarachnoid hemorrhage",
+          "D. Migraine"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-18.q.06",
@@ -157,7 +247,25 @@ export const ch18: Chapter = {
         "D. Obtain full SAMPLE history"
       ],
       "ans": 1,
-      "exp": "Check blood glucose first in any AMS patient — hypoglycemia is immediately treatable and can mimic many serious conditions."
+      "exp": "Check blood glucose first in any AMS patient — hypoglycemia is immediately treatable and can mimic many serious conditions.",
+      "easy": {
+        "q": "What is First action for any AMS patient?",
+        "opts": [
+          "A. Check blood glucose",
+          "B. Administer oral glucose"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. First action for any AMS patient?",
+        "opts": [
+          "A. Perform detailed neurological exam",
+          "B. Obtain full SAMPLE history",
+          "C. Check blood glucose",
+          "D. Administer oral glucose"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

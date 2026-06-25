@@ -97,7 +97,25 @@ export const ch29: Chapter = {
         "D. Charred black tissue"
       ],
       "ans": 1,
-      "exp": "Partial thickness burns involve epidermis and dermis — blisters, wet/weeping surface, and intense pain are hallmarks."
+      "exp": "Partial thickness burns involve epidermis and dermis — blisters, wet/weeping surface, and intense pain are hallmarks.",
+      "easy": {
+        "q": "What is partial thickness (2nd degree) burn is characterized by?",
+        "opts": [
+          "A. Blisters, wet surface, intense pain",
+          "B. Dry, red skin only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Superficial (1st degree): red, dry, painful. Based on this presentation, a partial thickness (2nd degree) burn is characterized by?",
+        "opts": [
+          "A. White leathery appearance, painless",
+          "B. Charred black tissue",
+          "C. Blisters, wet surface, intense pain",
+          "D. Dry, red skin only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-29.q.02",
@@ -109,7 +127,25 @@ export const ch29: Chapter = {
         "D. 13%"
       ],
       "ans": 1,
-      "exp": "Each arm = 9% of body surface area in the adult Rule of Nines."
+      "exp": "Each arm = 9% of body surface area in the adult Rule of Nines.",
+      "easy": {
+        "q": "What is the Rule of Nines for adults?",
+        "opts": [
+          "A. 9%",
+          "B. 18%"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rule of Nines estimates total body surface area (TBSA) burned. Based on this presentation, using the Rule of Nines, each arm accounts for what percentage??",
+        "opts": [
+          "A. 4.5%",
+          "B. 18%",
+          "C. 9%",
+          "D. 13%"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-29.q.03",
@@ -121,7 +157,25 @@ export const ch29: Chapter = {
         "D. Loose gauze"
       ],
       "ans": 2,
-      "exp": "Ice causes vasoconstriction, worsens tissue damage, and can cause frostbite on burned tissue. Use room temperature water only."
+      "exp": "Ice causes vasoconstriction, worsens tissue damage, and can cause frostbite on burned tissue. Use room temperature water only.",
+      "easy": {
+        "q": "How should burns be cooled?",
+        "opts": [
+          "A. Ice or ice water",
+          "B. Loose gauze"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. What should NEVER be applied to a burn??",
+        "opts": [
+          "A. Room temperature water",
+          "B. Sterile dry dressing",
+          "C. Ice or ice water",
+          "D. Loose gauze"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-29.q.04",
@@ -133,7 +187,25 @@ export const ch29: Chapter = {
         "D. Blistering on upper arms only"
       ],
       "ans": 1,
-      "exp": "Inhalation injury signs: singed nasal/facial hair, soot, hoarseness, stridor, carbonaceous sputum — airway edema may develop rapidly."
+      "exp": "Inhalation injury signs: singed nasal/facial hair, soot, hoarseness, stridor, carbonaceous sputum — airway edema may develop rapidly.",
+      "easy": {
+        "q": "What are signs of inhalation injury?",
+        "opts": [
+          "A. Singed nasal hairs, soot around mouth, hoarse voice",
+          "B. Rash on chest"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rule of Nines estimates total body surface area (TBSA) burned. Based on this presentation, signs of inhalation injury include?",
+        "opts": [
+          "A. Normal voice with facial burns",
+          "B. Blistering on upper arms only",
+          "C. Singed nasal hairs, soot around mouth, hoarse voice",
+          "D. Rash on chest"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-29.q.05",
@@ -145,7 +217,25 @@ export const ch29: Chapter = {
         "D. Less than 10% TBSA if full thickness"
       ],
       "ans": 1,
-      "exp": "Burns to functional/sensitive areas (face, hands, feet, genitalia, circumferential) and inhalation injuries are automatically critical."
+      "exp": "Burns to functional/sensitive areas (face, hands, feet, genitalia, circumferential) and inhalation injuries are automatically critical.",
+      "easy": {
+        "q": "What makes a burn 'critical'?",
+        "opts": [
+          "A. Face, hands, feet, genitalia, or with inhalation injury",
+          "B. Only the back >5%"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rule of Nines estimates total body surface area (TBSA) burned. Based on this presentation, a critical burn includes burns to?",
+        "opts": [
+          "A. Less than 10% TBSA if full thickness",
+          "B. The shoulder area only",
+          "C. Face, hands, feet, genitalia, or with inhalation injury",
+          "D. Only the back >5%"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-29.q.06",
@@ -157,7 +247,25 @@ export const ch29: Chapter = {
         "D. Children always have more severe burns"
       ],
       "ans": 1,
-      "exp": "Children have larger heads (18%) and smaller legs — the Lund-Browder chart corrects for age-related body proportion differences."
+      "exp": "Children have larger heads (18%) and smaller legs — the Lund-Browder chart corrects for age-related body proportion differences.",
+      "easy": {
+        "q": "How is the Rule of Nines modified for children?",
+        "opts": [
+          "A. Children have proportionally larger heads (18%) and smaller legs",
+          "B. Children have smaller torsos"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rule of Nines estimates total body surface area (TBSA) burned. Based on this presentation, the Rule of Nines for children differs because?",
+        "opts": [
+          "A. Children always have more severe burns",
+          "B. The rule is identical for all ages",
+          "C. Children have proportionally larger heads (18%) and smaller legs",
+          "D. Children have smaller torsos"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

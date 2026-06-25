@@ -97,7 +97,25 @@ export const ch24: Chapter = {
         "D. Muscle cramps only"
       ],
       "ans": 2,
-      "exp": "Heat stroke = core temp >104°F with altered mental status — a life-threatening emergency requiring immediate aggressive cooling."
+      "exp": "Heat stroke = core temp >104°F with altered mental status — a life-threatening emergency requiring immediate aggressive cooling.",
+      "easy": {
+        "q": "What is heat stroke?",
+        "opts": [
+          "A. Altered mental status and temp >104°F",
+          "B. Muscle cramps only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Heat cramps: muscle spasm from electrolyte loss. Based on this presentation, heat stroke differs from heat exhaustion by?",
+        "opts": [
+          "A. Lower body temperature",
+          "B. Presence of sweating",
+          "C. Altered mental status and temp >104°F",
+          "D. Muscle cramps only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-24.q.02",
@@ -109,7 +127,25 @@ export const ch24: Chapter = {
         "D. Wait for ALS before cooling"
       ],
       "ans": 1,
-      "exp": "Begin aggressive cooling immediately — ice packs to neck, axillae, and groin; cool misting; remove clothing. Do not delay transport."
+      "exp": "Begin aggressive cooling immediately — ice packs to neck, axillae, and groin; cool misting; remove clothing. Do not delay transport.",
+      "easy": {
+        "q": "How is heat stroke treated?",
+        "opts": [
+          "A. Immediate aggressive cooling to neck, groin, and axillae",
+          "B. Warm blankets"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Heat cramps: muscle spasm from electrolyte loss. Based on this presentation, treatment for heat stroke includes?",
+        "opts": [
+          "A. Wait for ALS before cooling",
+          "B. Oral fluids only",
+          "C. Immediate aggressive cooling to neck, groin, and axillae",
+          "D. Warm blankets"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-24.q.03",
@@ -121,7 +157,25 @@ export const ch24: Chapter = {
         "D. Attempt defibrillation without CPR"
       ],
       "ans": 1,
-      "exp": "Hypothermic patients may appear dead but are viable. Begin CPR and transport for active core rewarming. VF may not convert until warmed."
+      "exp": "Hypothermic patients may appear dead but are viable. Begin CPR and transport for active core rewarming. VF may not convert until warmed.",
+      "easy": {
+        "q": "What cardiac rhythm is associated with severe hypothermia?",
+        "opts": [
+          "A. Begin CPR and transport — 'not dead until warm and dead'",
+          "B. Pronounce death"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Mild hypothermia (90-95°F): shivering, confusion. Based on this presentation, a severely hypothermic patient appears pulseless. You should?",
+        "opts": [
+          "A. Attempt defibrillation without CPR",
+          "B. Check blood glucose first",
+          "C. Begin CPR and transport — 'not dead until warm and dead'",
+          "D. Pronounce death"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-24.q.04",
@@ -133,7 +187,25 @@ export const ch24: Chapter = {
         "D. Kept from further cold exposure"
       ],
       "ans": 1,
-      "exp": "Never rub frostbitten tissue — ice crystals in cells cause further damage when rubbed. Protect gently and transport."
+      "exp": "Never rub frostbitten tissue — ice crystals in cells cause further damage when rubbed. Protect gently and transport.",
+      "easy": {
+        "q": "What is Frostbitten fingers should NOT be?",
+        "opts": [
+          "A. Rubbed to restore circulation",
+          "B. Elevated during transport"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Frostbitten fingers should NOT be?",
+        "opts": [
+          "A. Kept from further cold exposure",
+          "B. Protected with loose dressing",
+          "C. Rubbed to restore circulation",
+          "D. Elevated during transport"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-24.q.05",
@@ -145,7 +217,25 @@ export const ch24: Chapter = {
         "D. Sinus bradycardia"
       ],
       "ans": 2,
-      "exp": "Severe hypothermia (especially with rough handling) predisposes patients to ventricular fibrillation."
+      "exp": "Severe hypothermia (especially with rough handling) predisposes patients to ventricular fibrillation.",
+      "easy": {
+        "q": "What cardiac rhythm is associated with severe hypothermia?",
+        "opts": [
+          "A. Ventricular fibrillation",
+          "B. Sinus bradycardia"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Mild hypothermia (90-95°F): shivering, confusion. Based on this presentation, the cardiac rhythm most associated with severe hypothermia is?",
+        "opts": [
+          "A. Normal sinus rhythm",
+          "B. Atrial fibrillation",
+          "C. Ventricular fibrillation",
+          "D. Sinus bradycardia"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-24.q.06",
@@ -157,7 +247,25 @@ export const ch24: Chapter = {
         "D. Dehydration alone"
       ],
       "ans": 1,
-      "exp": "Heat cramps result from electrolyte (sodium) depletion during sweating — treated with oral electrolyte fluids and rest."
+      "exp": "Heat cramps result from electrolyte (sodium) depletion during sweating — treated with oral electrolyte fluids and rest.",
+      "easy": {
+        "q": "What are signs of heat cramps?",
+        "opts": [
+          "A. Salt and water loss during exercise in heat",
+          "B. Dehydration alone"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Heat cramps: muscle spasm from electrolyte loss. Based on this presentation, heat cramps are caused by?",
+        "opts": [
+          "A. Fever from infection",
+          "B. Excess water intake",
+          "C. Salt and water loss during exercise in heat",
+          "D. Dehydration alone"
+        ],
+        "ans": 2
+      }
     }
   ]
 };
