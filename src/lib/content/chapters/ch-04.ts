@@ -97,7 +97,25 @@ export const ch04: Chapter = {
         "D. A hospital intake form"
       ],
       "ans": 1,
-      "exp": "The PCR is both a medical record and a legal document used for continuity of care, billing, QI, and legal protection."
+      "exp": "The PCR is both a medical record and a legal document used for continuity of care, billing, QI, and legal protection.",
+      "easy": {
+        "q": "What is a PCR?",
+        "opts": [
+          "A. A medical and legal record of patient care",
+          "B. A billing form only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "During QA review of an EMS run, your supervisor asks: a PCR is is MOST accurately defined as?",
+        "opts": [
+          "A. An internal EMS quality review",
+          "B. A hospital intake form",
+          "C. A medical and legal record of patient care",
+          "D. A billing form only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-04.q.02",
@@ -109,7 +127,25 @@ export const ch04: Chapter = {
         "D. Complete a new PCR"
       ],
       "ans": 2,
-      "exp": "A single line preserves the original entry. Whiteout suggests falsification and is never acceptable on legal documents."
+      "exp": "A single line preserves the original entry. Whiteout suggests falsification and is never acceptable on legal documents.",
+      "easy": {
+        "q": "How should errors on a paper PCR be corrected?",
+        "opts": [
+          "A. Draw a single line, write correction, initial and date",
+          "B. Complete a new PCR"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Errors are corrected with a single line, initials, and date. Based on this presentation, how should an error on a paper PCR be corrected??",
+        "opts": [
+          "A. Scribble over the mistake",
+          "B. Use whiteout to cover it",
+          "C. Draw a single line, write correction, initial and date",
+          "D. Complete a new PCR"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-04.q.03",
@@ -121,7 +157,25 @@ export const ch04: Chapter = {
         "D. Abnormal findings only"
       ],
       "ans": 1,
-      "exp": "Pertinent negatives document relevant symptoms the patient does NOT have — helpful in ruling out diagnoses."
+      "exp": "Pertinent negatives document relevant symptoms the patient does NOT have — helpful in ruling out diagnoses.",
+      "easy": {
+        "q": "What are pertinent negatives?",
+        "opts": [
+          "A. Symptoms the patient denies that are relevant to the chief complaint",
+          "B. Abnormal findings only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Use objective, factual language. Based on this presentation, pertinent negatives in documentation means?",
+        "opts": [
+          "A. Things that went wrong on the call",
+          "B. Negative patient attitude",
+          "C. Symptoms the patient denies that are relevant to the chief complaint",
+          "D. Abnormal findings only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-04.q.04",
@@ -133,7 +187,25 @@ export const ch04: Chapter = {
         "D. No consequences if patient survived"
       ],
       "ans": 1,
-      "exp": "PCR falsification is fraud — a crime that can result in criminal prosecution, civil liability, and permanent loss of EMS certification."
+      "exp": "PCR falsification is fraud — a crime that can result in criminal prosecution, civil liability, and permanent loss of EMS certification.",
+      "easy": {
+        "q": "What is Falsifying a PCR can result in?",
+        "opts": [
+          "A. Criminal charges and loss of certification",
+          "B. Only a written warning"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Errors are corrected with a single line, initials, and date. Based on this presentation, falsifying a PCR can result in?",
+        "opts": [
+          "A. No consequences if patient survived",
+          "B. Mandatory retraining only",
+          "C. Criminal charges and loss of certification",
+          "D. Only a written warning"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-04.q.05",
@@ -145,7 +217,25 @@ export const ch04: Chapter = {
         "D. Including your diagnosis"
       ],
       "ans": 1,
-      "exp": "Objective documentation records facts: measurements, observations, and patient statements — not EMT opinions or diagnoses."
+      "exp": "Objective documentation records facts: measurements, observations, and patient statements — not EMT opinions or diagnoses.",
+      "easy": {
+        "q": "What does 'objective' mean in documentation?",
+        "opts": [
+          "A. Recording what you observe and measure factually",
+          "B. Including your diagnosis"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Use objective, factual language. Based on this presentation, objective documentation means?",
+        "opts": [
+          "A. Recording your impressions of the patient",
+          "B. Describing how the patient feels",
+          "C. Recording what you observe and measure factually",
+          "D. Including your diagnosis"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-04.q.06",
@@ -157,7 +247,25 @@ export const ch04: Chapter = {
         "D. Only if the patient goes to the hospital"
       ],
       "ans": 2,
-      "exp": "Complete the PCR as soon as possible after the call while details are accurate and fresh in memory."
+      "exp": "Complete the PCR as soon as possible after the call while details are accurate and fresh in memory.",
+      "easy": {
+        "q": "When should the PCR be completed?",
+        "opts": [
+          "A. As soon as possible after the call",
+          "B. Within 24 hours"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. The PCR should be completed?",
+        "opts": [
+          "A. Only if the patient goes to the hospital",
+          "B. At the beginning of your next shift",
+          "C. As soon as possible after the call",
+          "D. Within 24 hours"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

@@ -97,7 +97,25 @@ export const ch41: Chapter = {
         "D. Always request law enforcement presence"
       ],
       "ans": 1,
-      "exp": "PTSD triggers include sudden movements, restraints, uniforms, and loud noises. Identify yourself, explain each action before doing it, and respect personal space."
+      "exp": "PTSD triggers include sudden movements, restraints, uniforms, and loud noises. Identify yourself, explain each action before doing it, and respect personal space.",
+      "easy": {
+        "q": "What special communication approach is used with combat veterans?",
+        "opts": [
+          "A. Identify yourself, explain all actions in advance, avoid startling the patient",
+          "B. Always request law enforcement presence"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Combat veterans may have complex physical and psychological injuries from service. Based on this presentation, when treating a combat veteran with PTSD, you should?",
+        "opts": [
+          "A. Approach quickly and apply restraints if agitated",
+          "B. Treat identically to any civilian patient",
+          "C. Identify yourself, explain all actions in advance, avoid startling the patient",
+          "D. Always request law enforcement presence"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-41.q.02",
@@ -109,7 +127,25 @@ export const ch41: Chapter = {
         "D. Always causing unconsciousness"
       ],
       "ans": 1,
-      "exp": "Blast-related TBI may cause subtle cognitive and behavioral changes that aren't immediately apparent — ask about head trauma history and symptoms."
+      "exp": "Blast-related TBI may cause subtle cognitive and behavioral changes that aren't immediately apparent — ask about head trauma history and symptoms.",
+      "easy": {
+        "q": "What is traumatic brain injury (TBI) common in combat veterans?",
+        "opts": [
+          "A. Cognitive impairment, memory issues, headaches, and behavioral changes that may be subtle",
+          "B. Never affecting behavior"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Combat veterans may have complex physical and psychological injuries from service. Based on this presentation, blast-related TBI in combat veterans may present as?",
+        "opts": [
+          "A. Always immediately obvious on assessment",
+          "B. Always causing unconsciousness",
+          "C. Cognitive impairment, memory issues, headaches, and behavioral changes that may be subtle",
+          "D. Never affecting behavior"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-41.q.03",
@@ -121,7 +157,25 @@ export const ch41: Chapter = {
         "D. Assume all readings from prosthetic site are normal"
       ],
       "ans": 1,
-      "exp": "Prosthetics cannot be used for standard monitoring — BP cuffs and pulse oximeters must be placed on intact limbs."
+      "exp": "Prosthetics cannot be used for standard monitoring — BP cuffs and pulse oximeters must be placed on intact limbs.",
+      "easy": {
+        "q": "How do prosthetic limbs affect EMT assessment?",
+        "opts": [
+          "A. Assess on the intact opposite limb",
+          "B. Avoid any assessment"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Combat veterans may have complex physical and psychological injuries from service. Based on this presentation, when assessing a veteran with a prosthetic limb?",
+        "opts": [
+          "A. Assume all readings from prosthetic site are normal",
+          "B. Use the prosthetic limb for BP and SpO2",
+          "C. Assess on the intact opposite limb",
+          "D. Avoid any assessment"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-41.q.04",
@@ -133,7 +187,25 @@ export const ch41: Chapter = {
         "D. Is illegal for EMTs to ask"
       ],
       "ans": 1,
-      "exp": "Research shows that asking directly about suicide does NOT increase risk — it is essential for assessment and getting the patient appropriate help."
+      "exp": "Research shows that asking directly about suicide does NOT increase risk — it is essential for assessment and getting the patient appropriate help.",
+      "easy": {
+        "q": "What is traumatic brain injury (TBI) common in combat veterans?",
+        "opts": [
+          "A. Does not increase risk and is essential for assessment",
+          "B. Is illegal for EMTs to ask"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Veterans have a significantly elevated suicide risk compared to civilians. Based on this presentation, veterans have elevated suicide risk. Asking about suicidal ideation?",
+        "opts": [
+          "A. Should only be done by mental health professionals",
+          "B. Increases the risk of suicide",
+          "C. Does not increase risk and is essential for assessment",
+          "D. Is illegal for EMTs to ask"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-41.q.05",
@@ -145,7 +217,25 @@ export const ch41: Chapter = {
         "D. Veterans never disclose it"
       ],
       "ans": 1,
-      "exp": "MST survivors may be reluctant to allow physical examination, may have triggers around personal contact, and may need same-gender providers if possible."
+      "exp": "MST survivors may be reluctant to allow physical examination, may have triggers around personal contact, and may need same-gender providers if possible.",
+      "easy": {
+        "q": "What is military sexual trauma (MST)?",
+        "opts": [
+          "A. It may affect patient cooperation with physical examination and personal contact",
+          "B. Veterans never disclose it"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Military sexual trauma (MST) may affect EMS care because?",
+        "opts": [
+          "A. It has no effect on EMS interactions",
+          "B. It only affects female veterans",
+          "C. It may affect patient cooperation with physical examination and personal contact",
+          "D. Veterans never disclose it"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-41.q.06",
@@ -157,7 +247,25 @@ export const ch41: Chapter = {
         "D. Not relevant to EMS care"
       ],
       "ans": 1,
-      "exp": "Phantom limb pain is a real neurological phenomenon — the brain continues to process pain signals from the absent limb. Acknowledge it and treat the patient's pain."
+      "exp": "Phantom limb pain is a real neurological phenomenon — the brain continues to process pain signals from the absent limb. Acknowledge it and treat the patient's pain.",
+      "easy": {
+        "q": "How do prosthetic limbs affect EMT assessment?",
+        "opts": [
+          "A. A real pain experience in an absent limb that should be acknowledged and treated",
+          "B. Not a real phenomenon"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Amputees: assess on intact limbs. Based on this presentation, phantom limb pain in amputees is?",
+        "opts": [
+          "A. Always psychological only",
+          "B. Not relevant to EMS care",
+          "C. A real pain experience in an absent limb that should be acknowledged and treated",
+          "D. Not a real phenomenon"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

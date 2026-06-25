@@ -97,7 +97,25 @@ export const ch37: Chapter = {
         "D. Cord is prolapsed"
       ],
       "ans": 2,
-      "exp": "Crowning is when the presenting part (usually head) is visible at the vaginal opening — delivery is imminent, do not attempt to transport."
+      "exp": "Crowning is when the presenting part (usually head) is visible at the vaginal opening — delivery is imminent, do not attempt to transport.",
+      "easy": {
+        "q": "What is crowning?",
+        "opts": [
+          "A. Baby's head is visible at vaginal opening",
+          "B. Cord is prolapsed"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Crowning means?",
+        "opts": [
+          "A. Amniotic sac has ruptured",
+          "B. Placenta is delivering",
+          "C. Baby's head is visible at vaginal opening",
+          "D. Cord is prolapsed"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-37.q.02",
@@ -109,7 +127,25 @@ export const ch37: Chapter = {
         "D. Positioning supine"
       ],
       "ans": 1,
-      "exp": "Keep cord moist, elevate presenting part off cord with gloved hand, knee-chest position reduces pressure. Never pull on the cord. Rapid transport."
+      "exp": "Keep cord moist, elevate presenting part off cord with gloved hand, knee-chest position reduces pressure. Never pull on the cord. Rapid transport.",
+      "easy": {
+        "q": "How do you treat a prolapsed cord?",
+        "opts": [
+          "A. Elevating presenting part off cord, knee-chest position, rapid transport",
+          "B. Positioning supine"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Placenta previa: painless bright red bleeding. Based on this presentation, a prolapsed cord is managed by?",
+        "opts": [
+          "A. Clamping and cutting the cord",
+          "B. Pushing the cord back in",
+          "C. Elevating presenting part off cord, knee-chest position, rapid transport",
+          "D. Positioning supine"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-37.q.03",
@@ -121,7 +157,25 @@ export const ch37: Chapter = {
         "D. Abdominal trauma"
       ],
       "ans": 2,
-      "exp": "Placenta previa: placenta covers cervical os — painless bright red bleeding. Abruptio placentae is painful with dark blood."
+      "exp": "Placenta previa: placenta covers cervical os — painless bright red bleeding. Abruptio placentae is painful with dark blood.",
+      "easy": {
+        "q": "What is placenta previa?",
+        "opts": [
+          "A. Painless bright red vaginal bleeding",
+          "B. Rigid uterus"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Placenta previa: painless bright red bleeding. Based on this presentation, placenta previa presents with?",
+        "opts": [
+          "A. Painful dark red bleeding",
+          "B. Abdominal trauma",
+          "C. Painless bright red vaginal bleeding",
+          "D. Rigid uterus"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-37.q.04",
@@ -133,7 +187,25 @@ export const ch37: Chapter = {
         "D. Only if cord is around neck"
       ],
       "ans": 1,
-      "exp": "Wait for cord pulsation to stop, clamp 6-8 inches from infant and again a few inches further, then cut between clamps."
+      "exp": "Wait for cord pulsation to stop, clamp 6-8 inches from infant and again a few inches further, then cut between clamps.",
+      "easy": {
+        "q": "When should you clamp and cut the cord?",
+        "opts": [
+          "A. After cord stops pulsating, 6-8 inches from infant",
+          "B. Immediately at delivery"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. The cord should be clamped?",
+        "opts": [
+          "A. Before the placenta delivers",
+          "B. Only if cord is around neck",
+          "C. After cord stops pulsating, 6-8 inches from infant",
+          "D. Immediately at delivery"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-37.q.05",
@@ -145,7 +217,25 @@ export const ch37: Chapter = {
         "D. Only at 5 minutes"
       ],
       "ans": 1,
-      "exp": "Apgar (Appearance, Pulse, Grimace, Activity, Respiration) is assessed at 1 and 5 minutes to evaluate newborn status."
+      "exp": "Apgar (Appearance, Pulse, Grimace, Activity, Respiration) is assessed at 1 and 5 minutes to evaluate newborn status.",
+      "easy": {
+        "q": "What are Apgar scores?",
+        "opts": [
+          "A. 1 minute and 5 minutes after birth",
+          "B. 2 and 10 minutes"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Apgar score is assessed at?",
+        "opts": [
+          "A. Delivery and 10 minutes",
+          "B. Only at 5 minutes",
+          "C. 1 minute and 5 minutes after birth",
+          "D. 2 and 10 minutes"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-37.q.06",
@@ -157,7 +247,25 @@ export const ch37: Chapter = {
         "D. Leave undressed to monitor color"
       ],
       "ans": 1,
-      "exp": "Newborns lose heat rapidly through evaporation. Dry immediately, wrap in warm blanket, and cover the large surface area of the head."
+      "exp": "Newborns lose heat rapidly through evaporation. Dry immediately, wrap in warm blanket, and cover the large surface area of the head.",
+      "easy": {
+        "q": "What is To keep a newborn warm after delivery?",
+        "opts": [
+          "A. Dry thoroughly, wrap in blanket, cover head",
+          "B. Submerge in warm water"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. To keep a newborn warm after delivery?",
+        "opts": [
+          "A. Leave undressed to monitor color",
+          "B. Place near vehicle heater",
+          "C. Dry thoroughly, wrap in blanket, cover head",
+          "D. Submerge in warm water"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

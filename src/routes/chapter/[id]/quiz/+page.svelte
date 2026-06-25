@@ -3,11 +3,33 @@
   import { getChapter } from '$lib/content';
   import { recordQuizAttempt } from '$lib/db/quiz';
   import QuizSummary from '$lib/components/QuizSummary.svelte';
+  import QuizDifficultyPicker from '$lib/components/QuizDifficultyPicker.svelte';
+  import {
+    prepareQuizQuestions,
+    readQuizDifficulty,
+    writeQuizDifficulty,
+    type QuizDifficulty
+  } from '$lib/content/quiz-difficulty';
+  import type { QuizQuestion } from '$lib/content/types';
 
   const id = $derived(page.params.id ?? '');
   const chapter = $derived(getChapter(id));
 
+  let quizDifficulty = $state<QuizDifficulty>(readQuizDifficulty());
+  let quiz = $state<QuizQuestion[]>([]);
   let answers = $state<Record<string, number>>({});
+
+  $effect(() => {
+    if (!chapter) return;
+    quiz = prepareQuizQuestions(chapter.quiz, quizDifficulty);
+    answers = {};
+  });
+
+  function setQuizDifficulty(d: QuizDifficulty) {
+    if (d === quizDifficulty) return;
+    quizDifficulty = d;
+    writeQuizDifficulty(d);
+  }
 
   async function pick(qId: string, optIdx: number, correctIdx: number) {
     if (answers[qId] !== undefined) return;
@@ -20,11 +42,7 @@
     });
   }
 
-  const score = $derived(
-    chapter
-      ? chapter.quiz.reduce((acc, q) => acc + (answers[q.id] === q.ans ? 1 : 0), 0)
-      : 0
-  );
+  const score = $derived(quiz.reduce((acc, q) => acc + (answers[q.id] === q.ans ? 1 : 0), 0));
   const answered = $derived(Object.keys(answers).length);
 </script>
 
@@ -34,9 +52,10 @@
 
 {#if chapter}
   <h1>{chapter.title} — Quiz</h1>
-  <p class="score">{score}/{answered}/{chapter.quiz.length}</p>
+  <QuizDifficultyPicker difficulty={quizDifficulty} onchange={setQuizDifficulty} />
+  <p class="score">{score}/{answered}/{quiz.length}</p>
 
-  {#each chapter.quiz as q (q.id)}
+  {#each quiz as q (q.id)}
     {@const picked = answers[q.id]}
     <article>
       <p class="q">{q.q}</p>
@@ -59,7 +78,7 @@
       {/if}
     </article>
   {/each}
-  <QuizSummary questions={chapter.quiz} {answers} />
+  <QuizSummary questions={quiz} {answers} />
 {/if}
 
 <style>

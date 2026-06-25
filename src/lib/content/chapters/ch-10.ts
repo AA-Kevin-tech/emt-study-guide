@@ -97,7 +97,25 @@ export const ch10: Chapter = {
         "D. Hyperextension"
       ],
       "ans": 1,
-      "exp": "Jaw-thrust is used for suspected spinal trauma — it opens the airway without extending the neck."
+      "exp": "Jaw-thrust is used for suspected spinal trauma — it opens the airway without extending the neck.",
+      "easy": {
+        "q": "What is the preferred airway maneuver for a trauma patient?",
+        "opts": [
+          "A. Jaw-thrust",
+          "B. Finger sweep"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Head-tilt chin-lift for medical patients without spinal concern. Based on this presentation, a trauma patient is unresponsive. Correct airway maneuver?",
+        "opts": [
+          "A. Head-tilt chin-lift",
+          "B. Hyperextension",
+          "C. Jaw-thrust",
+          "D. Finger sweep"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-10.q.02",
@@ -109,7 +127,25 @@ export const ch10: Chapter = {
         "D. Are apneic"
       ],
       "ans": 2,
-      "exp": "OPA in a patient with a gag reflex triggers vomiting and aspiration risk. Use NPA instead."
+      "exp": "OPA in a patient with a gag reflex triggers vomiting and aspiration risk. Use NPA instead.",
+      "easy": {
+        "q": "When is an OPA contraindicated?",
+        "opts": [
+          "A. Are semi-conscious with a gag reflex",
+          "B. Are apneic"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. OPA is CONTRAINDICATED in patients who?",
+        "opts": [
+          "A. Have no gag reflex",
+          "B. Are unresponsive",
+          "C. Are semi-conscious with a gag reflex",
+          "D. Are apneic"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-10.q.03",
@@ -121,7 +157,25 @@ export const ch10: Chapter = {
         "D. 20 L/min"
       ],
       "ans": 2,
-      "exp": "NRB requires 10-15 L/min to keep the reservoir bag inflated, delivering approximately 90% oxygen."
+      "exp": "NRB requires 10-15 L/min to keep the reservoir bag inflated, delivering approximately 90% oxygen.",
+      "easy": {
+        "q": "What flow rate does a non-rebreather mask deliver?",
+        "opts": [
+          "A. 10-15 L/min",
+          "B. 20 L/min"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Nasal cannula: 24-44% O2 at 1-6 LPM. Based on this presentation, non-rebreather mask flow rate?",
+        "opts": [
+          "A. 2-4 L/min",
+          "B. 6-8 L/min",
+          "C. 10-15 L/min",
+          "D. 20 L/min"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-10.q.04",
@@ -133,7 +187,25 @@ export const ch10: Chapter = {
         "D. 20 breaths per minute"
       ],
       "ans": 1,
-      "exp": "Adult BVM: 1 breath every 5-6 seconds (10-12/min). Over-ventilation causes gastric distension and reduces cardiac output."
+      "exp": "Adult BVM: 1 breath every 5-6 seconds (10-12/min). Over-ventilation causes gastric distension and reduces cardiac output.",
+      "easy": {
+        "q": "What is the BVM ventilation rate for an adult?",
+        "opts": [
+          "A. 1 breath every 5-6 seconds",
+          "B. 20 breaths per minute"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Adult BVM ventilation rate?",
+        "opts": [
+          "A. 1 breath every 2-3 seconds",
+          "B. 1 breath every 10 seconds",
+          "C. 1 breath every 5-6 seconds",
+          "D. 20 breaths per minute"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-10.q.05",
@@ -145,7 +217,25 @@ export const ch10: Chapter = {
         "D. BVM with 100% O2"
       ],
       "ans": 3,
-      "exp": "BVM connected to 100% O2 delivers the highest concentration. NRB ~90%, simple mask ~35-60%, nasal cannula ~24-44%."
+      "exp": "BVM connected to 100% O2 delivers the highest concentration. NRB ~90%, simple mask ~35-60%, nasal cannula ~24-44%.",
+      "easy": {
+        "q": "Name the option that correctly answers: Which device delivers highest O2 concentration?",
+        "opts": [
+          "A. BVM with 100% O2",
+          "B. Nasal cannula"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Which device delivers highest O2 concentration??",
+        "opts": [
+          "A. Partial rebreather",
+          "B. Simple face mask",
+          "C. BVM with 100% O2",
+          "D. Nasal cannula"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-10.q.06",
@@ -157,7 +247,25 @@ export const ch10: Chapter = {
         "D. Strong radial pulse"
       ],
       "ans": 2,
-      "exp": "Cyanosis, retractions, accessory muscle use, and abnormal rate/depth all indicate inadequate breathing requiring intervention."
+      "exp": "Cyanosis, retractions, accessory muscle use, and abnormal rate/depth all indicate inadequate breathing requiring intervention.",
+      "easy": {
+        "q": "What is Signs of INADEQUATE breathing include?",
+        "opts": [
+          "A. Cyanosis, use of accessory muscles",
+          "B. Pink skin, SpO2 98%"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Signs of INADEQUATE breathing include?",
+        "opts": [
+          "A. Rate 16/min, equal chest rise",
+          "B. Pink skin, SpO2 98%",
+          "C. Cyanosis, use of accessory muscles",
+          "D. Strong radial pulse"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

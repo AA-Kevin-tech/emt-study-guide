@@ -96,7 +96,25 @@ export const ch02: Chapter = {
         "D. Full face shield"
       ],
       "ans": 1,
-      "exp": "Gloves are minimum PPE for every patient contact. Additional PPE is added based on exposure risk."
+      "exp": "Gloves are minimum PPE for every patient contact. Additional PPE is added based on exposure risk.",
+      "easy": {
+        "q": "What is Minimum PPE for all patient contacts is?",
+        "opts": [
+          "A. Gloves",
+          "B. N95 mask"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: BSI precautions treat all blood and body fluids as infectious. Based on this presentation, minimum PPE for all patient contacts is?",
+        "opts": [
+          "A. Gown and goggles",
+          "B. Full face shield",
+          "C. Gloves",
+          "D. N95 mask"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-02.q.02",
@@ -108,7 +126,25 @@ export const ch02: Chapter = {
         "D. Goggles"
       ],
       "ans": 2,
-      "exp": "Gloves are removed first because they are the most contaminated. Remove from outside-in to avoid self-contamination."
+      "exp": "Gloves are removed first because they are the most contaminated. Remove from outside-in to avoid self-contamination.",
+      "easy": {
+        "q": "What is BSI (Body Substance Isolation)?",
+        "opts": [
+          "A. Gloves",
+          "B. Mask"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. When doffing PPE, what is removed first??",
+        "opts": [
+          "A. Goggles",
+          "B. Mask",
+          "C. Gloves",
+          "D. Gown"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-02.q.03",
@@ -120,7 +156,25 @@ export const ch02: Chapter = {
         "D. Review PCR documentation"
       ],
       "ans": 1,
-      "exp": "Critical Incident Stress Management provides structured peer and professional support after traumatic calls."
+      "exp": "Critical Incident Stress Management provides structured peer and professional support after traumatic calls.",
+      "easy": {
+        "q": "What is CISM?",
+        "opts": [
+          "A. Help EMS personnel process critical incident stress",
+          "B. Investigate EMS errors"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. CISM is designed to?",
+        "opts": [
+          "A. Train EMTs in decontamination",
+          "B. Review PCR documentation",
+          "C. Help EMS personnel process critical incident stress",
+          "D. Investigate EMS errors"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-02.q.04",
@@ -132,7 +186,25 @@ export const ch02: Chapter = {
         "D. Airborne disease exposure"
       ],
       "ans": 2,
-      "exp": "Back injuries from improper lifting are the most frequent EMS occupational injuries — proper body mechanics are essential."
+      "exp": "Back injuries from improper lifting are the most frequent EMS occupational injuries — proper body mechanics are essential.",
+      "easy": {
+        "q": "What is Most common occupational injury in EMS?",
+        "opts": [
+          "A. Back injuries",
+          "B. Needle sticks"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Back injuries are the most common EMS occupational injury. Based on this presentation, most common occupational injury in EMS?",
+        "opts": [
+          "A. Airborne disease exposure",
+          "B. Vehicle crashes",
+          "C. Back injuries",
+          "D. Needle sticks"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-02.q.05",
@@ -144,7 +216,25 @@ export const ch02: Chapter = {
         "D. All patient contacts"
       ],
       "ans": 1,
-      "exp": "N95 respirators filter airborne particles and are required for suspected airborne diseases like tuberculosis and measles."
+      "exp": "N95 respirators filter airborne particles and are required for suspected airborne diseases like tuberculosis and measles.",
+      "easy": {
+        "q": "What is N95 respirators are required for?",
+        "opts": [
+          "A. Airborne diseases like TB and measles",
+          "B. All patient contacts"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. N95 respirators are required for?",
+        "opts": [
+          "A. Bloodborne pathogen exposure",
+          "B. Contact precaution patients",
+          "C. Airborne diseases like TB and measles",
+          "D. All patient contacts"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-02.q.06",
@@ -156,7 +246,25 @@ export const ch02: Chapter = {
         "D. Increased team cohesion"
       ],
       "ans": 1,
-      "exp": "Compassion fatigue manifests as emotional detachment, reduced empathy, social withdrawal, and declining job performance."
+      "exp": "Compassion fatigue manifests as emotional detachment, reduced empathy, social withdrawal, and declining job performance.",
+      "easy": {
+        "q": "What are warning signs of cumulative stress in EMS?",
+        "opts": [
+          "A. Emotional numbness, withdrawal, decreased performance",
+          "B. Increased team cohesion"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: EMS providers face unique physical and psychological stressors. Based on this presentation, signs of compassion fatigue include?",
+        "opts": [
+          "A. Increased empathy and motivation",
+          "B. Improved patient care quality",
+          "C. Emotional numbness, withdrawal, decreased performance",
+          "D. Increased team cohesion"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

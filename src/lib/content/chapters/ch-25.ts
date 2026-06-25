@@ -97,7 +97,25 @@ export const ch25: Chapter = {
         "D. Enter water with PPE"
       ],
       "ans": 1,
-      "exp": "Reach, throw, row, then go — never enter water without proper water rescue training and equipment. Rescuer drowning is a significant risk."
+      "exp": "Reach, throw, row, then go — never enter water without proper water rescue training and equipment. Rescuer drowning is a significant risk.",
+      "easy": {
+        "q": "What is the priority in any water rescue?",
+        "opts": [
+          "A. Reach, throw, tow, or go (trained rescuers only)",
+          "B. Go in immediately"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rescue safely (reach-throw-tow-go). Based on this presentation, EMT safety in water rescue follows the priority?",
+        "opts": [
+          "A. Enter water with PPE",
+          "B. Wait for lifeguard",
+          "C. Reach, throw, tow, or go (trained rescuers only)",
+          "D. Go in immediately"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-25.q.02",
@@ -109,7 +127,25 @@ export const ch25: Chapter = {
         "D. Carbon monoxide poisoning"
       ],
       "ans": 1,
-      "exp": "Secondary drowning can cause pulmonary edema hours after a submersion event even in patients who initially appear fine."
+      "exp": "Secondary drowning can cause pulmonary edema hours after a submersion event even in patients who initially appear fine.",
+      "easy": {
+        "q": "Why should all submersion victims be transported?",
+        "opts": [
+          "A. Secondary drowning (delayed pulmonary edema)",
+          "B. Sepsis"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rescue safely (reach-throw-tow-go). Based on this presentation, all submersion victims should be transported because of risk of?",
+        "opts": [
+          "A. Carbon monoxide poisoning",
+          "B. Spinal injury only",
+          "C. Secondary drowning (delayed pulmonary edema)",
+          "D. Sepsis"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-25.q.03",
@@ -121,7 +157,25 @@ export const ch25: Chapter = {
         "D. Pulmonary barotrauma"
       ],
       "ans": 1,
-      "exp": "Rapid ascent causes dissolved nitrogen to form bubbles in blood and tissue — joint pain, neurological symptoms, and shock may result."
+      "exp": "Rapid ascent causes dissolved nitrogen to form bubbles in blood and tissue — joint pain, neurological symptoms, and shock may result.",
+      "easy": {
+        "q": "What is decompression sickness ('the bends')?",
+        "opts": [
+          "A. Nitrogen bubbles forming during rapid ascent",
+          "B. Oxygen toxicity"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Decompression sickness: nitrogen bubbles from rapid ascent. Based on this presentation, decompression sickness is caused by?",
+        "opts": [
+          "A. Breathing compressed air too long",
+          "B. Pulmonary barotrauma",
+          "C. Nitrogen bubbles forming during rapid ascent",
+          "D. Oxygen toxicity"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-25.q.04",
@@ -133,7 +187,25 @@ export const ch25: Chapter = {
         "D. Oral fluids and rest"
       ],
       "ans": 1,
-      "exp": "Both decompression sickness and AGE are treated with 100% O2 and transport to a hyperbaric recompression facility."
+      "exp": "Both decompression sickness and AGE are treated with 100% O2 and transport to a hyperbaric recompression facility.",
+      "easy": {
+        "q": "What is the treatment for diving emergencies?",
+        "opts": [
+          "A. 100% oxygen and transport to hyperbaric chamber",
+          "B. Oral fluids and rest"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Decompression sickness: nitrogen bubbles from rapid ascent. Based on this presentation, treatment for diving emergencies includes?",
+        "opts": [
+          "A. Rapid recompression in water",
+          "B. Aspirin and rapid ascent",
+          "C. 100% oxygen and transport to hyperbaric chamber",
+          "D. Oral fluids and rest"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-25.q.05",
@@ -145,7 +217,25 @@ export const ch25: Chapter = {
         "D. Seizures during drowning cause spinal injury"
       ],
       "ans": 1,
-      "exp": "Diving into shallow water is a very common mechanism of cervical spine injury — assume spinal injury until cleared."
+      "exp": "Diving into shallow water is a very common mechanism of cervical spine injury — assume spinal injury until cleared.",
+      "easy": {
+        "q": "What spinal injury concern exists with submersion patients?",
+        "opts": [
+          "A. Diving into shallow water is a common cause of cervical fractures",
+          "B. Cold water hardens the spine"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Rescue safely (reach-throw-tow-go). Based on this presentation, all submersion patients should be treated as potential spinal injury patients because?",
+        "opts": [
+          "A. Seizures during drowning cause spinal injury",
+          "B. Water causes spinal cord swelling",
+          "C. Diving into shallow water is a common cause of cervical fractures",
+          "D. Cold water hardens the spine"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-25.q.06",
@@ -157,7 +247,25 @@ export const ch25: Chapter = {
         "D. Opening airways"
       ],
       "ans": 1,
-      "exp": "Cold water triggers the mammalian diving reflex — shunting blood to the brain and heart, potentially extending viability."
+      "exp": "Cold water triggers the mammalian diving reflex — shunting blood to the brain and heart, potentially extending viability.",
+      "easy": {
+        "q": "What is the Mammalian Diving Reflex?",
+        "opts": [
+          "A. Causing bradycardia and preserving brain oxygenation longer",
+          "B. Opening airways"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Cold water may preserve brain viability longer through the mammalian diving reflex. Based on this presentation, the mammalian diving reflex may help cold-water drowning victims by?",
+        "opts": [
+          "A. Triggering CPR automatically",
+          "B. Raising body temperature",
+          "C. Causing bradycardia and preserving brain oxygenation longer",
+          "D. Opening airways"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

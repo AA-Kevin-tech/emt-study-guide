@@ -97,7 +97,25 @@ export const ch43: Chapter = {
         "D. Calling for additional resources"
       ],
       "ans": 1,
-      "exp": "Scene safety first, then vehicle stabilization — an unstable vehicle can shift and injure both patient and rescuers during extrication."
+      "exp": "Scene safety first, then vehicle stabilization — an unstable vehicle can shift and injure both patient and rescuers during extrication.",
+      "easy": {
+        "q": "What is the priority sequence in vehicle extrication?",
+        "opts": [
+          "A. Scene safety and vehicle stabilization",
+          "B. Patient assessment"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Never enter an unstable vehicle. Based on this presentation, first priority in vehicle extrication is?",
+        "opts": [
+          "A. Calling for additional resources",
+          "B. Gaining access to patient",
+          "C. Scene safety and vehicle stabilization",
+          "D. Patient assessment"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-43.q.02",
@@ -109,7 +127,25 @@ export const ch43: Chapter = {
         "D. Parking brakes only"
       ],
       "ans": 1,
-      "exp": "Cribbing uses wood or plastic blocks placed strategically to prevent vehicle movement and create a stable working platform during extrication."
+      "exp": "Cribbing uses wood or plastic blocks placed strategically to prevent vehicle movement and create a stable working platform during extrication.",
+      "easy": {
+        "q": "What is the purpose of cribbing in extrication?",
+        "opts": [
+          "A. Cribbing — wood or plastic blocks to prevent movement",
+          "B. Airbags"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Never enter an unstable vehicle. Based on this presentation, an unstable vehicle is stabilized using?",
+        "opts": [
+          "A. Parking brakes only",
+          "B. Ropes only",
+          "C. Cribbing — wood or plastic blocks to prevent movement",
+          "D. Airbags"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-43.q.03",
@@ -121,7 +157,25 @@ export const ch43: Chapter = {
         "D. Can only be done after patient assessment"
       ],
       "ans": 1,
-      "exp": "Simple access uses no specialized tools — trying door handles, breaking windows. Always attempt simple access before complex access."
+      "exp": "Simple access uses no specialized tools — trying door handles, breaking windows. Always attempt simple access before complex access.",
+      "easy": {
+        "q": "What is the difference between simple and complex access?",
+        "opts": [
+          "A. Opening doors or windows without specialized tools",
+          "B. Always requires hydraulic tools"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Never enter an unstable vehicle. Based on this presentation, simple access in vehicle extrication means?",
+        "opts": [
+          "A. Can only be done after patient assessment",
+          "B. Only fire department can perform it",
+          "C. Opening doors or windows without specialized tools",
+          "D. Always requires hydraulic tools"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-43.q.04",
@@ -133,7 +187,25 @@ export const ch43: Chapter = {
         "D. Only if patient is unconscious"
       ],
       "ans": 1,
-      "exp": "MILS must be maintained from first patient contact throughout the entire extrication until the patient is fully secured on a backboard."
+      "exp": "MILS must be maintained from first patient contact throughout the entire extrication until the patient is fully secured on a backboard.",
+      "easy": {
+        "q": "What is vehicle extrication?",
+        "opts": [
+          "A. Throughout the entire extrication process",
+          "B. Only until C-collar is applied"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Maintain MILS during entire extrication. Based on this presentation, MILS during extrication should be maintained?",
+        "opts": [
+          "A. Only after vehicle is stabilized",
+          "B. Only until C-collar is applied",
+          "C. Throughout the entire extrication process",
+          "D. Only if patient is unconscious"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-43.q.05",
@@ -145,7 +217,25 @@ export const ch43: Chapter = {
         "D. Family requests speed"
       ],
       "ans": 1,
-      "exp": "Rapid extrication is used for immediate life threats (cardiac arrest, airway compromise) that cannot be managed inside the vehicle."
+      "exp": "Rapid extrication is used for immediate life threats (cardiac arrest, airway compromise) that cannot be managed inside the vehicle.",
+      "easy": {
+        "q": "When is rapid extrication used?",
+        "opts": [
+          "A. The patient has an immediate life threat requiring care that cannot be provided in vehicle",
+          "B. The patient is calm"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Never enter an unstable vehicle. Based on this presentation, rapid extrication from a vehicle is indicated when?",
+        "opts": [
+          "A. Standard extrication takes over 10 minutes",
+          "B. Family requests speed",
+          "C. The patient has an immediate life threat requiring care that cannot be provided in vehicle",
+          "D. The patient is calm"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-43.q.06",
@@ -157,7 +247,25 @@ export const ch43: Chapter = {
         "D. Their airbags are larger"
       ],
       "ans": 1,
-      "exp": "Hybrid and electric vehicles contain high-voltage battery systems (300-400+ volts) — cutting certain cables or areas can cause electrocution. Follow specific protocols."
+      "exp": "Hybrid and electric vehicles contain high-voltage battery systems (300-400+ volts) — cutting certain cables or areas can cause electrocution. Follow specific protocols.",
+      "easy": {
+        "q": "What is Hybrid and electric vehicles require special precautions because?",
+        "opts": [
+          "A. They have high-voltage electrical systems that pose electrocution risk",
+          "B. They are heavier"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Never enter an unstable vehicle. Based on this presentation, hybrid and electric vehicles require special precautions because?",
+        "opts": [
+          "A. They cannot be stabilized",
+          "B. Their airbags are larger",
+          "C. They have high-voltage electrical systems that pose electrocution risk",
+          "D. They are heavier"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

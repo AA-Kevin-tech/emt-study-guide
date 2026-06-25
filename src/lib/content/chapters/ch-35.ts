@@ -97,7 +97,25 @@ export const ch35: Chapter = {
         "D. Leaving uncovered to transport quickly"
       ],
       "ans": 1,
-      "exp": "Cover eviscerated organs with moist sterile gauze — do not push them back in, do not dry them out. Position supine with knees flexed."
+      "exp": "Cover eviscerated organs with moist sterile gauze — do not push them back in, do not dry them out. Position supine with knees flexed.",
+      "easy": {
+        "q": "What is an evisceration?",
+        "opts": [
+          "A. Covering with moist sterile dressing, do not replace organs",
+          "B. Pushing organs back into the abdomen"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. An evisceration is treated by?",
+        "opts": [
+          "A. Applying direct pressure to the organs",
+          "B. Leaving uncovered to transport quickly",
+          "C. Covering with moist sterile dressing, do not replace organs",
+          "D. Pushing organs back into the abdomen"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-35.q.02",
@@ -109,7 +127,25 @@ export const ch35: Chapter = {
         "D. No internal injury if seat belt was on"
       ],
       "ans": 1,
-      "exp": "Seat belt sign (bruising across the abdomen) indicates a significant deceleration force was applied — associated with serious internal injuries."
+      "exp": "Seat belt sign (bruising across the abdomen) indicates a significant deceleration force was applied — associated with serious internal injuries.",
+      "easy": {
+        "q": "What is the 'seat belt sign'?",
+        "opts": [
+          "A. Significant MOI with possible internal organ injury",
+          "B. Superficial abrasion only"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Evisceration: moist sterile cover, do not replace organs, knees up. Based on this presentation, the 'seat belt sign' indicates?",
+        "opts": [
+          "A. No internal injury if seat belt was on",
+          "B. The patient was wearing a seat belt",
+          "C. Significant MOI with possible internal organ injury",
+          "D. Superficial abrasion only"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-35.q.03",
@@ -121,7 +157,25 @@ export const ch35: Chapter = {
         "D. Bruising around the eye"
       ],
       "ans": 1,
-      "exp": "Grey Turner's sign = flank ecchymosis (bruising) indicating retroperitoneal bleeding, often from kidney injury or major vessel disruption."
+      "exp": "Grey Turner's sign = flank ecchymosis (bruising) indicating retroperitoneal bleeding, often from kidney injury or major vessel disruption.",
+      "easy": {
+        "q": "What is Grey Turner's sign?",
+        "opts": [
+          "A. Flank bruising indicating retroperitoneal bleeding",
+          "B. Chest wall bruising"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Evisceration: moist sterile cover, do not replace organs, knees up. Based on this presentation, grey Turner's sign is?",
+        "opts": [
+          "A. Bruising around the eye",
+          "B. Periumbilical bruising",
+          "C. Flank bruising indicating retroperitoneal bleeding",
+          "D. Chest wall bruising"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-35.q.04",
@@ -133,7 +187,25 @@ export const ch35: Chapter = {
         "D. They are immediately visible on exam"
       ],
       "ans": 1,
-      "exp": "Pelvic fractures can cause massive internal hemorrhage from disrupted pelvic vessels — 2-3 liters or more, causing severe shock."
+      "exp": "Pelvic fractures can cause massive internal hemorrhage from disrupted pelvic vessels — 2-3 liters or more, causing severe shock.",
+      "easy": {
+        "q": "What is a pelvic fracture and why is it serious?",
+        "opts": [
+          "A. Massive internal bleeding (2-3+ liters) can occur into the pelvis",
+          "B. They cause immediate paralysis"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Pelvic fractures are life-threatening from massive blood loss. Based on this presentation, pelvic fractures are dangerous because?",
+        "opts": [
+          "A. They are immediately visible on exam",
+          "B. They always cause bladder rupture",
+          "C. Massive internal bleeding (2-3+ liters) can occur into the pelvis",
+          "D. They cause immediate paralysis"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-35.q.05",
@@ -145,7 +217,25 @@ export const ch35: Chapter = {
         "D. Apply ice and transport"
       ],
       "ans": 1,
-      "exp": "Abdominal impaled objects are stabilized in place — removing them can cause uncontrolled hemorrhage. Do not remove in the field."
+      "exp": "Abdominal impaled objects are stabilized in place — removing them can cause uncontrolled hemorrhage. Do not remove in the field.",
+      "easy": {
+        "q": "What is Treatment for abdominal impaled object includes?",
+        "opts": [
+          "A. Stabilize in place with bulky dressings",
+          "B. Apply ice and transport"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Evisceration: moist sterile cover, do not replace organs, knees up. Based on this presentation, treatment for abdominal impaled object includes?",
+        "opts": [
+          "A. Remove if less than 2 inches deep",
+          "B. Remove and pack the wound",
+          "C. Stabilize in place with bulky dressings",
+          "D. Apply ice and transport"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-35.q.06",
@@ -157,7 +247,25 @@ export const ch35: Chapter = {
         "D. Kidney stones"
       ],
       "ans": 1,
-      "exp": "Cullen's sign is periumbilical bruising — a late sign of significant intra-abdominal bleeding that appears hours after injury."
+      "exp": "Cullen's sign is periumbilical bruising — a late sign of significant intra-abdominal bleeding that appears hours after injury.",
+      "easy": {
+        "q": "What is Cullen's sign?",
+        "opts": [
+          "A. Intra-abdominal bleeding (late sign)",
+          "B. Appendicitis"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Evisceration: moist sterile cover, do not replace organs, knees up. Based on this presentation, cullen's sign (periumbilical bruising) indicates?",
+        "opts": [
+          "A. Superficial abdominal contusion",
+          "B. Kidney stones",
+          "C. Intra-abdominal bleeding (late sign)",
+          "D. Appendicitis"
+        ],
+        "ans": 2
+      }
     }
   ]
 };

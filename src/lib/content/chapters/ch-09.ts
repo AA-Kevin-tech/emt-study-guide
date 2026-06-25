@@ -97,7 +97,25 @@ export const ch09: Chapter = {
         "D. 120-200 bpm"
       ],
       "ans": 2,
-      "exp": "Newborns have a resting heart rate of 100-160 bpm. Rates below 100 in a newborn are concerning and require intervention."
+      "exp": "Newborns have a resting heart rate of 100-160 bpm. Rates below 100 in a newborn are concerning and require intervention.",
+      "easy": {
+        "q": "What is Normal heart rate for a newborn is?",
+        "opts": [
+          "A. 100-160 bpm",
+          "B. 60-100 bpm"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Normal heart rate for a newborn is?",
+        "opts": [
+          "A. 120-200 bpm",
+          "B. 60-100 bpm",
+          "C. 100-160 bpm",
+          "D. 80-120 bpm"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-09.q.02",
@@ -109,7 +127,25 @@ export const ch09: Chapter = {
         "D. Adult-level vital sign norms"
       ],
       "ans": 1,
-      "exp": "Toddlers (1-3 years) develop strong attachments and commonly show separation anxiety and stranger fear — involve caregivers."
+      "exp": "Toddlers (1-3 years) develop strong attachments and commonly show separation anxiety and stranger fear — involve caregivers.",
+      "easy": {
+        "q": "What characterizes the toddler stage (1-3 years)?",
+        "opts": [
+          "A. Separation anxiety and fear of strangers",
+          "B. Adult-level vital sign norms"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Toddlers in EMS encounters may exhibit?",
+        "opts": [
+          "A. Ability to give full medical history",
+          "B. Full cooperation with strangers",
+          "C. Separation anxiety and fear of strangers",
+          "D. Adult-level vital sign norms"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-09.q.03",
@@ -121,7 +157,25 @@ export const ch09: Chapter = {
         "D. Cardiac arrest"
       ],
       "ans": 2,
-      "exp": "Trauma, particularly motor vehicle crashes, is the #1 killer of school-age children."
+      "exp": "Trauma, particularly motor vehicle crashes, is the #1 killer of school-age children.",
+      "easy": {
+        "q": "What is the leading cause of death in school-age children?",
+        "opts": [
+          "A. Trauma",
+          "B. Cancer"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Infants rely on caregivers for all needs. Based on this presentation, the leading cause of death in school-age children is?",
+        "opts": [
+          "A. Respiratory disease",
+          "B. Cardiac arrest",
+          "C. Trauma",
+          "D. Cancer"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-09.q.04",
@@ -133,7 +187,25 @@ export const ch09: Chapter = {
         "D. It reduces EMS drug administration risk"
       ],
       "ans": 1,
-      "exp": "Older patients often take 5+ medications. Drug interactions, side effects, and overdose are common EMS complications."
+      "exp": "Older patients often take 5+ medications. Drug interactions, side effects, and overdose are common EMS complications.",
+      "easy": {
+        "q": "What is polypharmacy and why is it important in EMS?",
+        "opts": [
+          "A. Multiple medications increase drug interaction and adverse effect risks",
+          "B. It simplifies medical history"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Older patients may present atypically. Based on this presentation, polypharmacy in geriatric patients is important because?",
+        "opts": [
+          "A. Elderly patients rarely take medications",
+          "B. It reduces EMS drug administration risk",
+          "C. Multiple medications increase drug interaction and adverse effect risks",
+          "D. It simplifies medical history"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-09.q.05",
@@ -145,7 +217,25 @@ export const ch09: Chapter = {
         "D. They always require ALS"
       ],
       "ans": 1,
-      "exp": "Geriatric patients often lack classic symptoms — MI may present as fatigue, infection without fever. Always maintain high index of suspicion."
+      "exp": "Geriatric patients often lack classic symptoms — MI may present as fatigue, infection without fever. Always maintain high index of suspicion.",
+      "easy": {
+        "q": "How does pain assessment differ in older adults?",
+        "opts": [
+          "A. They may have serious illness without classic signs (e.g., MI without chest pain)",
+          "B. They always require ALS"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "Clinical context: Older patients may present atypically. Based on this presentation, older adults may present atypically, meaning?",
+        "opts": [
+          "A. They always have exaggerated symptoms",
+          "B. Their vitals are always abnormal",
+          "C. They may have serious illness without classic signs (e.g., MI without chest pain)",
+          "D. They always require ALS"
+        ],
+        "ans": 2
+      }
     },
     {
       "id": "ch-09.q.06",
@@ -157,7 +247,25 @@ export const ch09: Chapter = {
         "D. Young adulthood only"
       ],
       "ans": 2,
-      "exp": "Pediatric vital signs gradually normalize toward adult values through adolescence as the cardiovascular system matures."
+      "exp": "Pediatric vital signs gradually normalize toward adult values through adolescence as the cardiovascular system matures.",
+      "easy": {
+        "q": "What is Vital signs approach adult norms during?",
+        "opts": [
+          "A. Adolescence (12-18)",
+          "B. Toddler stage"
+        ],
+        "ans": 0
+      },
+      "hard": {
+        "q": "You arrive on scene and complete your primary assessment. Vital signs approach adult norms during?",
+        "opts": [
+          "A. Young adulthood only",
+          "B. School age (6-12)",
+          "C. Adolescence (12-18)",
+          "D. Toddler stage"
+        ],
+        "ans": 2
+      }
     }
   ]
 };
