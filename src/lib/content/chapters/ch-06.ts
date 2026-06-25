@@ -98,23 +98,13 @@ export const ch06: Chapter = {
       ],
       "ans": 1,
       "exp": "Emergency moves sacrifice spinal precautions only when there is immediate danger (fire, hazmat) or when lifesaving care cannot be given in place.",
-      "easy": {
+      "level1": {
         "q": "When is an emergency move used?",
         "opts": [
           "A. There is immediate life threat to patient or rescuer",
           "B. The patient is heavy"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Emergency moves are used only when danger is immediate or care cannot be given in place. Based on this presentation, an emergency move is indicated when?",
-        "opts": [
-          "A. The ambulance is parked far away",
-          "B. The patient requests it",
-          "C. There is immediate life threat to patient or rescuer",
-          "D. The patient is heavy"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch06: Chapter = {
       ],
       "ans": 1,
       "exp": "Power lift: back straight, feet shoulder-width, palms up, lift with legs — never bend at the waist or twist.",
-      "easy": {
+      "level1": {
         "q": "What is the power lift technique?",
         "opts": [
           "A. Keep back straight, bend at knees, lift with legs",
           "B. Hold breath during the lift"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Back injuries are the #1 EMS occupational injury. Based on this presentation, the power lift technique requires the EMT to?",
-        "opts": [
-          "A. Bend at the waist with straight legs",
-          "B. Twist to the side when lifting",
-          "C. Keep back straight, bend at knees, lift with legs",
-          "D. Hold breath during the lift"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch06: Chapter = {
       ],
       "ans": 2,
       "exp": "A safe log roll requires at least 3 rescuers — one at the head maintaining spinal alignment, one at the torso, one at the legs.",
-      "easy": {
+      "level1": {
         "q": "How many rescuers are recommended for a log roll?",
         "opts": [
           "A. 3",
           "B. 1"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A log roll requires a minimum of how many rescuers??",
-        "opts": [
-          "A. 1",
-          "B. 2",
-          "C. 3",
-          "D. 4"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch06: Chapter = {
       ],
       "ans": 1,
       "exp": "Recovery position (lateral recumbent) maintains airway patency and allows drainage in unconscious breathing patients.",
-      "easy": {
+      "level1": {
         "q": "What is a log roll used for?",
         "opts": [
           "A. Unconscious but breathing with no suspected spinal injury",
           "B. In cardiac arrest"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The recovery position is used for patients who are?",
-        "opts": [
-          "A. In respiratory distress",
-          "B. Conscious and alert",
-          "C. Unconscious but breathing with no suspected spinal injury",
-          "D. In cardiac arrest"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch06: Chapter = {
       ],
       "ans": 1,
       "exp": "The scoop stretcher splits apart to fit around the patient, minimizing movement for suspected spinal injury patients.",
-      "easy": {
+      "level1": {
         "q": "What is a scoop (orthopedic) stretcher used for?",
         "opts": [
           "A. Patients with suspected spinal injuries requiring minimal movement",
           "B. Bariatric patients only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Wheeled stretcher is standard for ambulance transport. Based on this presentation, a scoop stretcher is most appropriate for?",
-        "opts": [
-          "A. Cardiac arrest patients during CPR",
-          "B. Patients on upper floors",
-          "C. Patients with suspected spinal injuries requiring minimal movement",
-          "D. Bariatric patients only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch06: Chapter = {
       ],
       "ans": 2,
       "exp": "Improper lifting — bending at the waist, twisting, or lifting beyond capacity — causes the majority of EMS back injuries.",
-      "easy": {
+      "level1": {
         "q": "What is primary reason EMTs get back injuries is?",
         "opts": [
           "A. Improper lifting technique",
           "B. Patient assaults"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Back injuries are the #1 EMS occupational injury. Based on this presentation, the primary reason EMTs get back injuries is?",
-        "opts": [
-          "A. Motor vehicle accidents",
-          "B. Slip and fall on scene",
-          "C. Improper lifting technique",
-          "D. Patient assaults"
-        ],
-        "ans": 2
       }
     }
   ]

@@ -98,23 +98,13 @@ export const ch22: Chapter = {
       ],
       "ans": 1,
       "exp": "Opioid triad: miosis (pinpoint pupils), respiratory depression, and decreased level of consciousness.",
-      "easy": {
+      "level1": {
         "q": "What are signs of opioid overdose?",
         "opts": [
           "A. Pinpoint pupils, respiratory depression, decreased LOC",
           "B. SLUDGEM symptoms"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Classic signs of opioid overdose include?",
-        "opts": [
-          "A. Dilated pupils, hypertension",
-          "B. Agitation, tachycardia",
-          "C. Pinpoint pupils, respiratory depression, decreased LOC",
-          "D. SLUDGEM symptoms"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch22: Chapter = {
       ],
       "ans": 2,
       "exp": "Naloxone is an opioid receptor antagonist that rapidly reverses opioid-induced respiratory depression. Monitor for re-sedation.",
-      "easy": {
+      "level1": {
         "q": "What is naloxone (Narcan) and what does it treat?",
         "opts": [
           "A. Opioid-induced respiratory depression",
           "B. Stimulant overdose"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Opioids: pinpoint pupils, respiratory depression, LOC. Based on this presentation, naloxone (Narcan) is used to treat?",
-        "opts": [
-          "A. Carbon monoxide poisoning",
-          "B. Benzodiazepine overdose",
-          "C. Opioid-induced respiratory depression",
-          "D. Stimulant overdose"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch22: Chapter = {
       ],
       "ans": 2,
       "exp": "SLUDGEM is the cholinergic toxidrome — classic for organophosphate pesticides and nerve agents.",
-      "easy": {
+      "level1": {
         "q": "What is SLUDGEM?",
         "opts": [
           "A. Cholinergic toxidrome (organophosphates/nerve agents)",
           "B. Opioid overdose"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. SLUDGEM is associated with what toxidrome??",
-        "opts": [
-          "A. Anticholinergic toxidrome",
-          "B. Stimulant overdose",
-          "C. Cholinergic toxidrome (organophosphates/nerve agents)",
-          "D. Opioid overdose"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch22: Chapter = {
       ],
       "ans": 1,
       "exp": "Standard pulse oximetry reads carboxyhemoglobin as oxygenated hemoglobin — CO poisoning can appear normal despite life-threatening poisoning.",
-      "easy": {
+      "level1": {
         "q": "What are signs of carbon monoxide poisoning?",
         "opts": [
           "A. Standard pulse oximetry cannot distinguish carboxyhemoglobin from oxyhemoglobin",
           "B. CO increases respiratory rate"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Carbon monoxide poisoning may show normal SpO2 because?",
-        "opts": [
-          "A. The patient is hyperventilating",
-          "B. CO increases oxygen saturation",
-          "C. Standard pulse oximetry cannot distinguish carboxyhemoglobin from oxyhemoglobin",
-          "D. CO increases respiratory rate"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch22: Chapter = {
       ],
       "ans": 1,
       "exp": "Scene safety first — remove patient and yourself from the CO source immediately. Apply high-flow O2 once in fresh air.",
-      "easy": {
+      "level1": {
         "q": "What should you do at a scene with suspected carbon monoxide?",
         "opts": [
           "A. Remove patient to fresh air immediately",
           "B. Administer CPR"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Identify the substance, amount, route, and time of exposure. Based on this presentation, first action at a suspected CO poisoning scene?",
-        "opts": [
-          "A. Call poison control before moving",
-          "B. Apply oxygen before moving",
-          "C. Remove patient to fresh air immediately",
-          "D. Administer CPR"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch22: Chapter = {
       ],
       "ans": 2,
       "exp": "Activated charcoal adsorbs (binds) certain toxins in the GI tract, preventing absorption into the bloodstream. Only used in alert patients with intact airway.",
-      "easy": {
+      "level1": {
         "q": "What is activated charcoal and when is it used?",
         "opts": [
           "A. Binding toxins in the GI tract to reduce absorption",
           "B. Inducing vomiting"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Activated charcoal works by?",
-        "opts": [
-          "A. Neutralizing stomach acid",
-          "B. Speeding drug metabolism",
-          "C. Binding toxins in the GI tract to reduce absorption",
-          "D. Inducing vomiting"
-        ],
-        "ans": 2
       }
     }
   ]

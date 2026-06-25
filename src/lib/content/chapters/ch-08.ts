@@ -98,23 +98,13 @@ export const ch08: Chapter = {
       ],
       "ans": 1,
       "exp": "Without oxygen, cells use anaerobic metabolism producing lactic acid, leading to metabolic acidosis and cellular dysfunction.",
-      "easy": {
+      "level1": {
         "q": "What is anaerobic metabolism?",
         "opts": [
           "A. Lactic acid",
           "B. Oxygen"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Cells require oxygen and glucose for aerobic metabolism. Based on this presentation, anaerobic metabolism produces?",
-        "opts": [
-          "A. ATP only",
-          "B. Glucose",
-          "C. Lactic acid",
-          "D. Oxygen"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch08: Chapter = {
       ],
       "ans": 2,
       "exp": "Hypoxia = inadequate oxygen delivery to cells. It causes cellular dysfunction and death if not corrected promptly.",
-      "easy": {
+      "level1": {
         "q": "What is hypoxia?",
         "opts": [
           "A. Insufficient oxygen to body tissues",
           "B. Low CO2 in blood"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Hypoxia refers to?",
-        "opts": [
-          "A. Elevated blood glucose",
-          "B. Low blood pressure",
-          "C. Insufficient oxygen to body tissues",
-          "D. Low CO2 in blood"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch08: Chapter = {
       ],
       "ans": 1,
       "exp": "Adequate perfusion requires a working pump (heart), intact pipes (vessels), and adequate fluid (blood volume).",
-      "easy": {
+      "level1": {
         "q": "What is ischemia?",
         "opts": [
           "A. Heart (pump), vessels (pipes), blood (fluid)",
           "B. O2, CO2, glucose"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The perfusion triangle includes?",
-        "opts": [
-          "A. Airway, breathing, circulation",
-          "B. Brain, heart, lungs",
-          "C. Heart (pump), vessels (pipes), blood (fluid)",
-          "D. O2, CO2, glucose"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch08: Chapter = {
       ],
       "ans": 1,
       "exp": "Early shock triggers compensatory mechanisms: tachycardia increases cardiac output, vasoconstriction maintains BP temporarily.",
-      "easy": {
+      "level1": {
         "q": "What is Early shock is characterized by?",
         "opts": [
           "A. Compensatory tachycardia and vasoconstriction",
           "B. Warm, flushed skin"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Early shock is characterized by?",
-        "opts": [
-          "A. Hypotension and bradycardia",
-          "B. Decreased respiratory rate",
-          "C. Compensatory tachycardia and vasoconstriction",
-          "D. Warm, flushed skin"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch08: Chapter = {
       ],
       "ans": 1,
       "exp": "Sepsis is a life-threatening systemic response to infection causing widespread inflammation and organ dysfunction.",
-      "easy": {
+      "level1": {
         "q": "What is sepsis?",
         "opts": [
           "A. A systemic inflammatory response to infection",
           "B. Viral pneumonia"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Sepsis is is MOST accurately defined as?",
-        "opts": [
-          "A. A localized skin infection",
-          "B. A blood clotting disorder",
-          "C. A systemic inflammatory response to infection",
-          "D. Viral pneumonia"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch08: Chapter = {
       ],
       "ans": 2,
       "exp": "Brain cells begin to die within 4-6 minutes without oxygen — cardiac cells are similarly sensitive. Prioritize airway and oxygenation.",
-      "easy": {
+      "level1": {
         "q": "Name the option that correctly answers: Which cells are most sensitive to hypoxia?",
         "opts": [
           "A. Brain and heart cells",
           "B. Skin cells"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Cells require oxygen and glucose for aerobic metabolism. Based on this presentation, which cells are most sensitive to hypoxia??",
-        "opts": [
-          "A. Muscle cells",
-          "B. Liver cells",
-          "C. Brain and heart cells",
-          "D. Skin cells"
-        ],
-        "ans": 2
       }
     }
   ]

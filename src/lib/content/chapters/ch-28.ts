@@ -101,23 +101,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Direct pressure is always first-line. Escalate to hemostatic agents, wound packing, or tourniquet only if direct pressure fails.",
-      "easy": {
+      "level1": {
         "q": "What is the progressive approach to controlling external bleeding?",
         "opts": [
           "A. Direct continuous pressure",
           "B. Elevation alone"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Progressive hemorrhage control: (1) direct pressure with gloved hand and dressing, (2) pressure dressing, (3) hemostatic agents and wound packing for junctional wounds, (4) tourniquet for life-threatening extremity bleeding uncontrolled by pressure, (5) splint fractures to reduce bone-end bleeding. Based on this presentation, first-line treatment for external bleeding is?",
-        "opts": [
-          "A. Tourniquet application",
-          "B. Elevation alone",
-          "C. Direct continuous pressure",
-          "D. Pressure points"
-        ],
-        "ans": 2
       }
     },
     {
@@ -131,23 +121,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Blood or CSF from the ear indicates basilar skull fracture — loosely cover with sterile dressing but do not pack or irrigate.",
-      "easy": {
+      "level1": {
         "q": "Why is bleeding from the nose, ears, or mouth of special concern?",
         "opts": [
           "A. Possible basilar skull fracture — do not pack the ear",
           "B. Cerumen impaction"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Blood draining from the ear after head trauma suggests?",
-        "opts": [
-          "A. Need to irrigate the ear canal",
-          "B. Minor ear infection",
-          "C. Possible basilar skull fracture — do not pack the ear",
-          "D. Cerumen impaction"
-        ],
-        "ans": 2
       }
     },
     {
@@ -161,23 +141,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Internal bleeding cannot be controlled in the prehospital setting — treat for shock and transport rapidly to surgical care.",
-      "easy": {
+      "level1": {
         "q": "What are types of internal bleeding and their care?",
         "opts": [
           "A. Recognizing shock, maintaining airway/O2, and rapid transport",
           "B. Oral fluid replacement"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Use the assessment-based approach: primary survey identifies life-threatening bleeding and airway compromise; secondary survey finds all injuries. Based on this presentation, internal abdominal bleeding in the field is managed by?",
-        "opts": [
-          "A. Applying abdominal pressure bandages to stop all bleeding",
-          "B. Attempting to stop the bleed surgically",
-          "C. Recognizing shock, maintaining airway/O2, and rapid transport",
-          "D. Oral fluid replacement"
-        ],
-        "ans": 2
       }
     },
     {
@@ -191,23 +161,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Jugular vein injury can allow air embolism — apply an occlusive (airtight) dressing immediately.",
-      "easy": {
+      "level1": {
         "q": "How do you manage soft-tissue trauma to the head, face, neck, and scalp?",
         "opts": [
           "A. An occlusive dressing to prevent air embolism",
           "B. Standard gauze only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Scalp wounds bleed profusely due to rich vascular supply. Based on this presentation, an open wound to the neck requires?",
-        "opts": [
-          "A. Tourniquet application",
-          "B. Irrigation with saline",
-          "C. An occlusive dressing to prevent air embolism",
-          "D. Standard gauze only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -221,23 +181,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Never remove an impaled object — it may be tamponading bleeding. Stabilize in place and transport.",
-      "easy": {
+      "level1": {
         "q": "What are special considerations for impaled objects and amputations?",
         "opts": [
           "A. Stabilized in place with bulky dressings",
           "B. Cut shorter then removed"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. An impaled object in the abdomen should be?",
-        "opts": [
-          "A. Removed carefully to assess the wound",
-          "B. Pushed through to the other side",
-          "C. Stabilized in place with bulky dressings",
-          "D. Cut shorter then removed"
-        ],
-        "ans": 2
       }
     },
     {
@@ -251,23 +201,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Tourniquets are for life-threatening extremity hemorrhage uncontrolled by direct pressure — not for minor wounds or junctional bleeding.",
-      "easy": {
+      "level1": {
         "q": "What is the progressive approach to controlling external bleeding?",
         "opts": [
           "A. Life-threatening extremity bleeding cannot be controlled with direct pressure",
           "B. Any visible bleeding occurs"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A tourniquet is indicated when?",
-        "opts": [
-          "A. The patient has a minor laceration",
-          "B. Junctional neck bleeding occurs",
-          "C. Life-threatening extremity bleeding cannot be controlled with direct pressure",
-          "D. Any visible bleeding occurs"
-        ],
-        "ans": 2
       }
     },
     {
@@ -281,23 +221,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Removing a soaked dressing may dislodge clots and restart bleeding — add more dressings and maintain pressure.",
-      "easy": {
+      "level1": {
         "q": "What is When a dressing becomes soaked with blood, you should?",
         "opts": [
           "A. Add more dressings on top without removing the original",
           "B. Remove and replace it"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Progressive hemorrhage control: (1) direct pressure with gloved hand and dressing, (2) pressure dressing, (3) hemostatic agents and wound packing for junctional wounds, (4) tourniquet for life-threatening extremity bleeding uncontrolled by pressure, (5) splint fractures to reduce bone-end bleeding. Based on this presentation, when a dressing becomes soaked with blood, you should?",
-        "opts": [
-          "A. Release all pressure to check the wound",
-          "B. Irrigate the wound first",
-          "C. Add more dressings on top without removing the original",
-          "D. Remove and replace it"
-        ],
-        "ans": 2
       }
     },
     {
@@ -311,23 +241,13 @@ export const ch28: Chapter = {
       ],
       "ans": 1,
       "exp": "Splinting immobilizes bone ends, reducing movement that disrupts clots and damages surrounding vessels and tissue.",
-      "easy": {
+      "level1": {
         "q": "What is the progressive approach to controlling external bleeding?",
         "opts": [
           "A. Stabilizing bone ends to reduce tissue and vessel damage",
           "B. Increasing blood flow to the area"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Progressive hemorrhage control: (1) direct pressure with gloved hand and dressing, (2) pressure dressing, (3) hemostatic agents and wound packing for junctional wounds, (4) tourniquet for life-threatening extremity bleeding uncontrolled by pressure, (5) splint fractures to reduce bone-end bleeding. Based on this presentation, splinting a fractured extremity helps control bleeding by?",
-        "opts": [
-          "A. Replacing the need for direct pressure",
-          "B. Eliminating the need for transport",
-          "C. Stabilizing bone ends to reduce tissue and vessel damage",
-          "D. Increasing blood flow to the area"
-        ],
-        "ans": 2
       }
     }
   ]

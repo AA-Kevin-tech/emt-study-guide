@@ -101,23 +101,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "Understanding energy transfer and motion during trauma allows prediction of likely injuries from the mechanism before full assessment.",
-      "easy": {
+      "level1": {
         "q": "Why is understanding kinetics important in trauma care?",
         "opts": [
           "A. Predicting injury patterns based on mechanism of injury",
           "B. Calculating drug dosages"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Kinetics helps EMTs by?",
-        "opts": [
-          "A. Replacing the need for physical exam",
-          "B. Determining hospital billing codes",
-          "C. Predicting injury patterns based on mechanism of injury",
-          "D. Calculating drug dosages"
-        ],
-        "ans": 2
       }
     },
     {
@@ -131,23 +121,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "Kinetic energy = ½mv² — velocity is squared, so doubling speed quadruples the energy transferred.",
-      "easy": {
+      "level1": {
         "q": "What is kinetic energy and how does velocity affect it?",
         "opts": [
           "A. Quadruples the kinetic energy",
           "B. Halves the kinetic energy"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: High index of suspicion when: high-speed crash, significant vehicle damage, unrestrained or ejected occupants, rollover, intrusion into passenger space, or death of another occupant. Based on this presentation, doubling the speed of a vehicle in a crash?",
-        "opts": [
-          "A. Has no effect on kinetic energy",
-          "B. Doubles the kinetic energy",
-          "C. Quadruples the kinetic energy",
-          "D. Halves the kinetic energy"
-        ],
-        "ans": 2
       }
     },
     {
@@ -161,23 +141,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "High-speed impact with intrusion into the passenger compartment indicates massive energy transfer and high risk of serious injury.",
-      "easy": {
+      "level1": {
         "q": "When should you have a high index of suspicion in an MVC?",
         "opts": [
           "A. High-speed crash with passenger compartment intrusion",
           "B. Parking lot scrape"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: High index of suspicion when: high-speed crash, significant vehicle damage, unrestrained or ejected occupants, rollover, intrusion into passenger space, or death of another occupant. Based on this presentation, which MVC scenario warrants highest index of suspicion for critical injury??",
-        "opts": [
-          "A. Low-speed fender bender with no damage",
-          "B. Minor bumper damage at 5 mph",
-          "C. High-speed crash with passenger compartment intrusion",
-          "D. Parking lot scrape"
-        ],
-        "ans": 2
       }
     },
     {
@@ -191,23 +161,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "Seat belt sign indicates significant deceleration force — suspect sternal fracture, mesenteric injury, and spinal injury despite restraint.",
-      "easy": {
+      "level1": {
         "q": "What restraint-related injuries should you suspect?",
         "opts": [
           "A. Potential internal injuries including sternal fracture and hollow viscus injury",
           "B. No internal injury possible"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: High index of suspicion when: high-speed crash, significant vehicle damage, unrestrained or ejected occupants, rollover, intrusion into passenger space, or death of another occupant. Based on this presentation, a seat belt sign (diagonal bruising across the chest) suggests?",
-        "opts": [
-          "A. Only superficial skin injury",
-          "B. The patient was unrestrained",
-          "C. Potential internal injuries including sternal fracture and hollow viscus injury",
-          "D. No internal injury possible"
-        ],
-        "ans": 2
       }
     },
     {
@@ -221,23 +181,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "Primary blast injury results from the over-pressurization wave — affects air-filled organs (lungs, bowel, ears).",
-      "easy": {
+      "level1": {
         "q": "What are the phases of blast injury?",
         "opts": [
           "A. The pressure wave from the explosion",
           "B. Burns from the blast"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Blast phases: primary (pressure wave. Based on this presentation, primary blast injury is caused by?",
-        "opts": [
-          "A. The patient being thrown against a wall",
-          "B. Flying debris striking the patient",
-          "C. The pressure wave from the explosion",
-          "D. Burns from the blast"
-        ],
-        "ans": 2
       }
     },
     {
@@ -251,23 +201,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "Limit on-scene time, address life threats, and transport to the appropriate trauma center — definitive care is surgical.",
-      "easy": {
+      "level1": {
         "q": "What are the golden principles of trauma care?",
         "opts": [
           "A. Minimize on-scene time and transport rapidly to appropriate facility",
           "B. Wait for ALS before any treatment"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Blast phases: primary (pressure wave. Based on this presentation, a golden principle of trauma care is?",
-        "opts": [
-          "A. Complete all interventions on scene before transport",
-          "B. Backboard all patients regardless of mechanism",
-          "C. Minimize on-scene time and transport rapidly to appropriate facility",
-          "D. Wait for ALS before any treatment"
-        ],
-        "ans": 2
       }
     },
     {
@@ -281,23 +221,13 @@ export const ch27: Chapter = {
       ],
       "ans": 1,
       "exp": "Penetrating trauma focuses energy along the wound path, causing direct tissue damage and cavitation in surrounding tissue.",
-      "easy": {
+      "level1": {
         "q": "How does blunt trauma differ from penetrating trauma in energy transfer?",
         "opts": [
           "A. Energy is concentrated along the wound tract",
           "B. It always causes less damage"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Kinetics is the science of motion. Based on this presentation, penetrating trauma differs from blunt trauma because?",
-        "opts": [
-          "A. It only affects skin and subcutaneous tissue",
-          "B. It never causes internal injury",
-          "C. Energy is concentrated along the wound tract",
-          "D. It always causes less damage"
-        ],
-        "ans": 2
       }
     },
     {
@@ -311,23 +241,13 @@ export const ch27: Chapter = {
       ],
       "ans": 2,
       "exp": "Tertiary blast injury occurs when the patient's body is hurled by the blast wind into walls, vehicles, or the ground.",
-      "easy": {
+      "level1": {
         "q": "What are the phases of blast injury?",
         "opts": [
           "A. The patient being thrown into objects",
           "B. Flying shrapnel"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Blast phases: primary (pressure wave. Based on this presentation, tertiary blast injury results from?",
-        "opts": [
-          "A. Chemical exposure from the blast",
-          "B. The pressure wave",
-          "C. The patient being thrown into objects",
-          "D. Flying shrapnel"
-        ],
-        "ans": 2
       }
     }
   ]

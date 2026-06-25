@@ -98,23 +98,13 @@ export const ch45: Chapter = {
       ],
       "ans": 1,
       "exp": "MCI is relative to available resources — even 3 critical patients can be an MCI for a rural agency with one unit.",
-      "easy": {
+      "level1": {
         "q": "What is an MCI?",
         "opts": [
           "A. Available resources are exceeded by patient numbers",
           "B. More than 5 patients"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. An MCI is declared when?",
-        "opts": [
-          "A. Hospital is on diversion",
-          "B. Two ambulances respond",
-          "C. Available resources are exceeded by patient numbers",
-          "D. More than 5 patients"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch45: Chapter = {
       ],
       "ans": 2,
       "exp": "Respirations >30/min = Immediate (Red) tag in START triage.",
-      "easy": {
+      "level1": {
         "q": "What is patient with respirations 32/min is tagged?",
         "opts": [
           "A. Red",
           "B. Green"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "A patient with respirations 32/min is tagged?",
-        "opts": [
-          "A. Yellow",
-          "B. Green",
-          "C. Red",
-          "D. Black"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch45: Chapter = {
       ],
       "ans": 1,
       "exp": "Black/Expectant means the injury is unsurvivable given current resources — limited resources are better used on survivable patients.",
-      "easy": {
+      "level1": {
         "q": "What does 'Expectant' (black tag) mean?",
         "opts": [
           "A. Unsurvivable given available resources — lowest priority",
           "B. Definitely dead"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: START: assess respirations first. Based on this presentation, expectant (black tag) in triage means?",
-        "opts": [
-          "A. Needs immediate surgery",
-          "B. Ambulatory patient",
-          "C. Unsurvivable given available resources — lowest priority",
-          "D. Definitely dead"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch45: Chapter = {
       ],
       "ans": 1,
       "exp": "The Incident Commander has overall authority for all aspects of the incident — objectives, resources, and responder safety.",
-      "easy": {
+      "level1": {
         "q": "What is the Incident Command System (ICS)?",
         "opts": [
           "A. Overall management, objectives, resources, and safety",
           "B. Hospital notification only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: ICS provides: unified command, clear roles, interoperability between agencies. Based on this presentation, the Incident Commander is responsible for?",
-        "opts": [
-          "A. Treating the most critical patient",
-          "B. Driving the command vehicle",
-          "C. Overall management, objectives, resources, and safety",
-          "D. Hospital notification only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch45: Chapter = {
       ],
       "ans": 1,
       "exp": "ICS span of control (3-7 per supervisor, ideal = 5) ensures effective supervision without management breakdown.",
-      "easy": {
+      "level1": {
         "q": "What is Span of control in ICS refers to?",
         "opts": [
           "A. Number of personnel one supervisor can effectively manage (3-7)",
           "B. Radio frequency range"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: ICS provides: unified command, clear roles, interoperability between agencies. Based on this presentation, span of control in ICS refers to?",
-        "opts": [
-          "A. Number of agencies responding",
-          "B. Geographic area of incident",
-          "C. Number of personnel one supervisor can effectively manage (3-7)",
-          "D. Radio frequency range"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch45: Chapter = {
       ],
       "ans": 1,
       "exp": "Follow ICS — report to your supervisor, accept your role, work within the command structure. Self-deployment creates chaos.",
-      "easy": {
+      "level1": {
         "q": "What is At an MCI, EMTs should?",
         "opts": [
           "A. Report to assigned supervisor and follow ICS",
           "B. Self-deploy to critical patients"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. At an MCI, EMTs should?",
-        "opts": [
-          "A. Wait in ambulance until all patients triaged",
-          "B. Begin treating before reporting in",
-          "C. Report to assigned supervisor and follow ICS",
-          "D. Self-deploy to critical patients"
-        ],
-        "ans": 2
       }
     }
   ]

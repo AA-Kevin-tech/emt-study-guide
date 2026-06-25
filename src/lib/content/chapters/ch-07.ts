@@ -103,23 +103,13 @@ export const ch07: Chapter = {
       ],
       "ans": 1,
       "exp": "Distal = farther from the point of origin or attachment. Proximal = closer to the point of origin.",
-      "easy": {
+      "level1": {
         "q": "What does the term 'proximal' mean?",
         "opts": [
           "A. Farther from the point of attachment",
           "B. Closer to the midline"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The term 'distal' means?",
-        "opts": [
-          "A. Behind another structure",
-          "B. Below another structure",
-          "C. Farther from the point of attachment",
-          "D. Closer to the midline"
-        ],
-        "ans": 2
       }
     },
     {
@@ -133,23 +123,13 @@ export const ch07: Chapter = {
       ],
       "ans": 3,
       "exp": "The thoracic cavity (chest) contains the heart, lungs, great vessels, esophagus, and trachea.",
-      "easy": {
+      "level1": {
         "q": "What are the four main body cavities?",
         "opts": [
           "A. Thoracic",
           "B. Pelvic"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: The cranial cavity contains the brain. Based on this presentation, which body cavity contains the heart and lungs??",
-        "opts": [
-          "A. Abdominal",
-          "B. Cranial",
-          "C. Thoracic",
-          "D. Pelvic"
-        ],
-        "ans": 2
       }
     },
     {
@@ -163,23 +143,13 @@ export const ch07: Chapter = {
       ],
       "ans": 2,
       "exp": "Supine = lying face up (on the back). Prone = lying face down.",
-      "easy": {
+      "level1": {
         "q": "What is patient lying face up is in what position??",
         "opts": [
           "A. Supine",
           "B. Prone"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Apply your field knowledge: A patient lying face up is in what position??",
-        "opts": [
-          "A. Lateral recumbent",
-          "B. Fowler's",
-          "C. Supine",
-          "D. Prone"
-        ],
-        "ans": 2
       }
     },
     {
@@ -193,23 +163,13 @@ export const ch07: Chapter = {
       ],
       "ans": 2,
       "exp": "The Right Lower Quadrant contains the appendix, cecum, and part of the ascending colon — appendicitis presents here.",
-      "easy": {
+      "level1": {
         "q": "What is RLQ of the abdomen contains?",
         "opts": [
           "A. Appendix and part of the colon",
           "B. Stomach and spleen"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The RLQ of the abdomen contains?",
-        "opts": [
-          "A. Liver and gallbladder",
-          "B. Stomach and spleen",
-          "C. Appendix and part of the colon",
-          "D. Kidneys and spleen"
-        ],
-        "ans": 2
       }
     },
     {
@@ -223,23 +183,13 @@ export const ch07: Chapter = {
       ],
       "ans": 1,
       "exp": "Lateral = away from the midline. Medial = toward the midline.",
-      "easy": {
+      "level1": {
         "q": "What does 'medial' mean?",
         "opts": [
           "A. Away from the midline",
           "B. Toward the midline"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. 'Lateral' means?",
-        "opts": [
-          "A. In front of another structure",
-          "B. Below another structure",
-          "C. Away from the midline",
-          "D. Toward the midline"
-        ],
-        "ans": 2
       }
     },
     {
@@ -253,23 +203,13 @@ export const ch07: Chapter = {
       ],
       "ans": 1,
       "exp": "Anatomical position: standing upright, facing forward, arms at sides with palms facing forward — the universal reference for anatomical descriptions.",
-      "easy": {
+      "level1": {
         "q": "What is anatomical position?",
         "opts": [
           "A. Standing, facing forward, palms facing forward",
           "B. Patient lying supine"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: All anatomical terms are based on the body in anatomical position. Based on this presentation, anatomical position is?",
-        "opts": [
-          "A. Patient sitting upright",
-          "B. Standing, arms crossed",
-          "C. Standing, facing forward, palms facing forward",
-          "D. Patient lying supine"
-        ],
-        "ans": 2
       }
     }
   ]

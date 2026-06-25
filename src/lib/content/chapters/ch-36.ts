@@ -99,23 +99,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Maternal shock reduces blood flow to the placenta — the fetus can deteriorate even when the mother appears relatively stable.",
-      "easy": {
+      "level1": {
         "q": "What is the uteroplacental unit and why does it matter in trauma?",
         "opts": [
           "A. Reduces placental perfusion and can cause fetal distress before maternal vitals worsen",
           "B. Has no effect on the fetus"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Key terms: uteroplacental unit, placental abruption, supine hypotensive syndrome, fundal height. Based on this presentation, maternal hypotension in a pregnant trauma patient?",
-        "opts": [
-          "A. Should be treated by placing the patient flat on her back",
-          "B. Only matters in the third trimester",
-          "C. Reduces placental perfusion and can cause fetal distress before maternal vitals worsen",
-          "D. Has no effect on the fetus"
-        ],
-        "ans": 2
       }
     },
     {
@@ -129,23 +119,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "The enlarged uterus compresses the IVC when supine — left lateral tilt maintains maternal cardiac output and placental perfusion.",
-      "easy": {
+      "level1": {
         "q": "How should a pregnant trauma patient be positioned?",
         "opts": [
           "A. Left lateral tilt to relieve inferior vena cava compression",
           "B. Prone positioning"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Key terms: uteroplacental unit, placental abruption, supine hypotensive syndrome, fundal height. Based on this presentation, a pregnant trauma patient should be positioned with?",
-        "opts": [
-          "A. Supine flat on her back",
-          "B. Right lateral tilt",
-          "C. Left lateral tilt to relieve inferior vena cava compression",
-          "D. Prone positioning"
-        ],
-        "ans": 2
       }
     },
     {
@@ -159,23 +139,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Placental abruption separates the placenta from the uterine wall — presents with pain, bleeding, rigid/tender uterus, and fetal compromise.",
-      "easy": {
+      "level1": {
         "q": "What is placental abruption and how does it present?",
         "opts": [
           "A. Abdominal pain, vaginal bleeding, and uterine tenderness",
           "B. Isolated headache"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Key terms: uteroplacental unit, placental abruption, supine hypotensive syndrome, fundal height. Based on this presentation, placental abruption after trauma may present with?",
-        "opts": [
-          "A. No symptoms until delivery",
-          "B. Only maternal tachycardia",
-          "C. Abdominal pain, vaginal bleeding, and uterine tenderness",
-          "D. Isolated headache"
-        ],
-        "ans": 2
       }
     },
     {
@@ -189,23 +159,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Use the standard trauma assessment framework plus pregnancy history, fundal height, and fetal assessment — treat the mother to save the fetus.",
-      "easy": {
+      "level1": {
         "q": "What is the assessment-based approach to trauma in pregnancy?",
         "opts": [
           "A. Perform standard trauma assessment with pregnancy-specific additions",
           "B. Withhold oxygen to prevent fetal harm"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Perform standard trauma assessment with pregnancy modifications: ask LMP/gravida/para, assess fundal height, evaluate fetal viability if trained. Based on this presentation, in the assessment-based approach to pregnancy trauma, you should?",
-        "opts": [
-          "A. Transport only to an OB clinic regardless of injuries",
-          "B. Skip the primary survey to focus on the fetus",
-          "C. Perform standard trauma assessment with pregnancy-specific additions",
-          "D. Withhold oxygen to prevent fetal harm"
-        ],
-        "ans": 2
       }
     },
     {
@@ -219,23 +179,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Many elderly patients take beta-blockers or have pacemakers that mask the tachycardia normally seen in compensatory shock.",
-      "easy": {
+      "level1": {
         "q": "Why is geriatric trauma often under-triaged?",
         "opts": [
           "A. Beta-blockers and age-related changes blunt the compensatory heart rate response",
           "B. They always have hypertension"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Anatomical changes: osteoporosis (fractures from low-energy MOI), decreased skin elasticity, reduced chest wall compliance. Based on this presentation, geriatric trauma patients may not show tachycardia in shock because?",
-        "opts": [
-          "A. Their hearts respond faster than younger patients",
-          "B. Shock does not occur in elderly patients",
-          "C. Beta-blockers and age-related changes blunt the compensatory heart rate response",
-          "D. They always have hypertension"
-        ],
-        "ans": 2
       }
     },
     {
@@ -249,23 +199,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Osteoporotic bone fractures easily — a fall from standing or minor MVC can cause serious fractures in elderly patients.",
-      "easy": {
+      "level1": {
         "q": "What physiological changes in older adults affect trauma assessment?",
         "opts": [
           "A. Fractures can occur from low-energy mechanisms that would not injure younger patients",
           "B. They cannot fracture bones"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Anatomical changes: osteoporosis (fractures from low-energy MOI), decreased skin elasticity, reduced chest wall compliance. Based on this presentation, osteoporosis in geriatric patients means?",
-        "opts": [
-          "A. Spinal injury is impossible",
-          "B. They cannot fracture bones",
-          "C. Fractures can occur from low-energy mechanisms that would not injure younger patients",
-          "D. Only the skull is affected"
-        ],
-        "ans": 2
       }
     },
     {
@@ -279,23 +219,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Anticoagulants (warfarin, DOACs) impair clotting — elderly patients on these medications bleed more and longer from injuries.",
-      "easy": {
+      "level1": {
         "q": "What physiological changes in older adults affect trauma assessment?",
         "opts": [
           "A. Internal bleeding and delayed hemorrhage from minor injuries",
           "B. Decreased bleeding"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Anatomical changes: osteoporosis (fractures from low-energy MOI), decreased skin elasticity, reduced chest wall compliance. Based on this presentation, anticoagulant use in elderly trauma patients increases the risk of?",
-        "opts": [
-          "A. Only external bleeding",
-          "B. Decreased bleeding",
-          "C. Internal bleeding and delayed hemorrhage from minor injuries",
-          "D. Allergic reactions"
-        ],
-        "ans": 2
       }
     },
     {
@@ -309,23 +239,13 @@ export const ch36: Chapter = {
       ],
       "ans": 1,
       "exp": "Treat the mother aggressively — maternal resuscitation is the primary intervention for fetal survival. Do not withhold care due to pregnancy.",
-      "easy": {
+      "level1": {
         "q": "What is the uteroplacental unit and why does it matter in trauma?",
         "opts": [
           "A. Aggressively resuscitate the mother — fetal survival depends on maternal survival",
           "B. Avoid all treatment that might affect the fetus"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Key terms: uteroplacental unit, placental abruption, supine hypotensive syndrome, fundal height. Based on this presentation, when managing trauma in pregnancy, the best way to help the fetus is to?",
-        "opts": [
-          "A. Focus only on fetal monitoring and delay maternal treatment",
-          "B. Transport to any hospital regardless of trauma capability",
-          "C. Aggressively resuscitate the mother — fetal survival depends on maternal survival",
-          "D. Avoid all treatment that might affect the fetus"
-        ],
-        "ans": 2
       }
     }
   ]

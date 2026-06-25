@@ -98,23 +98,13 @@ export const ch19: Chapter = {
       ],
       "ans": 2,
       "exp": "Clear the area, protect the head, and let the seizure run its course. Restraining causes injury. Never put anything in the mouth.",
-      "easy": {
+      "level1": {
         "q": "What should NOT be done during an active seizure?",
         "opts": [
           "A. Clear the area and protect from injury without restraining",
           "B. Administer oral glucose"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During an active seizure, you should?",
-        "opts": [
-          "A. Restrain the patient to prevent injury",
-          "B. Insert an OPA to protect the airway",
-          "C. Clear the area and protect from injury without restraining",
-          "D. Administer oral glucose"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch19: Chapter = {
       ],
       "ans": 1,
       "exp": "Status epilepticus = seizure >5 minutes OR recurrent seizures without regaining consciousness — a life-threatening emergency.",
-      "easy": {
+      "level1": {
         "q": "What is status epilepticus?",
         "opts": [
           "A. A seizure lasting more than 5 minutes",
           "B. A febrile seizure"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: During seizure: protect from injury, do not restrain, do not insert anything in mouth, time the seizure. Based on this presentation, status epilepticus is defined as?",
-        "opts": [
-          "A. Two isolated seizures in a week",
-          "B. A seizure with aura",
-          "C. A seizure lasting more than 5 minutes",
-          "D. A febrile seizure"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch19: Chapter = {
       ],
       "ans": 2,
       "exp": "The postictal phase follows seizure activity and includes confusion, fatigue, headache, and disorientation lasting minutes to hours.",
-      "easy": {
+      "level1": {
         "q": "What is the postictal phase?",
         "opts": [
           "A. Confusion, fatigue, and disorientation",
           "B. Muscle rigidity"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Seizures can be partial (focal) or generalized. Based on this presentation, the postictal phase is characterized by?",
-        "opts": [
-          "A. Alertness and cooperation",
-          "B. Hyperventilation",
-          "C. Confusion, fatigue, and disorientation",
-          "D. Muscle rigidity"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch19: Chapter = {
       ],
       "ans": 1,
       "exp": "Vasovagal syncope is triggered by emotional stress, pain, or fear activating the vagus nerve — causing bradycardia and vasodilation leading to brief LOC.",
-      "easy": {
+      "level1": {
         "q": "What is vasovagal syncope?",
         "opts": [
           "A. Emotional stress or pain activating the vagus nerve",
           "B. Hypoglycemia only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: All new-onset syncope warrants evaluation. Based on this presentation, vasovagal syncope is triggered by?",
-        "opts": [
-          "A. Ventricular fibrillation",
-          "B. Pulmonary embolism",
-          "C. Emotional stress or pain activating the vagus nerve",
-          "D. Hypoglycemia only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch19: Chapter = {
       ],
       "ans": 1,
       "exp": "Lateral position after seizure maintains airway patency and allows drainage of secretions, reducing aspiration risk.",
-      "easy": {
+      "level1": {
         "q": "What is After a seizure, the patient should be positioned?",
         "opts": [
           "A. On their side (lateral position)",
           "B. Prone"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: During seizure: protect from injury, do not restrain, do not insert anything in mouth, time the seizure. Based on this presentation, after a seizure, the patient should be positioned?",
-        "opts": [
-          "A. Supine with legs elevated",
-          "B. Sitting upright",
-          "C. On their side (lateral position)",
-          "D. Prone"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch19: Chapter = {
       ],
       "ans": 1,
       "exp": "Febrile seizures occur in children 6 months to 5 years during rapid temperature rise — usually benign, but infection must be ruled out.",
-      "easy": {
+      "level1": {
         "q": "What is a febrile seizure?",
         "opts": [
           "A. Triggered by rapid temperature rise in children and are generally benign",
           "B. Chronic and recurrent"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: During seizure: protect from injury, do not restrain, do not insert anything in mouth, time the seizure. Based on this presentation, febrile seizures differ from epilepsy in that they are?",
-        "opts": [
-          "A. More dangerous and require immediate treatment",
-          "B. Always indicative of meningitis",
-          "C. Triggered by rapid temperature rise in children and are generally benign",
-          "D. Chronic and recurrent"
-        ],
-        "ans": 2
       }
     }
   ]

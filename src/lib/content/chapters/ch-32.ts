@@ -101,23 +101,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "Diving into shallow water applies severe flexion force to the cervical spine — always suspect c-spine injury.",
-      "easy": {
+      "level1": {
         "q": "What is diving accident into shallow water is a common mechanism for?",
         "opts": [
           "A. Cervical spine injury from flexion force",
           "B. Cardiac arrest only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Spinal injury results from forces exceeding column tolerance: flexion (forward bending. Based on this presentation, a diving accident into shallow water is a common mechanism for?",
-        "opts": [
-          "A. Lower extremity fracture only",
-          "B. Abdominal trauma only",
-          "C. Cervical spine injury from flexion force",
-          "D. Cardiac arrest only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -131,23 +121,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "Complete neuro assessment includes peripheral pulses, motor strength in all extremities, and sensory function — compare both sides.",
-      "easy": {
+      "level1": {
         "q": "How do you assess pulse, motor, and sensory function in suspected spinal injury?",
         "opts": [
           "A. Pulse, motor function, and sensory function in all extremities",
           "B. Blood pressure only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Spinal injury results from forces exceeding column tolerance: flexion (forward bending. Based on this presentation, when assessing a patient with suspected spinal injury, you should test?",
-        "opts": [
-          "A. Abdominal tenderness only",
-          "B. Blood pressure only",
-          "C. Pulse, motor function, and sensory function in all extremities",
-          "D. Pupil response only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -161,23 +141,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "Current guidelines use selective SMR based on clinical criteria — not automatic backboarding of every trauma patient.",
-      "easy": {
+      "level1": {
         "q": "What is the difference between spine motion restriction (SMR) and spinal immobilization?",
         "opts": [
           "A. SMR uses selective criteria rather than universal immobilization",
           "B. SMR is only for medical patients"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Spinal injury results from forces exceeding column tolerance: flexion (forward bending. Based on this presentation, spine motion restriction (SMR) differs from the historical approach because?",
-        "opts": [
-          "A. All patients are still backboarded automatically",
-          "B. SMR eliminates the need for any cervical collar",
-          "C. SMR uses selective criteria rather than universal immobilization",
-          "D. SMR is only for medical patients"
-        ],
-        "ans": 2
       }
     },
     {
@@ -191,23 +161,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "Manual inline stabilization must be maintained from initial contact until the patient is fully secured with head immobilization.",
-      "easy": {
+      "level1": {
         "q": "What is MILS and when is it used?",
         "opts": [
           "A. From first contact until the patient is fully secured to the SMR device",
           "B. Only during transport"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. MILS should be maintained?",
-        "opts": [
-          "A. Only if neurological deficits are present",
-          "B. Only until the C-collar is applied",
-          "C. From first contact until the patient is fully secured to the SMR device",
-          "D. Only during transport"
-        ],
-        "ans": 2
       }
     },
     {
@@ -221,23 +181,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "The KED immobilizes seated patients before extrication from vehicles — a short spine motion restriction device.",
-      "easy": {
+      "level1": {
         "q": "What are full-body and short spine SMR devices?",
         "opts": [
           "A. Seated patients with suspected spinal injury during vehicle extrication",
           "B. Pediatric patients only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Cervical collar: sized and applied under MILS. Based on this presentation, the KED (short spine device) is used for?",
-        "opts": [
-          "A. Patients with isolated lower extremity injuries",
-          "B. All supine trauma patients",
-          "C. Seated patients with suspected spinal injury during vehicle extrication",
-          "D. Pediatric patients only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -251,23 +201,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "Priapism indicates loss of autonomic nervous system control from spinal cord injury — an important neuro finding.",
-      "easy": {
+      "level1": {
         "q": "What is Priapism in a trauma patient suggests?",
         "opts": [
           "A. Spinal cord injury with autonomic disruption",
           "B. Hypovolemic shock"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Priapism in a trauma patient suggests?",
-        "opts": [
-          "A. Normal physiological response",
-          "B. Genitourinary injury",
-          "C. Spinal cord injury with autonomic disruption",
-          "D. Hypovolemic shock"
-        ],
-        "ans": 2
       }
     },
     {
@@ -281,23 +221,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "SMR is indicated for high-risk mechanism, altered mental status, midline spinal tenderness, neuro deficits, or unreliable exam due to distracting injuries.",
-      "easy": {
+      "level1": {
         "q": "When is spine motion restriction indicated?",
         "opts": [
           "A. High-risk MOI, altered LOC, midline tenderness, or neurological deficits",
           "B. All patients involved in any MVC"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Cervical collar: sized and applied under MILS. Based on this presentation, indications for spine motion restriction include?",
-        "opts": [
-          "A. Only patients with visible spinal deformity",
-          "B. Patients who request immobilization",
-          "C. High-risk MOI, altered LOC, midline tenderness, or neurological deficits",
-          "D. All patients involved in any MVC"
-        ],
-        "ans": 2
       }
     },
     {
@@ -311,23 +241,13 @@ export const ch32: Chapter = {
       ],
       "ans": 1,
       "exp": "A C-collar restricts cervical motion but does not eliminate it — it is one component of SMR used with MILS and securing devices.",
-      "easy": {
+      "level1": {
         "q": "What is the role of a cervical collar in SMR?",
         "opts": [
           "A. Restricts but does not eliminate cervical motion — is an adjunct to MILS",
           "B. Should never be used in trauma"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Cervical collar: sized and applied under MILS. Based on this presentation, a cervical collar alone?",
-        "opts": [
-          "A. Completely eliminates all cervical spine movement",
-          "B. Replaces the need for any other SMR equipment",
-          "C. Restricts but does not eliminate cervical motion — is an adjunct to MILS",
-          "D. Should never be used in trauma"
-        ],
-        "ans": 2
       }
     }
   ]

@@ -98,23 +98,13 @@ export const ch13: Chapter = {
       ],
       "ans": 1,
       "exp": "AVPU (Alert, Verbal, Pain, Unresponsive) is the rapid LOC scale used during primary assessment.",
-      "easy": {
+      "level1": {
         "q": "What are the components of the primary assessment?",
         "opts": [
           "A. AVPU",
           "B. GCS"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During primary assessment, level of consciousness is assessed using?",
-        "opts": [
-          "A. SAMPLE",
-          "B. OPQRST",
-          "C. AVPU",
-          "D. GCS"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch13: Chapter = {
       ],
       "ans": 2,
       "exp": "DCAP-BTLS is the mnemonic for physical exam findings assessed at each body region during the secondary assessment.",
-      "easy": {
+      "level1": {
         "q": "What is DCAP-BTLS?",
         "opts": [
           "A. Physical exam / secondary assessment",
           "B. Scene size-up"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Head-to-toe assessment using DCAP-BTLS at each region. Based on this presentation, DCAP-BTLS is used during?",
-        "opts": [
-          "A. Primary assessment",
-          "B. Patient handoff",
-          "C. Physical exam / secondary assessment",
-          "D. Scene size-up"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch13: Chapter = {
       ],
       "ans": 2,
       "exp": "Unstable or critical patients require reassessment every 5 minutes to detect changes in their condition.",
-      "easy": {
+      "level1": {
         "q": "How often should you reassess a stable patient?",
         "opts": [
           "A. Every 5 minutes",
           "B. Every 15 minutes"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Reassessment confirms your initial findings, checks effectiveness of interventions, and detects changes in patient condition. Based on this presentation, how often should an unstable patient be reassessed??",
-        "opts": [
-          "A. Only at the hospital",
-          "B. Every 15 minutes",
-          "C. Every 5 minutes",
-          "D. Every 10 minutes"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch13: Chapter = {
       ],
       "ans": 1,
       "exp": "Rapid trauma assessment is performed when significant MOI exists, when the patient has altered LOC, or when multiple complaints are present.",
-      "easy": {
+      "level1": {
         "q": "When should you perform a focused vs. full-body assessment?",
         "opts": [
           "A. Patients with significant MOI or altered LOC",
           "B. All patients"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A rapid trauma assessment is indicated for?",
-        "opts": [
-          "A. Patients who request it",
-          "B. Medical patients only",
-          "C. Patients with significant MOI or altered LOC",
-          "D. All patients"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch13: Chapter = {
       ],
       "ans": 1,
       "exp": "Trending tracks whether the patient is improving or deteriorating over time — a series of falling blood pressures is more alarming than one low reading.",
-      "easy": {
+      "level1": {
         "q": "What is trending in patient assessment?",
         "opts": [
           "A. Tracking changes in condition and vitals over time",
           "B. Comparing to other patients"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Reassessment confirms your initial findings, checks effectiveness of interventions, and detects changes in patient condition. Based on this presentation, trending in patient assessment means?",
-        "opts": [
-          "A. Following current treatment trends",
-          "B. Using social media for protocols",
-          "C. Tracking changes in condition and vitals over time",
-          "D. Comparing to other patients"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch13: Chapter = {
       ],
       "ans": 1,
       "exp": "Pertinent negatives (symptoms the patient denies) are important documentation — they show a thorough assessment was performed.",
-      "easy": {
+      "level1": {
         "q": "What is Pertinent negatives should be?",
         "opts": [
           "A. Documented because they help rule out conditions",
           "B. Ignored unless significant"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Pertinent negatives should be?",
-        "opts": [
-          "A. Listed only in the verbal report",
-          "B. Only noted for trauma patients",
-          "C. Documented because they help rule out conditions",
-          "D. Ignored unless significant"
-        ],
-        "ans": 2
       }
     }
   ]

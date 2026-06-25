@@ -101,23 +101,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "The cornea is the transparent front surface of the eye — injuries here cause significant pain and vision impairment.",
-      "easy": {
+      "level1": {
         "q": "What are the key structures of the eye?",
         "opts": [
           "A. The clear front surface of the eye",
           "B. The colored part of the eye"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The cornea is?",
-        "opts": [
-          "A. The back of the eye where images form",
-          "B. The bony socket surrounding the eye",
-          "C. The clear front surface of the eye",
-          "D. The colored part of the eye"
-        ],
-        "ans": 2
       }
     },
     {
@@ -131,23 +121,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Immediate, copious irrigation is critical — alkaline chemicals penetrate deeper and longer than acids.",
-      "easy": {
+      "level1": {
         "q": "How do you treat a chemical burn to the eye?",
         "opts": [
           "A. Immediate copious irrigation for at least 20 minutes",
           "B. Topical anesthetic only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A chemical splash to the eye should be treated with?",
-        "opts": [
-          "A. Patching the eye and rapid transport without irrigation",
-          "B. Neutralizing solution before irrigation",
-          "C. Immediate copious irrigation for at least 20 minutes",
-          "D. Topical anesthetic only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -161,23 +141,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Never attempt to reinsert an extruded eyeball — cover with moist dressing and a cup/cone, cover both eyes, transport immediately.",
-      "easy": {
+      "level1": {
         "q": "How do you manage an extruded (protruding) eyeball?",
         "opts": [
           "A. Covered with moist dressing and a rigid cup — do not reinsert",
           "B. Irrigated vigorously"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Foreign body on surface: irrigate, do not rub. Based on this presentation, an extruded eyeball should be?",
-        "opts": [
-          "A. Left uncovered for assessment",
-          "B. Pushed back into the socket",
-          "C. Covered with moist dressing and a rigid cup — do not reinsert",
-          "D. Irrigated vigorously"
-        ],
-        "ans": 2
       }
     },
     {
@@ -191,23 +161,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Covering both eyes reduces consensual movement of the injured eye — always explain this to the patient first.",
-      "easy": {
+      "level1": {
         "q": "How do you manage an extruded (protruding) eyeball?",
         "opts": [
           "A. Cover both eyes to reduce movement of the injured eye",
           "B. Cover only the injured eye"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Facial trauma: assess airway first. Based on this presentation, for any serious unilateral eye injury, you should?",
-        "opts": [
-          "A. Patch both eyes permanently on scene",
-          "B. Have the patient keep both eyes open",
-          "C. Cover both eyes to reduce movement of the injured eye",
-          "D. Cover only the injured eye"
-        ],
-        "ans": 2
       }
     },
     {
@@ -221,23 +181,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Facial injuries can rapidly obstruct the airway — assess and manage airway before other interventions.",
-      "easy": {
+      "level1": {
         "q": "What is the primary concern with facial trauma?",
         "opts": [
           "A. Airway compromise from bleeding and swelling",
           "B. Spinal injury only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Facial trauma: assess airway first. Based on this presentation, primary concern with significant facial trauma is?",
-        "opts": [
-          "A. Pain management as the only priority",
-          "B. Cosmetic appearance",
-          "C. Airway compromise from bleeding and swelling",
-          "D. Spinal injury only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -251,23 +201,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Open neck wounds risk fatal air embolism through jugular vein injury — occlusive dressing is mandatory.",
-      "easy": {
+      "level1": {
         "q": "How do you treat an open neck wound?",
         "opts": [
           "A. Immediate occlusive dressing to prevent air embolism",
           "B. Irrigation with saline"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Facial trauma: assess airway first. Based on this presentation, an open wound to the neck requires?",
-        "opts": [
-          "A. Direct pressure with a tourniquet",
-          "B. Standard gauze dressing",
-          "C. Immediate occlusive dressing to prevent air embolism",
-          "D. Irrigation with saline"
-        ],
-        "ans": 2
       }
     },
     {
@@ -281,23 +221,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Never apply pressure to a ruptured globe — use a rigid shield/cup, cover both eyes, and transport for surgical repair.",
-      "easy": {
+      "level1": {
         "q": "How do you treat a globe (open eyeball) injury?",
         "opts": [
           "A. Placing a rigid shield over the eye without applying pressure",
           "B. Irrigating the eye thoroughly"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Foreign body on surface: irrigate, do not rub. Based on this presentation, a globe (ruptured eyeball) injury should be managed by?",
-        "opts": [
-          "A. Removing visible foreign material from the eye interior",
-          "B. Applying direct pressure to stop bleeding",
-          "C. Placing a rigid shield over the eye without applying pressure",
-          "D. Irrigating the eye thoroughly"
-        ],
-        "ans": 2
       }
     },
     {
@@ -311,23 +241,13 @@ export const ch33: Chapter = {
       ],
       "ans": 1,
       "exp": "Orbital blows can fracture the orbit, injure the globe, and transmit force to the brain — assess fully.",
-      "easy": {
+      "level1": {
         "q": "How do you treat an open neck wound?",
         "opts": [
           "A. Orbital fracture, globe injury, and potential intracranial injury",
           "B. Injury to the ear only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Eye structures: cornea, iris/pupil, lens, retina, optic nerve, orbit (bony socket). Based on this presentation, blunt trauma to the orbit may cause?",
-        "opts": [
-          "A. Only external bruising with no deeper injury",
-          "B. Cervical spine injury only",
-          "C. Orbital fracture, globe injury, and potential intracranial injury",
-          "D. Injury to the ear only"
-        ],
-        "ans": 2
       }
     }
   ]

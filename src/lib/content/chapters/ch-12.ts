@@ -98,23 +98,13 @@ export const ch12: Chapter = {
       ],
       "ans": 2,
       "exp": "Scene safety and donning appropriate BSI/PPE are always the first steps — before approaching or touching any patient.",
-      "easy": {
+      "level1": {
         "q": "What are the four components of scene size-up?",
         "opts": [
           "A. Scene safety and BSI",
           "B. Determining MOI"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: No patient care can occur safely if the scene is unsafe. Based on this presentation, the first component of scene size-up is?",
-        "opts": [
-          "A. Counting patients",
-          "B. Determining MOI",
-          "C. Scene safety and BSI",
-          "D. Calling for ALS"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch12: Chapter = {
       ],
       "ans": 1,
       "exp": "MOI allows the EMT to develop an index of suspicion — predicting likely injuries based on the forces involved.",
-      "easy": {
+      "level1": {
         "q": "What is mechanism of injury (MOI)?",
         "opts": [
           "A. Anticipate injury patterns and guide assessment",
           "B. Confirm the diagnosis"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Mechanism of injury (MOI) helps the EMT?",
-        "opts": [
-          "A. Determine the patient's age",
-          "B. Choose hospital destination",
-          "C. Anticipate injury patterns and guide assessment",
-          "D. Confirm the diagnosis"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch12: Chapter = {
       ],
       "ans": 1,
       "exp": "Request additional resources as soon as you identify the need — it is always better to cancel resources than to need them and not have them.",
-      "easy": {
+      "level1": {
         "q": "When should you call for additional resources?",
         "opts": [
           "A. As soon as the need is identified during size-up",
           "B. Only if ALS is unavailable"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. When should additional resources be requested??",
-        "opts": [
-          "A. Only after assessment confirms need",
-          "B. After the patient is stabilized",
-          "C. As soon as the need is identified during size-up",
-          "D. Only if ALS is unavailable"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch12: Chapter = {
       ],
       "ans": 1,
       "exp": "Medication bottles, nebulizers, oxygen concentrators, and medical alert bracelets provide critical clues about a patient's medical history.",
-      "easy": {
+      "level1": {
         "q": "What environmental clues help determine NOI at a medical scene?",
         "opts": [
           "A. Medication bottles, medical equipment, alert jewelry",
           "B. Vehicle deformity"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Environmental clues for medical NOI include?",
-        "opts": [
-          "A. Bystander statements only",
-          "B. Skid marks on the road",
-          "C. Medication bottles, medical equipment, alert jewelry",
-          "D. Vehicle deformity"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch12: Chapter = {
       ],
       "ans": 1,
       "exp": "Index of suspicion is the EMT's anticipation of likely injuries or conditions based on the mechanism or scene — guiding a more thorough assessment.",
-      "easy": {
+      "level1": {
         "q": "What is index of suspicion?",
         "opts": [
           "A. Anticipating injuries based on MOI before confirming them",
           "B. Suspecting foul play"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Trauma scenes: determine MOI to predict injuries (kinetic energy, deformity, damage patterns). Based on this presentation, index of suspicion refers to?",
-        "opts": [
-          "A. Assuming all patients are faking",
-          "B. Estimating scene danger",
-          "C. Anticipating injuries based on MOI before confirming them",
-          "D. Suspecting foul play"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch12: Chapter = {
       ],
       "ans": 1,
       "exp": "Downed power lines are immediately life-threatening. Stage at a safe distance, call utilities, and do not approach until power is confirmed off.",
-      "easy": {
+      "level1": {
         "q": "What is downed power line at a scene means?",
         "opts": [
           "A. Stage at a safe distance and call the utility company",
           "B. Drive over it with the ambulance"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: No patient care can occur safely if the scene is unsafe. Based on this presentation, a downed power line at a scene means?",
-        "opts": [
-          "A. Approach carefully with rubber gloves",
-          "B. Touch it only with wooden equipment",
-          "C. Stage at a safe distance and call the utility company",
-          "D. Drive over it with the ambulance"
-        ],
-        "ans": 2
       }
     }
   ]

@@ -96,23 +96,13 @@ export const ch01: Chapter = {
       ],
       "ans": 1,
       "exp": "EMTs legally practice under the medical director's license, which authorizes their scope of practice in the field.",
-      "easy": {
+      "level1": {
         "q": "What is the EMS medical director's role?",
         "opts": [
           "A. The physician medical director",
           "B. Their employer"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During QA review of an EMS run, your supervisor asks: EMTs practice under the license of?",
-        "opts": [
-          "A. Their certification agency",
-          "B. The state EMS office",
-          "C. The physician medical director",
-          "D. Their employer"
-        ],
-        "ans": 2
       }
     },
     {
@@ -126,23 +116,13 @@ export const ch01: Chapter = {
       ],
       "ans": 2,
       "exp": "Standing orders are pre-approved protocols allowing EMTs to act without calling a physician each time.",
-      "easy": {
+      "level1": {
         "q": "What is a standing order?",
         "opts": [
           "A. Pre-approved written protocols for specific interventions",
           "B. A court order"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During QA review of an EMS run, your supervisor asks: a standing order is is MOST accurately defined as?",
-        "opts": [
-          "A. Real-time physician communication",
-          "B. A hospital treatment plan",
-          "C. Pre-approved written protocols for specific interventions",
-          "D. A court order"
-        ],
-        "ans": 2
       }
     },
     {
@@ -156,23 +136,13 @@ export const ch01: Chapter = {
       ],
       "ans": 1,
       "exp": "QI programs evaluate care through case review and feedback to continuously improve patient outcomes.",
-      "easy": {
+      "level1": {
         "q": "What is quality improvement (QI) in EMS?",
         "opts": [
           "A. Continuously review and improve patient care",
           "B. Train new dispatchers"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During QA review of an EMS run, your supervisor asks: quality improvement in EMS is designed to?",
-        "opts": [
-          "A. Punish poor-performing EMTs",
-          "B. Reduce ambulance costs",
-          "C. Continuously review and improve patient care",
-          "D. Train new dispatchers"
-        ],
-        "ans": 2
       }
     },
     {
@@ -186,23 +156,13 @@ export const ch01: Chapter = {
       ],
       "ans": 1,
       "exp": "The Golden Hour states trauma patients have the best survival if definitive care is reached within 1 hour of injury.",
-      "easy": {
+      "level1": {
         "q": "What is the 'Golden Hour' concept?",
         "opts": [
           "A. Critically injured trauma patients",
           "B. Diabetic emergencies"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The 'Golden Hour' concept applies most to?",
-        "opts": [
-          "A. Medical cardiac patients",
-          "B. Pediatric patients only",
-          "C. Critically injured trauma patients",
-          "D. Diabetic emergencies"
-        ],
-        "ans": 2
       }
     },
     {
@@ -216,23 +176,13 @@ export const ch01: Chapter = {
       ],
       "ans": 3,
       "exp": "Paramedics have the highest EMT certification and can perform full ALS: IV therapy, intubation, and drug administration.",
-      "easy": {
+      "level1": {
         "q": "Name the option that correctly answers: Which EMS level performs full advanced life support?",
         "opts": [
           "A. Paramedic",
           "B. EMR"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: EMR: immediate life-saving care. Based on this presentation, which EMS level performs full advanced life support??",
-        "opts": [
-          "A. AEMT",
-          "B. EMR",
-          "C. Paramedic",
-          "D. EMT"
-        ],
-        "ans": 2
       }
     },
     {
@@ -246,23 +196,13 @@ export const ch01: Chapter = {
       ],
       "ans": 1,
       "exp": "Online (direct) medical direction involves real-time radio or phone contact with a physician for orders.",
-      "easy": {
+      "level1": {
         "q": "What is the difference between online and offline medical direction?",
         "opts": [
           "A. Real-time communication with a physician",
           "B. Hospital documentation"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: All EMS systems require a physician medical director. Based on this presentation, online medical direction means?",
-        "opts": [
-          "A. Following pre-written protocols",
-          "B. Internet-based training",
-          "C. Real-time communication with a physician",
-          "D. Hospital documentation"
-        ],
-        "ans": 2
       }
     }
   ]

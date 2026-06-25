@@ -1,7 +1,7 @@
 import type { QuizQuestion, QuizQuestionVariant } from './types';
 import { shuffleInPlace } from './study';
 
-export type QuizDifficulty = 'easy' | 'medium' | 'hard';
+export type QuizDifficulty = 'level1' | 'level2';
 
 const OPT_LABEL = /^[A-D]\.\s*/;
 
@@ -26,10 +26,8 @@ export function shuffleOptions(question: QuizQuestionVariant): QuizQuestionVaria
 
 function variantForDifficulty(question: QuizQuestion, difficulty: QuizDifficulty): QuizQuestionVariant {
 	switch (difficulty) {
-		case 'easy':
-			return question.easy;
-		case 'hard':
-			return question.hard;
+		case 'level1':
+			return question.level1;
 		default:
 			return { q: question.q, opts: question.opts, ans: question.ans };
 	}
@@ -55,11 +53,16 @@ export function prepareQuizQuestions(
 
 const DIFFICULTY_KEY = 'emt-quiz-difficulty';
 
+function normalizeStoredDifficulty(stored: string | null): QuizDifficulty {
+	if (stored === 'level1' || stored === 'level2') return stored;
+	if (stored === 'easy') return 'level1';
+	if (stored === 'medium' || stored === 'hard') return 'level2';
+	return 'level2';
+}
+
 export function readQuizDifficulty(): QuizDifficulty {
-	if (typeof sessionStorage === 'undefined') return 'medium';
-	const stored = sessionStorage.getItem(DIFFICULTY_KEY);
-	if (stored === 'easy' || stored === 'medium' || stored === 'hard') return stored;
-	return 'medium';
+	if (typeof sessionStorage === 'undefined') return 'level2';
+	return normalizeStoredDifficulty(sessionStorage.getItem(DIFFICULTY_KEY));
 }
 
 export function writeQuizDifficulty(difficulty: QuizDifficulty): void {

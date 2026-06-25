@@ -98,23 +98,13 @@ export const ch42: Chapter = {
       ],
       "ans": 1,
       "exp": "Excessive speed and failure to properly stop at intersections are the top causes of ambulance crashes — use due regard always.",
-      "easy": {
+      "level1": {
         "q": "What are the most common causes of ambulance crashes?",
         "opts": [
           "A. Excessive speed and failure to stop at intersections",
           "B. Driving at night"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Ambulance driving requires skill and judgment. Based on this presentation, greatest risk factor for ambulance crashes is?",
-        "opts": [
-          "A. Older ambulance models",
-          "B. Rain and poor weather",
-          "C. Excessive speed and failure to stop at intersections",
-          "D. Driving at night"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch42: Chapter = {
       ],
       "ans": 1,
       "exp": "Due regard holds emergency drivers to a reasonable standard of care — running lights/siren does not eliminate liability for preventable crashes.",
-      "easy": {
+      "level1": {
         "q": "What are due-regard laws?",
         "opts": [
           "A. Emergency vehicle drivers must still drive with reasonable care for all persons",
           "B. Speed limits do not apply to ambulances"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Due regard laws mean?",
-        "opts": [
-          "A. Lights/siren give unconditional right of way",
-          "B. All other vehicles must yield immediately",
-          "C. Emergency vehicle drivers must still drive with reasonable care for all persons",
-          "D. Speed limits do not apply to ambulances"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch42: Chapter = {
       ],
       "ans": 1,
       "exp": "Standard LZ minimum is 100×100 feet on firm, level, debris-free ground with clear approach and departure paths.",
-      "easy": {
+      "level1": {
         "q": "What is the safety zone around a helicopter landing zone (LZ)?",
         "opts": [
           "A. 100×100 feet",
           "B. 50×50 feet"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Establish LZ: 100×100 ft minimum, firm and level, clear of debris and power lines. Based on this presentation, minimum helicopter landing zone size?",
-        "opts": [
-          "A. 200×200 feet",
-          "B. 50×50 feet",
-          "C. 100×100 feet",
-          "D. 25×25 feet"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch42: Chapter = {
       ],
       "ans": 2,
       "exp": "Always approach from the front (in pilot's view), crouching. NEVER approach from the rear — tail rotor is invisible when spinning and instantly lethal.",
-      "easy": {
+      "level1": {
         "q": "What is the danger zone around a helicopter?",
         "opts": [
           "A. Approach from the front, crouching, after crew signals",
           "B. Run quickly from any direction"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Establish LZ: 100×100 ft minimum, firm and level, clear of debris and power lines. Based on this presentation, when approaching a helicopter, you should?",
-        "opts": [
-          "A. Approach from the rear where the tail rotor is visible",
-          "B. Approach at full height from the side",
-          "C. Approach from the front, crouching, after crew signals",
-          "D. Run quickly from any direction"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch42: Chapter = {
       ],
       "ans": 1,
       "exp": "Full pre-shift checks ensure operational readiness: vehicle condition, all equipment present and functional, medications stocked, oxygen full, AED tested.",
-      "easy": {
+      "level1": {
         "q": "What checks should be performed on an ambulance before each shift?",
         "opts": [
           "A. Vehicle, equipment, medications, oxygen, and AED/monitor verification",
           "B. Only fuel check"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Pre-shift ambulance inspection includes?",
-        "opts": [
-          "A. Medical director authorization",
-          "B. Only patient care equipment",
-          "C. Vehicle, equipment, medications, oxygen, and AED/monitor verification",
-          "D. Only fuel check"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch42: Chapter = {
       ],
       "ans": 1,
       "exp": "Studies show lights/siren reduce response times by only 1-3 minutes on average — not worth the crash risk in non-critical calls.",
-      "easy": {
+      "level1": {
         "q": "What is Lights and siren reduce response time by approximately?",
         "opts": [
           "A. 1-3 minutes",
           "B. 10 minutes"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Ambulance driving requires skill and judgment. Based on this presentation, lights and siren reduce response time by approximately?",
-        "opts": [
-          "A. Varies by distance only",
-          "B. 15-20 minutes",
-          "C. 1-3 minutes",
-          "D. 10 minutes"
-        ],
-        "ans": 2
       }
     }
   ]

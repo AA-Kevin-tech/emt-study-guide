@@ -21,12 +21,11 @@ export interface QuizQuestionVariant {
 
 export interface QuizQuestion {
   id: string;          // 'ch-01.q.01'
-  q: string;           // medium (default)
+  q: string;           // level 2 (default)
   opts: string[];
   ans: number;
   exp: string;
-  easy: QuizQuestionVariant;
-  hard: QuizQuestionVariant;
+  level1: QuizQuestionVariant;
 }
 
 export interface Chapter {

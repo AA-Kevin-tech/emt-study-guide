@@ -98,23 +98,13 @@ export const ch44: Chapter = {
       ],
       "ans": 1,
       "exp": "EMTs without hazmat training must remain in the cold zone. Entering contaminated areas without proper PPE puts the EMT at serious risk.",
-      "easy": {
+      "level1": {
         "q": "When can EMS treat patients at a hazmat scene?",
         "opts": [
           "A. Stay in the cold zone and support hazmat team",
           "B. Enter the hot zone with standard gloves"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: EMT role: recognition, notification, isolation, denial of entry, scene support in cold zone only. Based on this presentation, at a hazmat scene, EMTs should?",
-        "opts": [
-          "A. Remove all patients without decontamination",
-          "B. Immediately treat victims in the hot zone",
-          "C. Stay in the cold zone and support hazmat team",
-          "D. Enter the hot zone with standard gloves"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch44: Chapter = {
       ],
       "ans": 1,
       "exp": "Hot (contaminated/dangerous) → Warm (decon corridor) → Cold (safe staging/treatment area).",
-      "easy": {
+      "level1": {
         "q": "What are the three hazmat zones?",
         "opts": [
           "A. Hot, warm, cold",
           "B. Warm, hot, cold"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Hot zone: immediately dangerous, only hazmat-trained personnel in appropriate PPE. Based on this presentation, the three hazmat zones in order from most to least dangerous?",
-        "opts": [
-          "A. Decon, staging, treatment",
-          "B. Warm, hot, cold",
-          "C. Hot, warm, cold",
-          "D. Cold, warm, hot"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch44: Chapter = {
       ],
       "ans": 1,
       "exp": "The ERG uses placard numbers or chemical names to provide initial isolation distances and protective actions for first responders.",
-      "easy": {
+      "level1": {
         "q": "What is the Emergency Response Guidebook (ERG)?",
         "opts": [
           "A. Identify hazardous materials and initial response actions",
           "B. Dispatch EMS units"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The Emergency Response Guidebook (ERG) is used to?",
-        "opts": [
-          "A. Train hazmat technicians",
-          "B. Direct all patient care",
-          "C. Identify hazardous materials and initial response actions",
-          "D. Dispatch EMS units"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch44: Chapter = {
       ],
       "ans": 1,
       "exp": "Remove all clothing (eliminates ~80% of contamination) then flush with large amounts of water — dilution is the solution to pollution.",
-      "easy": {
+      "level1": {
         "q": "What is the primary decontamination method for most chemical exposures?",
         "opts": [
           "A. Removing clothing and flushing with copious water",
           "B. Applying neutralizing agents"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Hot zone: immediately dangerous, only hazmat-trained personnel in appropriate PPE. Based on this presentation, primary decontamination of chemical exposure patients involves?",
-        "opts": [
-          "A. Administering activated charcoal",
-          "B. Wrapping in protective blankets",
-          "C. Removing clothing and flushing with copious water",
-          "D. Applying neutralizing agents"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch44: Chapter = {
       ],
       "ans": 2,
       "exp": "Patients must be fully decontaminated before EMS treats them in the cold zone — treating before decon exposes the EMT and ambulance to contamination.",
-      "easy": {
+      "level1": {
         "q": "When can EMS treat patients at a hazmat scene?",
         "opts": [
           "A. In the cold zone after decontamination is complete",
           "B. In the warm zone during decon"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Hot zone: immediately dangerous, only hazmat-trained personnel in appropriate PPE. Based on this presentation, EMS may treat hazmat patients only?",
-        "opts": [
-          "A. Immediately on arrival regardless of zone",
-          "B. In the hot zone with proper PPE",
-          "C. In the cold zone after decontamination is complete",
-          "D. In the warm zone during decon"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch44: Chapter = {
       ],
       "ans": 1,
       "exp": "NFPA 704: Red (fire hazard), Blue (health hazard), Yellow (reactivity), White (special hazards) — rated 0 (none) to 4 (extreme).",
-      "easy": {
+      "level1": {
         "q": "What is the NFPA 704 diamond?",
         "opts": [
           "A. Fire, health, reactivity hazards, and special information on a 0-4 scale",
           "B. Chemical antidotes"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The NFPA 704 diamond provides information about?",
-        "opts": [
-          "A. Traffic routing for emergency vehicles",
-          "B. Required PPE levels only",
-          "C. Fire, health, reactivity hazards, and special information on a 0-4 scale",
-          "D. Chemical antidotes"
-        ],
-        "ans": 2
       }
     }
   ]

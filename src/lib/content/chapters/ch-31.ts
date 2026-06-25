@@ -102,23 +102,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "Epidural hematoma (arterial bleeding) may cause initial LOC, a lucid interval, then rapid deterioration as blood accumulates.",
-      "easy": {
+      "level1": {
         "q": "What is the difference between epidural and subdural hematoma?",
         "opts": [
           "A. Initial LOC, lucid interval, then rapid deterioration",
           "B. Gradual confusion over days"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Epidural hematoma classically presents with?",
-        "opts": [
-          "A. Bilateral pupil dilation from onset",
-          "B. Immediate coma without recovery",
-          "C. Initial LOC, lucid interval, then rapid deterioration",
-          "D. Gradual confusion over days"
-        ],
-        "ans": 2
       }
     },
     {
@@ -132,23 +122,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "DAI results from shearing forces during rapid acceleration/deceleration — widespread axonal damage with poor prognosis.",
-      "easy": {
+      "level1": {
         "q": "What is diffuse axonal injury (DAI)?",
         "opts": [
           "A. Rapid acceleration/deceleration shearing brain axons",
           "B. Hypoxia alone"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Diffuse axonal injury (DAI) is caused by?",
-        "opts": [
-          "A. Direct penetrating trauma only",
-          "B. Infection of brain tissue",
-          "C. Rapid acceleration/deceleration shearing brain axons",
-          "D. Hypoxia alone"
-        ],
-        "ans": 2
       }
     },
     {
@@ -162,23 +142,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "Cushing's Triad (hypertension, bradycardia, irregular respirations) is a late sign of critically elevated ICP.",
-      "easy": {
+      "level1": {
         "q": "What is Cushing's Triad indicates?",
         "opts": [
           "A. Severely increased intracranial pressure with impending herniation",
           "B. Hypovolemic shock"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Cushing's Triad indicates?",
-        "opts": [
-          "A. Normal neurological status",
-          "B. Spinal cord injury only",
-          "C. Severely increased intracranial pressure with impending herniation",
-          "D. Hypovolemic shock"
-        ],
-        "ans": 2
       }
     },
     {
@@ -192,23 +162,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "Concussion causes temporary neurological dysfunction — no visible structural damage on CT, though symptoms can be significant.",
-      "easy": {
+      "level1": {
         "q": "How do concussion, contusion, and brain laceration differ?",
         "opts": [
           "A. Temporary neurological dysfunction without structural damage on imaging",
           "B. Open skull fracture"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A concussion is is MOST accurately defined as?",
-        "opts": [
-          "A. Arterial bleeding between skull and dura",
-          "B. Permanent structural brain damage",
-          "C. Temporary neurological dysfunction without structural damage on imaging",
-          "D. Open skull fracture"
-        ],
-        "ans": 2
       }
     },
     {
@@ -222,23 +182,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "Secondary brain injury from inadequate oxygenation and perfusion after the initial trauma significantly worsens outcomes.",
-      "easy": {
+      "level1": {
         "q": "What is the assessment-based approach to brain injuries?",
         "opts": [
           "A. Hypoxia and hypotension following the injury",
           "B. Cervical spine damage"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assess MOI and index of suspicion. Based on this presentation, secondary brain injury is caused by?",
-        "opts": [
-          "A. The initial impact only",
-          "B. Cervical spine damage",
-          "C. Hypoxia and hypotension following the injury",
-          "D. Seizure activity only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -252,23 +202,13 @@ export const ch31: Chapter = {
       ],
       "ans": 2,
       "exp": "GCS ≤8 = severe TBI — patient cannot protect their airway and needs aggressive airway management.",
-      "easy": {
+      "level1": {
         "q": "What is the Glasgow Coma Scale used for?",
         "opts": [
           "A. Severe TBI requiring aggressive airway management",
           "B. Mild TBI"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A GCS score of 7 indicates?",
-        "opts": [
-          "A. Normal neurological function",
-          "B. Moderate TBI",
-          "C. Severe TBI requiring aggressive airway management",
-          "D. Mild TBI"
-        ],
-        "ans": 2
       }
     },
     {
@@ -282,23 +222,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "Subdural hematoma results from venous bleeding and develops more slowly — elderly with brain atrophy are at highest risk.",
-      "easy": {
+      "level1": {
         "q": "What is Subdural hematoma is most common in?",
         "opts": [
           "A. Elderly patients and chronic alcoholics",
           "B. Young athletes only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Subdural hematoma is most common in?",
-        "opts": [
-          "A. Infants under 6 months only",
-          "B. Penetrating trauma only",
-          "C. Elderly patients and chronic alcoholics",
-          "D. Young athletes only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -312,23 +242,13 @@ export const ch31: Chapter = {
       ],
       "ans": 1,
       "exp": "Airway management is the top priority — hypoxia causes secondary brain injury. Assess and secure the airway before other interventions.",
-      "easy": {
+      "level1": {
         "q": "What is the assessment-based approach to brain injuries?",
         "opts": [
           "A. Airway and breathing management",
           "B. Checking blood glucose"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assess MOI and index of suspicion. Based on this presentation, in the assessment-based approach to head trauma, the first priority is?",
-        "opts": [
-          "A. Transport before any assessment",
-          "B. Applying a cervical collar",
-          "C. Airway and breathing management",
-          "D. Checking blood glucose"
-        ],
-        "ans": 2
       }
     }
   ]

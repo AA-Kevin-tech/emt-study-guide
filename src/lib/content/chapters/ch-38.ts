@@ -98,23 +98,13 @@ export const ch38: Chapter = {
       ],
       "ans": 1,
       "exp": "Children arrest from respiratory failure and hypoxia unlike adults who commonly arrest from VF. High-quality ventilation is critical in pediatric CPR.",
-      "easy": {
+      "level1": {
         "q": "Most common cause of cardiac arrest in children?",
         "opts": [
           "A. Respiratory failure and hypoxia",
           "B. AMI"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Most common cause of cardiac arrest in children is?",
-        "opts": [
-          "A. Ventricular fibrillation",
-          "B. Trauma",
-          "C. Respiratory failure and hypoxia",
-          "D. AMI"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch38: Chapter = {
       ],
       "ans": 1,
       "exp": "Infant compressions should be approximately 1.5 inches (4 cm) deep — about 1/3 the anterior-posterior chest diameter.",
-      "easy": {
+      "level1": {
         "q": "Correct chest compression technique for an infant?",
         "opts": [
           "A. 1.5 inches",
           "B. 1 inch"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Infant CPR compression depth?",
-        "opts": [
-          "A. 2.5 inches",
-          "B. 2 inches",
-          "C. 1.5 inches",
-          "D. 1 inch"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch38: Chapter = {
       ],
       "ans": 2,
       "exp": "Two-rescuer infant CPR uses 15 compressions to 2 ventilations. Single-rescuer uses 30:2 same as adults.",
-      "easy": {
+      "level1": {
         "q": "Two-rescuer infant CPR compression-to-ventilation ratio?",
         "opts": [
           "A. 15:2",
           "B. 30:2"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Two-rescuer infant CPR ratio?",
-        "opts": [
-          "A. 30:2",
-          "B. 15:1",
-          "C. 15:2",
-          "D. 10:2"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch38: Chapter = {
       ],
       "ans": 1,
       "exp": "Pediatric pads (attenuated dose) for ages 1-8 or under 55 lbs. Infants under 1: manual defibrillator preferred.",
-      "easy": {
+      "level1": {
         "q": "Pediatric AED pads used for ages?",
         "opts": [
           "A. Ages 1-8 or under 55 lbs",
           "B. Ages 1-12"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Pediatric AED pads are used for?",
-        "opts": [
-          "A. All children under 18",
-          "B. Under 1 year",
-          "C. Ages 1-8 or under 55 lbs",
-          "D. Ages 1-12"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch38: Chapter = {
       ],
       "ans": 2,
       "exp": "Croup causes a classic barking/seal-like cough with inspiratory stridor due to subglottic edema — keep calm, avoid agitation.",
-      "easy": {
+      "level1": {
         "q": "What is barking cough with inspiratory stridor likely indicates?",
         "opts": [
           "A. Croup",
           "B. Asthma"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A barking cough with inspiratory stridor likely indicates?",
-        "opts": [
-          "A. Bronchiolitis",
-          "B. Epiglottitis",
-          "C. Croup",
-          "D. Asthma"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch38: Chapter = {
       ],
       "ans": 2,
       "exp": "Infant's proportionally large head causes the neck to over-flex the trachea if hyperextended. Use neutral or slight sniffing position.",
-      "easy": {
+      "level1": {
         "q": "What is When opening an infant's airway, avoid?",
         "opts": [
           "A. Hyperextension of the neck",
           "B. Jaw thrust"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. When opening an infant's airway, avoid?",
-        "opts": [
-          "A. Neutral positioning",
-          "B. Sniffing position",
-          "C. Hyperextension of the neck",
-          "D. Jaw thrust"
-        ],
-        "ans": 2
       }
     }
   ]

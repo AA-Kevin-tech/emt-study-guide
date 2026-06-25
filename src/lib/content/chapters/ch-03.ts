@@ -98,23 +98,13 @@ export const ch03: Chapter = {
       ],
       "ans": 2,
       "exp": "Implied consent assumes an unconscious patient would want life-saving treatment if they were able to consent.",
-      "easy": {
+      "level1": {
         "q": "What is implied consent?",
         "opts": [
           "A. Implied consent",
           "B. Informed consent"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Competent adults must give informed consent before treatment. Based on this presentation, an unconscious patient needs emergent airway management. Which consent applies??",
-        "opts": [
-          "A. Expressed consent",
-          "B. Informed consent",
-          "C. Implied consent",
-          "D. Parental consent"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch03: Chapter = {
       ],
       "ans": 1,
       "exp": "To prove negligence: duty to act existed, the duty was breached, the breach caused harm, and actual damage resulted.",
-      "easy": {
+      "level1": {
         "q": "What are the four elements of negligence?",
         "opts": [
           "A. Duty, breach, causation, damages",
           "B. Scope, standard, skill, safety"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. The four elements of negligence are?",
-        "opts": [
-          "A. Consent, refusal, abandonment, liability",
-          "B. Scene, patient, treatment, outcome",
-          "C. Duty, breach, causation, damages",
-          "D. Scope, standard, skill, safety"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch03: Chapter = {
       ],
       "ans": 1,
       "exp": "Abandonment = terminating care without ensuring transfer to an equally or more qualified provider.",
-      "easy": {
+      "level1": {
         "q": "What is abandonment in EMS?",
         "opts": [
           "A. An EMT leaves without transferring care to an equal or higher provider",
           "B. A DNR is honored"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Abandonment occurs when?",
-        "opts": [
-          "A. A patient refuses transport",
-          "B. Bystanders take over care",
-          "C. An EMT leaves without transferring care to an equal or higher provider",
-          "D. A DNR is honored"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch03: Chapter = {
       ],
       "ans": 2,
       "exp": "A valid, properly signed DNR is a legal document and must be honored by EMS.",
-      "easy": {
+      "level1": {
         "q": "What is valid DNR means the EMT should?",
         "opts": [
           "A. Honor it and withhold resuscitation",
           "B. Begin CPR anyway until confirmed"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A valid DNR means the EMT should?",
-        "opts": [
-          "A. Transport and reassess at hospital",
-          "B. Contact the patient's family first",
-          "C. Honor it and withhold resuscitation",
-          "D. Begin CPR anyway until confirmed"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch03: Chapter = {
       ],
       "ans": 2,
       "exp": "Competent adults have the legal right to refuse. Inform of risks, obtain signed refusal with witness, document everything.",
-      "easy": {
+      "level1": {
         "q": "What is competent adult refuses transport. You should?",
         "opts": [
           "A. Inform of risks, have sign refusal, document thoroughly",
           "B. Call police"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A competent adult refuses transport. You should?",
-        "opts": [
-          "A. Transport anyway for safety",
-          "B. Leave without documentation",
-          "C. Inform of risks, have sign refusal, document thoroughly",
-          "D. Call police"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch03: Chapter = {
       ],
       "ans": 1,
       "exp": "HIPAA mandates protection of patient health information. Share only with those directly involved in care or as legally required.",
-      "easy": {
+      "level1": {
         "q": "What is HIPAA and why does it matter to EMTs?",
         "opts": [
           "A. Protect patient health info from unauthorized disclosure",
           "B. Document all calls publicly"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. HIPAA requires EMTs to?",
-        "opts": [
-          "A. Share information with all hospital staff",
-          "B. Report all histories to law enforcement",
-          "C. Protect patient health info from unauthorized disclosure",
-          "D. Document all calls publicly"
-        ],
-        "ans": 2
       }
     }
   ]

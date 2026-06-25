@@ -98,23 +98,13 @@ export const ch34: Chapter = {
       ],
       "ans": 1,
       "exp": "Tension pneumothorax: absent breath sounds (affected side), tracheal deviation away from injury, JVD, severe respiratory distress, and hypotension.",
-      "easy": {
+      "level1": {
         "q": "What are signs of tension pneumothorax?",
         "opts": [
           "A. Absent breath sounds on affected side, tracheal deviation, JVD, hypotension",
           "B. Productive cough, fever"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Simple pneumothorax: air in pleural space, decreased breath sounds, dyspnea. Based on this presentation, signs of tension pneumothorax include?",
-        "opts": [
-          "A. Equal breath sounds, hypertension",
-          "B. Bilateral crackles, normal BP",
-          "C. Absent breath sounds on affected side, tracheal deviation, JVD, hypotension",
-          "D. Productive cough, fever"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch34: Chapter = {
       ],
       "ans": 1,
       "exp": "Three-sided occlusive dressing seals the wound on three sides, allowing air to escape on exhalation but preventing air entry on inhalation.",
-      "easy": {
+      "level1": {
         "q": "What is the treatment for a sucking chest wound?",
         "opts": [
           "A. Three-sided occlusive dressing or vented chest seal",
           "B. Tourniquet around the chest"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Rib fractures: painful breathing, splinting (shallow breathing risks pneumonia). Based on this presentation, a sucking chest wound is treated with?",
-        "opts": [
-          "A. Standard gauze dressing taped on all four sides",
-          "B. Wound packing with hemostatic gauze",
-          "C. Three-sided occlusive dressing or vented chest seal",
-          "D. Tourniquet around the chest"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch34: Chapter = {
       ],
       "ans": 1,
       "exp": "Flail chest = 3+ adjacent ribs broken in 2 places each, creating a floating segment with paradoxical movement opposite to normal chest wall.",
-      "easy": {
+      "level1": {
         "q": "What is a flail chest?",
         "opts": [
           "A. Three or more adjacent ribs fractured in two places creating a floating segment",
           "B. Sternal fracture"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Rib fractures: painful breathing, splinting (shallow breathing risks pneumonia). Based on this presentation, flail chest is defined as?",
-        "opts": [
-          "A. Clavicle fracture only",
-          "B. A single rib fracture",
-          "C. Three or more adjacent ribs fractured in two places creating a floating segment",
-          "D. Sternal fracture"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch34: Chapter = {
       ],
       "ans": 1,
       "exp": "Beck's Triad (JVD, muffled heart sounds, hypotension) is the classic presentation of pericardial tamponade — blood compressing the heart.",
-      "easy": {
+      "level1": {
         "q": "What is Beck's Triad indicates?",
         "opts": [
           "A. Pericardial tamponade",
           "B. Hemothorax"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Blood accumulates in the rigid pericardial sac, compressing the heart. Based on this presentation, beck's Triad indicates?",
-        "opts": [
-          "A. Tension pneumothorax",
-          "B. Flail chest",
-          "C. Pericardial tamponade",
-          "D. Hemothorax"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch34: Chapter = {
       ],
       "ans": 1,
       "exp": "Tracheal deviation away from the injured side indicates tension pneumothorax — pressure buildup is shifting all mediastinal structures.",
-      "easy": {
+      "level1": {
         "q": "What is a simple pneumothorax?",
         "opts": [
           "A. Tension pneumothorax with mediastinal shift",
           "B. Hemothorax only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Simple pneumothorax: air in pleural space, decreased breath sounds, dyspnea. Based on this presentation, tracheal deviation in chest trauma suggests?",
-        "opts": [
-          "A. Normal anatomical variation",
-          "B. Simple rib fracture",
-          "C. Tension pneumothorax with mediastinal shift",
-          "D. Hemothorax only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch34: Chapter = {
       ],
       "ans": 1,
       "exp": "Flail chest treatment: high-flow O2, positive pressure ventilation if breathing is inadequate, bulky dressing over segment, rapid transport.",
-      "easy": {
+      "level1": {
         "q": "What is the treatment for flail chest?",
         "opts": [
           "A. High-flow O2 and positive pressure ventilation if breathing is inadequate",
           "B. Tourniquet around chest"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Rib fractures: painful breathing, splinting (shallow breathing risks pneumonia). Based on this presentation, treatment for flail chest includes?",
-        "opts": [
-          "A. Stabilizing the flail segment with splints",
-          "B. Immediate needle decompression by EMT",
-          "C. High-flow O2 and positive pressure ventilation if breathing is inadequate",
-          "D. Tourniquet around chest"
-        ],
-        "ans": 2
       }
     }
   ]

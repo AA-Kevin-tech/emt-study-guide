@@ -98,23 +98,13 @@ export const ch16: Chapter = {
       ],
       "ans": 1,
       "exp": "Stridor is a high-pitched inspiratory sound caused by upper airway narrowing at the larynx or trachea.",
-      "easy": {
+      "level1": {
         "q": "What is the difference between wheezing and stridor?",
         "opts": [
           "A. Upper airway (larynx/trachea)",
           "B. Alveoli"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assess rate, rhythm, depth, and quality of breathing. Based on this presentation, stridor indicates obstruction of the?",
-        "opts": [
-          "A. Lower airway (bronchi)",
-          "B. Pleural space",
-          "C. Upper airway (larynx/trachea)",
-          "D. Alveoli"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch16: Chapter = {
       ],
       "ans": 2,
       "exp": "COPD patients may rely on hypoxic drive. Over-oxygenating may suppress their respiratory drive — target 88-92% SpO2.",
-      "easy": {
+      "level1": {
         "q": "What is Target SpO2 for a COPD patient on oxygen?",
         "opts": [
           "A. 88-92%",
           "B. 94-98%"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Asthma causes reversible bronchospasm. Based on this presentation, target SpO2 for a COPD patient on oxygen?",
-        "opts": [
-          "A. Below 85%",
-          "B. 95-100%",
-          "C. 88-92%",
-          "D. 94-98%"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch16: Chapter = {
       ],
       "ans": 2,
       "exp": "Upright position reduces venous return to the heart, decreasing pulmonary congestion and improving breathing in CHF.",
-      "easy": {
+      "level1": {
         "q": "What position helps a CHF patient breathe easier?",
         "opts": [
           "A. Sitting upright (Fowler's)",
           "B. Supine (flat)"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assess rate, rhythm, depth, and quality of breathing. Based on this presentation, a CHF patient in respiratory distress should be positioned?",
-        "opts": [
-          "A. Recovery position",
-          "B. Supine (flat)",
-          "C. Sitting upright (Fowler's)",
-          "D. Trendelenburg"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch16: Chapter = {
       ],
       "ans": 0,
       "exp": "Confirm the prescription is prescribed to this patient, check for contraindications, and follow local protocol for medical direction.",
-      "easy": {
+      "level1": {
         "q": "How do you assist with a metered-dose inhaler (MDI)?",
         "opts": [
           "A. Confirm the prescription belongs to the patient",
           "B. Check blood pressure first"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Asthma causes reversible bronchospasm. Based on this presentation, before assisting with a patient's inhaler, you must?",
-        "opts": [
-          "A. Always get online medical direction",
-          "B. Administer oxygen first always",
-          "C. Confirm the prescription belongs to the patient",
-          "D. Check blood pressure first"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch16: Chapter = {
       ],
       "ans": 2,
       "exp": "Pink/frothy sputum with wet crackles (rales) is classic for pulmonary edema from CHF — fluid has entered the alveoli.",
-      "easy": {
+      "level1": {
         "q": "What is Pink frothy sputum with crackles and severe dyspnea suggests?",
         "opts": [
           "A. Pulmonary edema (CHF)",
           "B. Asthma"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Left heart failure causes fluid backup into pulmonary circulation. Based on this presentation, pink frothy sputum with crackles and severe dyspnea suggests?",
-        "opts": [
-          "A. Pulmonary embolism",
-          "B. Pneumothorax",
-          "C. Pulmonary edema (CHF)",
-          "D. Asthma"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch16: Chapter = {
       ],
       "ans": 1,
       "exp": "Wheezing is a musical expiratory sound caused by narrowed lower airways — classic in asthma and COPD exacerbations.",
-      "easy": {
+      "level1": {
         "q": "What is the difference between wheezing and stridor?",
         "opts": [
           "A. Lower airway bronchoconstriction",
           "B. Fluid in alveoli"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Wheezing is caused by?",
-        "opts": [
-          "A. Upper airway obstruction",
-          "B. Fluid in alveoli",
-          "C. Lower airway bronchoconstriction",
-          "D. Pleural effusion"
-        ],
-        "ans": 2
       }
     }
   ]

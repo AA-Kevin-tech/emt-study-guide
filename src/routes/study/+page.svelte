@@ -32,7 +32,7 @@
   let deck = $state<StudyCard[]>([]);
   let notes = $state<ReturnType<typeof buildStudyNotes>>([]);
   let quiz = $state<StudyQuizQuestion[]>([]);
-  let quizDifficulty = $state<QuizDifficulty>('medium');
+  let quizDifficulty = $state<QuizDifficulty>('level2');
 
   let fcIdx = $state(0);
   let srs = $state<SrsState>(INITIAL_STATE);

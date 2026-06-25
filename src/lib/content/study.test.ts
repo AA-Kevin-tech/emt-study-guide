@@ -20,15 +20,15 @@ describe('study content builders', () => {
 	it('caps quiz pool at 30 questions', () => {
 		const quiz = buildStudyQuiz(
 			['ch-01', 'ch-02', 'ch-03', 'ch-04', 'ch-05', 'ch-06'],
-			'medium',
+			'level2',
 			30
 		);
 		expect(quiz.length).toBeLessThanOrEqual(30);
 		expect(quiz.length).toBeGreaterThan(0);
 	});
 
-	it('easy mode produces two-option questions', () => {
-		const quiz = buildStudyQuiz(['ch-01'], 'easy');
+	it('level 1 produces two-option questions', () => {
+		const quiz = buildStudyQuiz(['ch-01'], 'level1');
 		expect(quiz.every((q) => q.opts.length === 2)).toBe(true);
 	});
 });

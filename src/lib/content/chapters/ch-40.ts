@@ -98,23 +98,13 @@ export const ch40: Chapter = {
       ],
       "ans": 1,
       "exp": "Ventilator malfunction = disconnect and manually ventilate with BVM. Do not waste time troubleshooting — manual ventilation is immediately safe.",
-      "easy": {
+      "level1": {
         "q": "What should you do when a home ventilator alarms?",
         "opts": [
           "A. Disconnect and ventilate with BVM immediately",
           "B. Call the manufacturer"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: More patients are managed at home with medical technology. Based on this presentation, when a home ventilator patient's ventilator alarms, the EMT should?",
-        "opts": [
-          "A. Increase the ventilator settings",
-          "B. Silence the alarm and reassess",
-          "C. Disconnect and ventilate with BVM immediately",
-          "D. Call the manufacturer"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch40: Chapter = {
       ],
       "ans": 1,
       "exp": "Face the patient, speak clearly (shouting distorts lip reading), use written pads, and allow time for responses.",
-      "easy": {
+      "level1": {
         "q": "What are communication strategies for hearing-impaired patients?",
         "opts": [
           "A. Facing the patient and speaking clearly, using written communication",
           "B. Shouting louder to be heard"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Visual impairment: narrate clearly, identify yourself verbally. Based on this presentation, for a hearing-impaired patient, effective communication includes?",
-        "opts": [
-          "A. Ignoring them and speaking to family only",
-          "B. Rapid yes/no questioning only",
-          "C. Facing the patient and speaking clearly, using written communication",
-          "D. Shouting louder to be heard"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch40: Chapter = {
       ],
       "ans": 1,
       "exp": "A valid, properly executed DNR is a legal document and must be honored. If validity is in question, begin resuscitation while contacting medical direction.",
-      "easy": {
+      "level1": {
         "q": "What is a DNR and how should an EMT respond to one?",
         "opts": [
           "A. Honored if properly signed and matching the patient's condition",
           "B. Ignored in a cardiac arrest"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A valid DNR should be?",
-        "opts": [
-          "A. Disregarded if the patient is young",
-          "B. Followed only if family agrees",
-          "C. Honored if properly signed and matching the patient's condition",
-          "D. Ignored in a cardiac arrest"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch40: Chapter = {
       ],
       "ans": 1,
       "exp": "ASD patients may have significant sensory sensitivities — reduce lights, noise, and unexpected touch. Use calm, predictable communication.",
-      "easy": {
+      "level1": {
         "q": "What is autism spectrum disorder (ASD) and how does it affect EMS care?",
         "opts": [
           "A. Be hypersensitive to touch, light, and noise requiring modified communication",
           "B. Prefer loud environments"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: More patients are managed at home with medical technology. Based on this presentation, patients with autism spectrum disorder may?",
-        "opts": [
-          "A. Respond normally to all EMS interventions",
-          "B. Always have intellectual disability",
-          "C. Be hypersensitive to touch, light, and noise requiring modified communication",
-          "D. Prefer loud environments"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch40: Chapter = {
       ],
       "ans": 1,
       "exp": "G-tubes deliver nutrition directly into the stomach through the abdominal wall for patients who cannot swallow due to neurological or structural conditions.",
-      "easy": {
+      "level1": {
         "q": "What is a gastrostomy tube (G-tube)?",
         "opts": [
           "A. Feeding patients who cannot swallow",
           "B. Chest drainage"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. A gastrostomy tube (G-tube) is used for?",
-        "opts": [
-          "A. Airway management",
-          "B. Urinary drainage",
-          "C. Feeding patients who cannot swallow",
-          "D. Chest drainage"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch40: Chapter = {
       ],
       "ans": 1,
       "exp": "Obesity creates difficult airway, BVM seal challenges, difficult vascular access, and requires additional personnel and specialized equipment.",
-      "easy": {
+      "level1": {
         "q": "What are special considerations for bariatric patients?",
         "opts": [
           "A. Airway management difficulties and need for additional personnel",
           "B. Lower fall risk"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Bariatric patients require specialized equipment, additional personnel, and awareness of airway and access challenges. Based on this presentation, bariatric patients present special challenges including?",
-        "opts": [
-          "A. Faster response to medications",
-          "B. Easier vascular access",
-          "C. Airway management difficulties and need for additional personnel",
-          "D. Lower fall risk"
-        ],
-        "ans": 2
       }
     }
   ]

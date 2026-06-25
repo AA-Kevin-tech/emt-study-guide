@@ -10,14 +10,13 @@
   } = $props();
 
   const levels: { id: QuizDifficulty; label: string; hint: string }[] = [
-    { id: 'easy', label: 'Easy', hint: '2 choices · recall wording' },
-    { id: 'medium', label: 'Medium', hint: '4 choices · standard' },
-    { id: 'hard', label: 'Hard', hint: '4 choices · scenario wording' }
+    { id: 'level1', label: 'Level 1', hint: '2 choices · recall wording' },
+    { id: 'level2', label: 'Level 2', hint: '4 choices · standard' }
   ];
 </script>
 
-<div class="picker" role="group" aria-label="Quiz difficulty">
-  <span class="label">Difficulty</span>
+<div class="picker" role="group" aria-label="Quiz level">
+  <span class="label">Level</span>
   <div class="opts">
     {#each levels as level (level.id)}
       <button
@@ -45,7 +44,7 @@
   }
   .opts {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 6px;
   }
   .opts button {

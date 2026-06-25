@@ -98,23 +98,13 @@ export const ch21: Chapter = {
       ],
       "ans": 2,
       "exp": "Epinephrine IM is the only life-saving first-line treatment for anaphylaxis. Antihistamines and steroids are adjuncts only.",
-      "easy": {
+      "level1": {
         "q": "What is the first-line treatment for anaphylaxis?",
         "opts": [
           "A. Epinephrine IM",
           "B. Corticosteroids"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Mild reactions (local hives, itching only): monitor, consider diphenhydramine (if authorized). Based on this presentation, first-line treatment for anaphylaxis is?",
-        "opts": [
-          "A. Diphenhydramine (Benadryl)",
-          "B. Albuterol inhaler",
-          "C. Epinephrine IM",
-          "D. Corticosteroids"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch21: Chapter = {
       ],
       "ans": 2,
       "exp": "The outer mid-thigh is the correct site — good muscle mass, can be given through clothing, and is easily accessible.",
-      "easy": {
+      "level1": {
         "q": "Where is the epinephrine auto-injector administered?",
         "opts": [
           "A. Outer mid-thigh",
           "B. Inner forearm"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Confirm patient's prescription or agency stock. Based on this presentation, epinephrine auto-injector is given in the?",
-        "opts": [
-          "A. Deltoid (shoulder)",
-          "B. Gluteus (buttock)",
-          "C. Outer mid-thigh",
-          "D. Inner forearm"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch21: Chapter = {
       ],
       "ans": 2,
       "exp": "Anaphylaxis involves systemic compromise — airway edema, bronchospasm, hypotension, or multi-organ involvement.",
-      "easy": {
+      "level1": {
         "q": "What is the difference between a mild allergic reaction and anaphylaxis?",
         "opts": [
           "A. Airway involvement, hypotension, or multi-system compromise",
           "B. Red eyes"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Mild reactions (local hives, itching only): monitor, consider diphenhydramine (if authorized). Based on this presentation, which finding distinguishes anaphylaxis from mild allergic reaction??",
-        "opts": [
-          "A. Localized hives only",
-          "B. Mild itching",
-          "C. Airway involvement, hypotension, or multi-system compromise",
-          "D. Red eyes"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch21: Chapter = {
       ],
       "ans": 2,
       "exp": "Epinephrine's alpha-1 (vasoconstriction), beta-1 (increased HR/contractility), and beta-2 (bronchodilation) effects counteract anaphylaxis.",
-      "easy": {
+      "level1": {
         "q": "Why is epinephrine effective in anaphylaxis?",
         "opts": [
           "A. Causing bronchodilation, vasoconstriction, and increased HR",
           "B. Reducing inflammation"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Massive release of histamine from mast cells causes systemic vasodilation (distributive shock), increased capillary permeability (edema), and bronchospasm. Based on this presentation, epinephrine reverses anaphylaxis by?",
-        "opts": [
-          "A. Causing bronchospasm and vasodilation",
-          "B. Blocking histamine receptors",
-          "C. Causing bronchodilation, vasoconstriction, and increased HR",
-          "D. Reducing inflammation"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch21: Chapter = {
       ],
       "ans": 1,
       "exp": "If symptoms don't resolve after 5-15 minutes and a second auto-injector is available, a repeat dose may be given per protocol.",
-      "easy": {
+      "level1": {
         "q": "Can a second dose of epinephrine be given?",
         "opts": [
           "A. Symptoms don't improve after 5-15 minutes and a second injector is available",
           "B. Only at the hospital"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During QA review of an EMS run, your supervisor asks: a second epinephrine dose may be given if?",
-        "opts": [
-          "A. Always given 2 minutes after first",
-          "B. The patient is still breathing",
-          "C. Symptoms don't improve after 5-15 minutes and a second injector is available",
-          "D. Only at the hospital"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch21: Chapter = {
       ],
       "ans": 2,
       "exp": "Classic anaphylaxis triggers: insect stings, peanuts/tree nuts, shellfish, latex, and medications like penicillin.",
-      "easy": {
+      "level1": {
         "q": "Common triggers for anaphylaxis?",
         "opts": [
           "A. Bee stings, peanuts, shellfish, latex, medications",
           "B. Exercise only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Common triggers for anaphylaxis include?",
-        "opts": [
-          "A. Cold temperatures only",
-          "B. Stress and anxiety",
-          "C. Bee stings, peanuts, shellfish, latex, medications",
-          "D. Exercise only"
-        ],
-        "ans": 2
       }
     }
   ]

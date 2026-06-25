@@ -102,23 +102,13 @@ export const ch15: Chapter = {
       ],
       "ans": 1,
       "exp": "Shock is hypoperfusion — inadequate delivery of oxygenated blood to cells, causing cellular hypoxia and death if untreated.",
-      "easy": {
+      "level1": {
         "q": "What is shock (hypoperfusion)?",
         "opts": [
           "A. Inadequate tissue perfusion leading to cellular hypoxia",
           "B. Rapid heart rate"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Shock is is MOST accurately defined as?",
-        "opts": [
-          "A. Low blood pressure only",
-          "B. Loss of consciousness",
-          "C. Inadequate tissue perfusion leading to cellular hypoxia",
-          "D. Rapid heart rate"
-        ],
-        "ans": 2
       }
     },
     {
@@ -132,23 +122,13 @@ export const ch15: Chapter = {
       ],
       "ans": 2,
       "exp": "Distributive shock results from vasodilation and decreased peripheral vascular resistance — seen in sepsis, anaphylaxis, and neurogenic shock.",
-      "easy": {
+      "level1": {
         "q": "What are the three causes of shock related to the perfusion triangle?",
         "opts": [
           "A. Distributive",
           "B. Hypovolemic"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Adequate perfusion requires a functioning heart (pump), sufficient blood volume (fluid), and adequate vascular tone (pipes). Based on this presentation, decreased peripheral vascular resistance causes which type of shock??",
-        "opts": [
-          "A. Obstructive only",
-          "B. Hypovolemic",
-          "C. Distributive",
-          "D. Cardiogenic"
-        ],
-        "ans": 2
       }
     },
     {
@@ -162,23 +142,13 @@ export const ch15: Chapter = {
       ],
       "ans": 1,
       "exp": "Compensatory mechanisms (tachycardia, vasoconstriction) maintain BP early — skin becomes pale, cool, and clammy.",
-      "easy": {
+      "level1": {
         "q": "What are the compensatory and decompensatory stages of shock?",
         "opts": [
           "A. Tachycardia and pale, cool, clammy skin with near-normal BP",
           "B. Normal pulse and warm skin"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "During the compensatory stage of shock, you would expect?",
-        "opts": [
-          "A. Hypotension and unresponsiveness",
-          "B. Bradycardia and flushed skin",
-          "C. Tachycardia and pale, cool, clammy skin with near-normal BP",
-          "D. Normal pulse and warm skin"
-        ],
-        "ans": 2
       }
     },
     {
@@ -192,23 +162,13 @@ export const ch15: Chapter = {
       ],
       "ans": 1,
       "exp": "VF and pulseless VT are the only shockable rhythms — deliver defibrillation immediately when recognized.",
-      "easy": {
+      "level1": {
         "q": "How do VF, pulseless VT, asystole, and PEA differ?",
         "opts": [
           "A. VF and pulseless ventricular tachycardia",
           "B. PEA only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Chain of Survival: early recognition → early CPR → early defibrillation → early advanced care. Based on this presentation, which cardiac arrest rhythms are shockable??",
-        "opts": [
-          "A. Sinus bradycardia and junctional rhythm",
-          "B. Asystole and PEA",
-          "C. VF and pulseless ventricular tachycardia",
-          "D. PEA only"
-        ],
-        "ans": 2
       }
     },
     {
@@ -222,23 +182,13 @@ export const ch15: Chapter = {
       ],
       "ans": 1,
       "exp": "PEA shows organized electrical activity on the monitor but no pulse — treat with CPR and search for reversible causes.",
-      "easy": {
+      "level1": {
         "q": "How do VF, pulseless VT, asystole, and PEA differ?",
         "opts": [
           "A. Organized electrical activity on the monitor but no palpable pulse",
           "B. A flatline on the monitor"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. PEA (pulseless electrical activity) is characterized by?",
-        "opts": [
-          "A. A normal sinus rhythm with weak pulse",
-          "B. Rapid irregular ventricular activity",
-          "C. Organized electrical activity on the monitor but no palpable pulse",
-          "D. A flatline on the monitor"
-        ],
-        "ans": 2
       }
     },
     {
@@ -252,23 +202,13 @@ export const ch15: Chapter = {
       ],
       "ans": 3,
       "exp": "Chain of Survival links: early recognition, early CPR, early defibrillation, and early advanced care — not delayed transport.",
-      "easy": {
+      "level1": {
         "q": "The Chain of Survival does NOT include?",
         "opts": [
           "A. Delayed transport for on-scene IV access",
           "B. Early CPR"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Chain of Survival: early recognition → early CPR → early defibrillation → early advanced care. Based on this presentation, the Chain of Survival includes all of the following EXCEPT?",
-        "opts": [
-          "A. Early defibrillation",
-          "B. Early recognition",
-          "C. Delayed transport for on-scene IV access",
-          "D. Early CPR"
-        ],
-        "ans": 2
       }
     },
     {
@@ -282,23 +222,13 @@ export const ch15: Chapter = {
       ],
       "ans": 1,
       "exp": "Announce \"Clear!\" and ensure no one touches the patient during defibrillation to protect rescuers and allow effective energy delivery.",
-      "easy": {
+      "level1": {
         "q": "What safety precautions apply during resuscitation?",
         "opts": [
           "A. Clear the patient and ensure no one is touching them",
           "B. Wait for ALS arrival"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Ensure scene safety before approaching. Based on this presentation, before delivering an AED shock, you must?",
-        "opts": [
-          "A. Remove all clothing including undergarments",
-          "B. Continue compressions through the shock",
-          "C. Clear the patient and ensure no one is touching them",
-          "D. Wait for ALS arrival"
-        ],
-        "ans": 2
       }
     },
     {
@@ -312,23 +242,13 @@ export const ch15: Chapter = {
       ],
       "ans": 1,
       "exp": "Unlike adults, most pediatric arrests begin as respiratory problems — prioritize airway and ventilation in pediatric resuscitation.",
-      "easy": {
+      "level1": {
         "q": "How does pediatric cardiac arrest resuscitation differ from adult?",
         "opts": [
           "A. Respiratory failure leading to arrest",
           "B. Hypovolemic shock only"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Chain of Survival: early recognition → early CPR → early defibrillation → early advanced care. Based on this presentation, pediatric cardiac arrest is most often caused by?",
-        "opts": [
-          "A. Primary cardiac arrhythmia",
-          "B. Traumatic asystole only",
-          "C. Respiratory failure leading to arrest",
-          "D. Hypovolemic shock only"
-        ],
-        "ans": 2
       }
     }
   ]

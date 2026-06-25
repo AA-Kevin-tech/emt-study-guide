@@ -98,23 +98,13 @@ export const ch26: Chapter = {
       ],
       "ans": 1,
       "exp": "Calm, non-threatening approach reduces escalation. Sudden movements and raised voices can trigger violent behavior.",
-      "easy": {
+      "level1": {
         "q": "How should an EMT approach an agitated psychiatric patient?",
         "opts": [
           "A. Approach calmly, speak slowly, maintain safe distance",
           "B. Move quickly and take control"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assume any unusual behavior may have a medical cause (hypoglycemia, hypoxia, overdose). Based on this presentation, when approaching an agitated psychiatric patient, you should?",
-        "opts": [
-          "A. Ignore behavior and treat medically",
-          "B. Immediately restrain for safety",
-          "C. Approach calmly, speak slowly, maintain safe distance",
-          "D. Move quickly and take control"
-        ],
-        "ans": 2
       }
     },
     {
@@ -128,23 +118,13 @@ export const ch26: Chapter = {
       ],
       "ans": 2,
       "exp": "Face-down (prone) restraint can cause positional asphyxia — body weight restricts chest expansion. Always keep restrained patients supine or lateral.",
-      "easy": {
+      "level1": {
         "q": "What is positional asphyxia?",
         "opts": [
           "A. Placed face-down (prone)",
           "B. Seated upright"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Positional asphyxia is a risk when a restrained patient is?",
-        "opts": [
-          "A. Supine with arms restrained",
-          "B. In the lateral position",
-          "C. Placed face-down (prone)",
-          "D. Seated upright"
-        ],
-        "ans": 2
       }
     },
     {
@@ -158,23 +138,13 @@ export const ch26: Chapter = {
       ],
       "ans": 1,
       "exp": "Excited delirium involves extreme agitation, high body temperature, and high risk of sudden cardiac death — treat as emergent.",
-      "easy": {
+      "level1": {
         "q": "What is excited delirium?",
         "opts": [
           "A. Extreme agitation, hyperthermia, combativeness, and risk of sudden cardiac death",
           "B. Weakness and confusion"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "You arrive on scene and complete your primary assessment. Excited delirium is characterized by?",
-        "opts": [
-          "A. Calm behavior with hallucinations",
-          "B. Bradycardia and hypothermia",
-          "C. Extreme agitation, hyperthermia, combativeness, and risk of sudden cardiac death",
-          "D. Weakness and confusion"
-        ],
-        "ans": 2
       }
     },
     {
@@ -188,23 +158,13 @@ export const ch26: Chapter = {
       ],
       "ans": 1,
       "exp": "Medical emergencies can mimic psychiatric disorders — always rule out hypoglycemia, hypoxia, overdose, and head injury first.",
-      "easy": {
+      "level1": {
         "q": "What should be ruled out before assuming a psychiatric cause for AMS?",
         "opts": [
           "A. Rule out medical causes (hypoglycemia, hypoxia, drugs)",
           "B. Apply restraints"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assume any unusual behavior may have a medical cause (hypoglycemia, hypoxia, overdose). Based on this presentation, before assuming a patient has a psychiatric cause for AMS?",
-        "opts": [
-          "A. Give oral glucose empirically",
-          "B. Contact family members",
-          "C. Rule out medical causes (hypoglycemia, hypoxia, drugs)",
-          "D. Apply restraints"
-        ],
-        "ans": 2
       }
     },
     {
@@ -218,23 +178,13 @@ export const ch26: Chapter = {
       ],
       "ans": 2,
       "exp": "Involuntary transport requires legal authority (involuntary hold/5150/Baker Act) or imminent danger to self or others.",
-      "easy": {
+      "level1": {
         "q": "When can an EMT transport a patient against their will?",
         "opts": [
           "A. A legal involuntary hold exists or patient poses imminent danger",
           "B. Family requests it"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Take all suicidal statements seriously. Based on this presentation, an EMT may transport a patient against their will when?",
-        "opts": [
-          "A. The patient refuses but is ambulatory",
-          "B. The patient seems upset",
-          "C. A legal involuntary hold exists or patient poses imminent danger",
-          "D. Family requests it"
-        ],
-        "ans": 2
       }
     },
     {
@@ -248,23 +198,13 @@ export const ch26: Chapter = {
       ],
       "ans": 1,
       "exp": "All suicidal ideation must be taken seriously. Suicidal statements, even vague ones, require transport for psychiatric evaluation.",
-      "easy": {
+      "level1": {
         "q": "What is All suicidal statements from patients should be?",
         "opts": [
           "A. Taken seriously and documented",
           "B. Ignored if no attempt was made"
         ],
         "ans": 0
-      },
-      "hard": {
-        "q": "Clinical context: Assume any unusual behavior may have a medical cause (hypoglycemia, hypoxia, overdose). Based on this presentation, all suicidal statements from patients should be?",
-        "opts": [
-          "A. Minimized if the patient seems stable",
-          "B. Ignored if no attempt was made",
-          "C. Taken seriously and documented",
-          "D. Only reported if a plan exists"
-        ],
-        "ans": 2
       }
     }
   ]

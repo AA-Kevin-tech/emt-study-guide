@@ -35,7 +35,7 @@ export function buildStudyNotes(chapterIds: string[]): StudyNote[] {
 
 export function buildStudyQuiz(
 	chapterIds: string[],
-	difficulty: QuizDifficulty = 'medium',
+	difficulty: QuizDifficulty = 'level2',
 	cap = 30
 ): StudyQuizQuestion[] {
 	const questions = chapterIds.flatMap((id) => {
