@@ -1,11 +1,4 @@
 <header>
-  <div class="ecg-line">
-    <svg viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
-      <polyline
-        points="0,10 60,10 70,2 80,18 90,4 100,10 200,10 260,10 270,2 280,18 290,4 300,10 400,10"
-        fill="none" stroke="var(--cyan)" stroke-width="1.5" />
-    </svg>
-  </div>
   <div class="bar">
     <span class="brand">EMT STUDY GUIDE</span>
     <a class="cog" href="/settings" aria-label="Settings">
@@ -25,19 +18,6 @@
     top: 0;
     z-index: 100;
     padding-top: env(safe-area-inset-top);
-  }
-  .ecg-line {
-    height: 12px;
-    overflow: hidden;
-  }
-  .ecg-line svg {
-    width: 200%;
-    height: 100%;
-    animation: ecg 3s linear infinite;
-  }
-  @keyframes ecg {
-    from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
   }
   .bar {
     display: flex;
